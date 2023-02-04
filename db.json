@@ -1,0 +1,36 @@
+{
+    "user":[
+        {
+            "id": 1,
+            "name":"hare krishna",
+            "email":"harekrishna@gmail.com",
+            "profile":"https://drive.google.com/drive/folders/177u8NlE-maegiYF794-T_OuFLl6fERH3",
+            "status": "Active",
+            "role": "Super Admin"
+        },
+        {
+            "id": 2,
+            "name":"hare Rama",
+            "email":"harerama@gmail.com",
+            "profile":"https://drive.google.com/drive/folders/177u8NlE-maegiYF794-T_OuFLl6fERH3",
+            "status": "Active",
+            "role": "Admin"
+        },
+        {
+            "id": 3,
+            "name":"ramaRamam",
+            "email":"ramam@gmail.com",
+            "profile":"https://drive.google.com/drive/folders/177u8NlE-maegiYF794-T_OuFLl6fERH3",
+            "status": "Active",
+            "role": "owner"
+        },
+        {
+            "id": 4,
+            "name":"Krishna",
+            "email":"krishna@gmail.com",
+            "profile":"https://drive.google.com/drive/folders/177u8NlE-maegiYF794-T_OuFLl6fERH3",
+            "status": "Active",
+            "role": "supremPersonality"
+        }
+    ]
+}
