@@ -32,5 +32,132 @@
             "status": "Active",
             "role": "supremPersonality"
         }
+    ],
+    "bookdb": [
+        {
+            "serialNo": "1",
+            "BookName": "Devotee and the Divinity"
+        },
+        {
+            "serialNo": "2",
+            "BookName": "Solution of Present Crisis by Bhagwat Geeta"
+        },
+        {
+            "serialNo": "3",
+            "BookName": "Liberation in Practice"
+        },
+        {
+            "serialNo": "4",
+            "BookName": "Man is the Architect of His Own Fortune"
+        },
+        {
+            "serialNo": "5",
+            "BookName": " Religion is Godly Life"
+        },
+        {
+            "serialNo": "6",
+            "BookName": " Shaktipujah"
+        },
+        {
+            "serialNo": "7",
+            "BookName": " World Pacifist and the Bhagwat gita"
+        },
+        {
+            "serialNo": "8",
+            "BookName": " Fragment of an Untitled Essay on His Divine Grace Srila"
+        },
+        {
+            "serialNo": "9",
+            "BookName": " Cult of Lord Sri Caitanya."
+        },
+        {
+            "serialNo": "10",
+            "BookName": " Conception of Gita-nagari Part 1"
+        },
+        {
+            "serialNo": "11",
+            "BookName": " Conception of Gita-nagari Part 2"
+        },
+        {
+            "serialNo": "12",
+            "BookName": " Interpretations of Bhagavad-gita"
+        },
+        {
+            "serialNo": "13",
+            "BookName": " Divinity of Lord Caitanya"
+        },
+        {
+            "serialNo": "14",
+            "BookName": " What is the Matter with the World?"
+        },
+        {
+            "serialNo": "15",
+            "BookName": " Perfection at Home-A Novel Contribution to the Fallen Humanity"
+        },
+        {
+            "serialNo": "16",
+            "BookName": " Comment of Visva Dharma"
+        },
+        {
+            "serialNo": "17",
+            "BookName": " Vyasa-puja Offering to His Divine Grace Srila Bhaktisiddhanta Sarasvati Gosvami Maharaja 1961"
+        },
+        {
+            "serialNo": "18",
+            "BookName": " Vrndavana Bhajana 1958"
+        },
+        {
+            "serialNo": "19",
+            "BookName": " Prahlad Maharaja"
+        },
+        {
+            "serialNo": "20",
+            "BookName": " International Institution for God Consciousness 1965/66"
+        },
+        {
+            "serialNo": "21",
+            "BookName": " Srimad Bhawatam- India's Message of Peace and Goodwill"
+        },
+        {
+            "serialNo": "22",
+            "BookName": " An Analysis of Bhagwat Geeta"
+        },
+        {
+            "serialNo": "23",
+            "BookName": " Analysis of Bhagwat Geeta"
+        },
+        {
+            "serialNo": "24",
+            "BookName": " Viraha Astaka"
+        },
+        {
+            "serialNo": "25",
+            "BookName": " The Real Peace Formula"
+        },
+        {
+            "serialNo": "26",
+            "BookName": " Who is Crazy?"
+        },
+        {
+            "serialNo": "27",
+            "BookName": " Manifestation of Dharma in Human Being - Feb 1972"
+        },
+        {
+            "serialNo": "28",
+            "BookName": " Message of Krishna Consciousness"
+        },
+        {
+            "serialNo": "29",
+            "BookName": " Who is Crazy? (Original)"
+        },
+        {
+            "serialNo": "30",
+            "BookName": " How Should One Cultivate Human Spirit-Part 1"
+        },
+        {
+            "serialNo": "31",
+            "BookName": " How Should One Cultivate Human Spirit-Part 2 "
+        }
     ]
+    
 }
