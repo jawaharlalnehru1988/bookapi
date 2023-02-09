@@ -1,0 +1,28 @@
+{
+  "lessons": [
+    {
+      "title": "lesson1",
+      "author": "SACHISUTHA DAS",
+      "youtubeId": "Olh8tq8qJY8",
+      "detail": "this is first lesson",
+      "id": 1
+    },
+    {
+      "title": "lesson2",
+      "author": "subha krishna dasa",
+      "youtubeId": "toM8eyhsOhc",
+      "detail": "this is also good lessons to practice",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
