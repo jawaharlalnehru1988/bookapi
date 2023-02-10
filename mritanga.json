@@ -1,18 +1,39 @@
 {
   "lessons": [
     {
-      "title": "lesson1",
-      "author": "SACHISUTHA DAS",
-      "youtubeId": "Olh8tq8qJY8",
-      "detail": "this is first lesson",
+      "title": "lesson 1",
+      "author": "Murli Manohar Das",
+      "youtubeId": "F3OoAgTDq2w",
+      "detail": "Mridanga with MurliMan | Mridanga Bols and Practice beat",
       "id": 1
     },
     {
-      "title": "lesson2",
-      "author": "subha krishna dasa",
-      "youtubeId": "toM8eyhsOhc",
-      "detail": "this is also good lessons to practice",
+      "title": "Lesson 2",
+      "author": "Murli Manohar Das",
+      "youtubeId": "wc4UWGT2L0E",
+      "detail": " Mridanga with MurliMan | Slow beat with Kirtan & Narsimha arati",
       "id": 2
+    },
+    {
+      "title": "Lesson 3",
+      "author": "Mridanga with MurliMan",
+      "youtubeId": "hMnlATCcIUg",
+      "detail": "Combination bols & Tulsi arati slow kirtan",
+      "id": 3
+    },
+    {
+      "title": "Lesson 4 ",
+      "author": "Mridanga with MurliMan",
+      "youtubeId": "kkTV9fAzyk0",
+      "detail": " Connecting Beats & Sansar davanal Kirtan",
+      "id": 4
+    },
+    {
+      "title": "Lesson 5",
+      "author": "Mridanga with MurliMan",
+      "youtubeId": "XPwbtUmrbPc",
+      "detail": "Fast Beat Mridanga | Fast Hare Krishna Kirtan",
+      "id": 5
     }
   ],
   "comments": [
