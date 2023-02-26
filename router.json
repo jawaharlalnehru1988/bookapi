@@ -26,7 +26,7 @@
     },
     {
         "routerPath":"ஹரே கிருஷ்ண கீர்த்தனங்கள் ",
-        "routerLink":"/kirtan"
+        "routerLink":"/kirtan-lesson/audio"
     },
     {
         "routerPath":"பக்குவமான கேள்விகளும் பக்குவமான பதில்களும் ",
