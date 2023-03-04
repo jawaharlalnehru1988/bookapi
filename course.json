@@ -119,6 +119,24 @@
           "title": "Python",
           "imageLink": "1P-jFFfG64R68v_gcV-FTdRFr13ox9mas",
           "details": "Python is a popular high-level programming language used for a wide range of applications such as web development, data analysis, artificial intelligence, and more. It is known for its simple syntax, readability, and powerful libraries that make it easy to write clean and efficient code."
+        },
+        {
+          "id": 21,
+          "title": "Karma and Jasmin",
+          "imageLink": "1Pu_yMEuqPu3zI6rSqdH7UcFPuCf7wdgZ",
+          "details": "Karma and Jasmine are two popular JavaScript testing frameworks that are often used together. Karma is a test runner that allows you to run tests in multiple browsers, while Jasmine is a behavior-driven development (BDD) testing framework that provides a syntax for defining test suites and individual tests."
+        },
+        {
+          "id": 22,
+          "title": "Express Js",
+          "imageLink": "1ShpO1VEWyl8xWaW-FhQADl74IkbOs7OJ",
+          "details": "Express.js, commonly referred to as simply Express, is a popular web application framework for Node.js. It provides a set of features for building web applications and APIs, making it a go-to choice for developers working with Node.js."
+        },
+        {
+          "id": 23,
+          "title": "Mongo DB",
+          "imageLink": "1fRbAAdW1N9fnjsytuyEyVPI6yn6Vokpt",
+          "details": "MongoDB is a popular open-source, document-oriented NoSQL database that is designed for modern applications. Unlike traditional SQL databases, MongoDB uses a flexible document model that allows you to store data in JSON-like documents with dynamic schemas."
         }
       ]
 }
