@@ -1,0 +1,124 @@
+{
+    "courses":[
+        {
+          "id": 1,
+          "title": "HTML 5",
+          "imageLink": "1esycjflfUTDR6cFtWQfhRnFvOpmCuYPH",
+          "details": "HTML (Hypertext Markup Language) is a markup language used for creating web pages and other types of documents that are viewed in a web browser. It defines the structure and content of a web page using elements and attributes."
+        },
+        {
+          "id": 2,
+          "title": "CSS 3",
+          "imageLink": "16UTCy58VpxR-nIKlvqEHn3QqEzbd1pgC",
+          "details": "CSS (Cascading Style Sheets) is a styling language used to describe the presentation of a document written in HTML or XML, including colors, fonts, layout, and animations. It is essential for web development and design."
+        },
+        {
+          "id": 3,
+          "title": "Bootstrap",
+          "imageLink": "1gdo5T9_2Ht1Qhc2XyesMzV-zHBzM7CSn",
+          "details": "Bootstrap is a popular open-source front-end framework for building responsive and mobile-first web applications with HTML, CSS, and JavaScript. It provides pre-designed UI components and a flexible grid system for creating modern and professional-looking websites quickly and easily."
+        },
+        {
+          "id": 4,
+          "title": "JavaScript",
+          "imageLink": "1161X9DKzFMlszROTN69wV5oyUsO9Z_wm",
+          "details": "JavaScript is a popular programming language used to create interactive and dynamic web pages and web applications. It is a client-side scripting language that runs on web browsers and can be used on both the front-end and back-end of web development."
+        },
+        {
+          "id": 5,
+          "title": "Data Structure and Algorithm",
+          "imageLink": "1dEcG1sEOgSsx30ho5AZWFtLFqZdtBuSw",
+          "details": "Data Structures and Algorithms (DSA) is a field of computer science that deals with the design, analysis, and implementation of algorithms and data structures to solve complex computational problems efficiently. It is an essential topic for software engineers and computer scientists."
+        },
+        {
+          "id": 6,
+          "title": "Type Script",
+          "imageLink": "1tlSW734PVtP36dN8nLHPa6EF26dJAfso",
+          "details": "TypeScript is a statically-typed superset of JavaScript that adds optional type annotations and other features to the language, allowing for more robust code and better tooling support."
+        },
+        {
+          "id": 7,
+          "title": "Angular",
+          "imageLink": "1Ut5G9hHk0xPTqEStQRoSsC_2K3nfKzT5",
+          "details": "Angular is a popular open-source front-end framework for building web applications with declarative templates, dependency injection, and powerful data binding capabilities."
+        },
+        {
+          "id": 8,
+          "title": "Material Angular",
+          "imageLink": "1c0GhS8ryYSSbLko77CFV7F9YRApIpPQV",
+          "details": "Angular Material is a UI component library for Angular that provides pre-built UI components based on Google's Material Design principles. It includes a wide range of components such as buttons, cards, dialogs, menus, and more, making it easy to create modern and consistent UIs."
+        },
+        {
+          "id": 9,
+          "title": "Node Js",
+          "imageLink": "1NEFaP5AtlsvIJ9B7KqCcuAOd00ztfbT9",
+          "details": "Node.js is an open-source, cross-platform, JavaScript runtime environment that enables developers to run JavaScript on the server-side. It provides a powerful set of APIs for building scalable, high-performance network applications, and is widely used for web development, server-side scripting, and automation."
+        },
+        {
+          "id": 10,
+          "title": "Flex Layout",
+          "imageLink": "1RjJZmuG8i6pPPOoFu4sKMRRaX8oRC2ss",
+          "details": "Flex Layout is a powerful library in Angular for creating flexible and responsive layouts using CSS Flexbox. It provides a declarative API and a set of CSS utilities for building complex and responsive UIs quickly and easily."
+        },
+        {
+          "id": 11,
+          "title": "Ag Grid",
+          "imageLink": "1D2LYaTU0VDawq2iUvAA-dsOuFYb8pcjB",
+          "details": "Ag Grid is a powerful JavaScript library for creating data grids and tables in web applications, with a wide range of features and support for various data sources, and a flexible and customizable API."
+        },
+        {
+          "id": 12,
+          "title": "Rxjs",
+          "imageLink": "1kVAzj7x0d1B64lcwFLT22SPVNHzwfRgH",
+          "details": "RxJS (Reactive Extensions for JavaScript) is a powerful library for reactive programming in JavaScript, which is used for handling asynchronous and event-based applications. It provides a set of tools for composing and transforming streams of data, making it easier to manage complex data flows in web applications."
+        },
+        {
+          "id": 13,
+          "title": "REST Apis",
+          "imageLink": "1j7C6gChwyH50RZoTzzOe73JrK0w7Bqcx",
+          "details": "A REST API (Representational State Transfer Application Programming Interface) is a web-based API that uses HTTP requests to access and manipulate resources. It follows a set of architectural principles to create a uniform interface between clients and servers, allowing different systems to communicate with each other efficiently and reliably."
+        },
+        {
+          "id": 14,
+          "title": "Git Commands",
+          "imageLink": "15njtyYT1jN1DAKr_WO6cGEnCpc_1H1Mf",
+          "details": "Git is a version control system for tracking changes in source code during software development. Some common Git commands include git clone, git add, git commit, git push, and git pull, which are used to clone repositories, stage changes, commit changes, push changes to remote repositories, and pull changes from remote repositories, respectively."
+        },
+        {
+          "id": 15,
+          "title": "Git Hub",
+          "imageLink": "1aYv_7mLgreOn_Ua6lFVRGxK5hPRJj-FM",
+          "details": "GitHub is a web-based Git repository hosting service that provides a web interface and various tools for collaborating on code. Some common GitHub commands include git clone, git add, git commit, git push, and git pull, which are used to clone repositories, stage changes, commit changes, push changes to remote repositories, and pull changes from remote repositories, respectively. Additionally, GitHub provides commands for managing pull requests, issues, and releases."
+        },
+        {
+          "id": 16,
+          "title": "Bit Bucket",
+          "imageLink": "1lRqovK6OffFspsrgaJ8tW6WgFQvrkG4B",
+          "details": "Bitbucket is a web-based Git repository management platform that allows teams to collaborate on code and manage projects in a secure and scalable environment. It offers features such as pull requests, pipelines, and code reviews."
+        },
+        {
+          "id": 17,
+          "title": "Algorithm",
+          "imageLink": "1TQ6z6jtfJ-0AAI_sfc5OV6mn7agnwLI1",
+          "details": "An algorithm is a set of steps or rules for solving a problem or performing a specific task. It is a fundamental concept in computer science and is used to design efficient and effective computer programs."
+        },
+        {
+          "id": 18,
+          "title": "Data Structure",
+          "imageLink": "1LNVNd1BvC-Y3M9L47Ea6hmJOC8wXxzwV",
+          "details": "Data structure is a way of organizing and storing data in a computer to facilitate efficient retrieval and manipulation of information."
+        },
+        {
+          "id": 19,
+          "title": "Data Structure 2",
+          "imageLink": "13vSvA8pH1h4N4QuUDBBDDvVMgx1YfyLQ",
+          "details": "Data structure is a way of organizing and storing data in a computer to facilitate efficient retrieval and manipulation of information."
+        },
+        {
+          "id": 20,
+          "title": "Python",
+          "imageLink": "1P-jFFfG64R68v_gcV-FTdRFr13ox9mas",
+          "details": "Python is a popular high-level programming language used for a wide range of applications such as web development, data analysis, artificial intelligence, and more. It is known for its simple syntax, readability, and powerful libraries that make it easy to write clean and efficient code."
+        }
+      ]
+}
