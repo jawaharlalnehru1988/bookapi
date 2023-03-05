@@ -138,5 +138,12 @@
           "imageLink": "1fRbAAdW1N9fnjsytuyEyVPI6yn6Vokpt",
           "details": "MongoDB is a popular open-source, document-oriented NoSQL database that is designed for modern applications. Unlike traditional SQL databases, MongoDB uses a flexible document model that allows you to store data in JSON-like documents with dynamic schemas."
         }
-      ]
+      ],
+     "javascript":[
+        {
+            "id": 3,
+            "intro": "JavaScript is a programming language that is commonly used in web development. It is a client-side language, meaning that it runs on the user's browser, rather than on the server. JavaScript was created by Brendan Eich in just 10 days in 1995, while he was working at Netscape Communications Corporation. JavaScript is used to add interactivity and dynamic behavior to web pages. It can be used to create animations, validate forms, manipulate the DOM, and much more. JavaScript is an object-oriented language, meaning that it uses objects to represent data and methods. Objects can be created from classes, which define the properties and methods that the object will have. Variables are used to store data in JavaScript. There are several different types of variables, including strings, numbers, and booleans. JavaScript uses control structures, such as if statements and loops, to control the flow of a program. These structures allow developers to execute different blocks of code based on certain conditions. Functions are used in JavaScript to encapsulate a set of instructions that can be reused throughout a program. Functions can take parameters, which are values that are passed to the function when it is called. JavaScript has built-in objects, such as the Math object and the Date object, which provide useful functionality that can be used in a program. JavaScript can be used to interact with the browser's Document Object Model (DOM), which represents the structure of an HTML document. This allows developers to dynamically modify the content and behavior of a web page. JavaScript is a constantly evolving language, with new features and updates being added regularly. It is an essential tool for web developers, and is used by companies and organizations of all sizes to create engaging and interactive web experiences.",
+            "Topics":["variables",  "data types",  "arrays",  "objects",  "functions",  "loops",  "conditional statements",  "operators",  "DOM manipulation",  "events",  "callbacks",  "promises",  "async/await",  "classes",  "inheritance",  "closures",  "scope",  "hoisting",  "error handling",  "regular expressions",  "JSON",  "AJAX",  "API",  "WebSockets",  "local storage",  "session storage",  "cookies",  "ES6 features"]
+        }
+    ]
 }
