@@ -147,6 +147,7 @@
         },
         {
             "subTopic": "JavaScript Strings",
+            "details": "In JavaScript, strings are a sequence of characters that are enclosed in quotes. Strings can be created using single quotes, double quotes, or backticks. Here are some examples of creating strings in JavaScript: Using single quotes: javascript Copy code let myString = 'This is a string.'; Using double quotes: javascript Copy code let myString = \"This is also a string.\"; Using backticks (template literals): javascript Copy code let myString = `This is a string with ${variable} and ${expression}.`; In addition to creating strings, JavaScript provides a number of built-in methods for manipulating strings. Here are some common string methods: length: returns the length of the string javascript Copy code let myString = 'Hello, world!'; console.log(myString.length); // 13'",
             "listOfTopics" : ["charAt()", "charCodeAt()", "concat()", "endsWith()", "includes()", "indexOf()", "lastIndexOf()", "localeCompare()", "match()", "matchAll()", "normalize()", "padEnd()", "padStart()", "repeat()", "replace()", "search()", "slice()", "split()", "startsWith()", "substr()", "substring()", "toLocaleLowerCase()", "toLocaleUpperCase()", "toLowerCase()", "toString()", "toUpperCase()", "trim()", "valueOf()"]
         },
         {
