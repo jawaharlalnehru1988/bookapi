@@ -137,7 +137,7 @@
           "id": 20,
           "title": "Karma and Jasmin",
           "imageLink": "1Pu_yMEuqPu3zI6rSqdH7UcFPuCf7wdgZ",
-          "routerName": "/testing",
+          "routerName": "/karmajasmine",
           "details": "Karma and Jasmine are two popular JavaScript testing frameworks that are often used together. Karma is a test runner that allows you to run tests in multiple browsers, while Jasmine is a behavior-driven development (BDD) testing framework that provides a syntax for defining test suites and individual tests."
         },
         {
