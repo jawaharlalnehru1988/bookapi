@@ -48,6 +48,196 @@
           "title": "Angular",
           "imageLink": "1Ut5G9hHk0xPTqEStQRoSsC_2K3nfKzT5",
           "routerName": "/angular",
+          "topics": [
+            {
+              "id": 1,
+              "topic": "Components",
+              "description": "A component is the basic building block of an Angular application, which consists of a template, class, and metadata. Components encapsulate different parts of the UI, making it easier to manage and reuse code.",
+              "examples": [
+                "ng generate component my-component",
+                "<app-my-component></app-my-component>"
+              ]
+            },
+            {
+              "id": 2,
+              "topic": "Directives",
+              "description": "A directive is a way to attach behavior to an existing DOM element or a component. Directives are classified into three types: component, attribute, and structural directives.",
+              "examples": [
+                "ng generate directive my-directive",
+                "<div myDirective></div>"
+              ]
+            },
+            {
+              "id": 3,
+              "topic": "Services",
+              "description": "A service is a singleton object that can be used across the entire application. Services provide a way to share data and functionality between different components, directives, and modules.",
+              "examples": [
+                "ng generate service my-service",
+                "constructor(private myService: MyService) { }"
+              ]
+            },
+            {
+              "id": 4,
+              "topic": "Modules",
+              "description": "A module is a container for related code, including components, directives, pipes, and services. Modules help to organize an application and make it easier to manage dependencies.",
+              "examples": [
+                "ng generate module my-module",
+                "imports: [CommonModule]"
+              ]
+            },
+            {
+              "id": 5,
+              "topic": "Templates",
+              "description": "A template is a view for a component, which contains HTML and Angular directives. Templates are used to render data and create the user interface of an application.",
+              "examples": [
+                "<div>{{ myData }}</div>",
+                "<ng-template></ng-template>"
+              ]
+            },
+            {
+              "id": 6,
+              "topic": "Pipes",
+              "description": "A pipe is a way to transform data before it is displayed in a template. Pipes can be used for filtering, sorting, and formatting data.",
+              "examples": [
+                "{{ myData | uppercase }}",
+                "ng generate pipe my-pipe"
+              ]
+            },
+            {
+              "id": 7,
+              "topic": "Dependency Injection",
+              "description": "Dependency Injection is a design pattern used in Angular for providing dependencies to components, services, and other objects. DI makes it easier to manage dependencies and write testable code.",
+              "examples": [
+                "constructor(private myService: MyService) { }",
+                "providers: [MyService]"
+              ]
+            },
+            {
+              "id": 8,
+              "topic": "Routing",
+              "description": "Routing is the process of navigating from one view to another in an Angular application. The Angular Router provides a way to define routes and handle navigation between them.",
+              "examples": [
+                "const routes: Routes = [{ path: 'home', component: HomeComponent }];",
+                "<a routerLink='/home'>Home</a>"
+              ]
+            },
+            {
+              "id": 9,
+              "topic": "Forms",
+              "description": "Forms are a crucial part of any web application. Angular provides two ways to build forms: template-driven and reactive forms. Forms in Angular are built using the FormsModule and ReactiveFormsModule modules.",
+              "examples": [
+                "<form (ngSubmit)='onSubmit()'><input [(ngModel)]='myData'></form>",
+                "this.myForm = this.formBuilder.group({myData: ''});"
+              ]
+            },
+            {
+              "id": 10,
+              "topic": "HTTP",
+              "description": "The Angular HttpClient module provides a way to make HTTP requests and handle responses in an Angular application. HTTP requests can be used to fetch data from a server, update data on the server, and delete data from the server.",
+              "examples": [
+                "constructor(private http: HttpClient) { }",
+                "this.http.get<MyData[]>('/api/my-data').subscribe(data => this.myData = data);"
+              ]
+            },
+            {
+              "id": 11,
+              "topic": "Testing",
+              "description": "Testing is a crucial part of any software development process. Angular provides a testing framework that allows developers to write unit tests, integration tests, and end-to-end tests for their applications.",
+              "examples": [
+                "describe('MyComponent', () => { it('should create', () => { expect(component).toBeTruthy(); }); });",
+                "TestBed.configureTestingModule({ declarations: [MyComponent], });"
+              ]
+            },
+            {
+              "id": 12,
+              "topic": "Animation",
+              "description": "Animations can add a lot of interactivity and visual interest to an Angular application. Angular provides an animation framework that allows developers to add animations to their applications using CSS, JavaScript, or a combination of both.",
+              "examples": [
+                "import { trigger, transition, style, animate } from '@angular/animations';",
+                "animations: [ trigger('myAnimation', [ transition('* => *', [ style({ opacity: 0 }), animate('1s', style({ opacity: 1 })) ]) ]) ]"
+              ]
+            },
+            {
+              "id": 13,
+              "topic": "Security",
+              "description": "Security is an important concern in any web application. Angular provides a range of security features to help developers build secure applications, including built-in support for cross-site scripting (XSS) and cross-site request forgery (CSRF) protection.",
+              "examples": [
+                "@NgModule({ imports: [HttpClientModule], providers: [ { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true } ] })",
+                "export class AuthInterceptor implements HttpInterceptor { intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> { // Add authorization header if (user) { request = request.clone({ setHeaders: { Authorization: `Bearer ${user.token}` } }); } return next.handle(request); } }"
+              ]
+            },
+            {
+              "id": 14,
+              "topic": "Deployment",
+              "description": "Deploying an Angular application involves building the application and then deploying the build artifacts to a server. There are several ways to deploy an Angular application, including using a cloud hosting platform, deploying to a traditional web server, or deploying as a Progressive Web App (PWA).",
+              "examples": [
+                "ng build --prod",
+                "docker build -t myapp .",
+                "docker run -d -p 80:80 myapp"
+              ]
+            },
+            {
+              "id": 15,
+              "topic": "Performance",
+              "description": "Performance is a critical factor in any web application. Angular provides several features to help optimize the performance of an application, including Ahead-of-Time (AOT) compilation, lazy loading, and tree shaking.",
+              "examples": [
+                "ng build --prod",
+                "RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })",
+                "import { someFunction } from 'lodash';"
+              ]
+            },
+            {
+              "id": 16,
+              "topic": "Internationalization",
+              "description": "Internationalization (i18n) is the process of designing an application to support multiple languages and locales. Angular provides built-in support for i18n, allowing developers to easily create applications that can be translated into multiple languages.",
+              "examples": [
+                "<p i18n>Hello, {{name}}!</p>",
+                "ng xi18n --output-path src/locale --locale fr",
+                "translate.get('HELLO', { name: 'John' }).subscribe(value => console.log(value));"
+              ]
+            },
+            {
+              "id": 17,
+              "topic": "Accessibility",
+              "description": "Accessibility is the practice of designing an application to be usable by people with disabilities. Angular provides a range of accessibility features, including ARIA attributes and support for screen readers.",
+              "examples": [
+                "<button [attr.aria-label]=\"'Add ' + item\">Add</button>",
+                "<a routerLink='/home' tabindex='0'>Home</a>"
+              ]
+            },
+            {
+              "id": 18,
+              "topic": "Animations",
+              "description": "Animations can add an extra layer of interactivity and engagement to an Angular application. Angular provides a powerful animation system that can be used to create animations for a wide range of use cases.",
+              "examples": [
+                "@Component({ animations: [ trigger('fadeInOut', [ transition(':enter', [ style({ opacity: 0 }), animate('500ms ease-out', style({ opacity: 1 })) ]), transition(':leave', [ animate('500ms ease-out', style({ opacity: 0 })) ]) ]) })",
+                "<div [@fadeInOut]>...</div>"
+              ]
+            },
+            {
+              "id": 19,
+              "topic": "Server-side Rendering",
+              "description": "Server-side rendering (SSR) is a technique that can improve the performance and SEO of an Angular application. Angular provides built-in support for SSR, allowing developers to easily create applications that can be rendered on the server.",
+              "examples": [
+                "import { renderModuleFactory } from '@angular/platform-server'; const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/main'); app.get('*', (req, res) => { renderModuleFactory(AppServerModuleNgFactory, { url: req.url, document: '<app-root></app-root>', extraProviders: [ provideModuleMap(LAZY_MODULE_MAP) ] }).then(html => res.send(html)); });",
+                "@NgModule({ bootstrap: [AppComponent], imports: [ AppModule, ServerModule, ModuleMapLoaderModule ], providers: [ { provide: APP_BASE_HREF, useValue: '/' } ] }) export class AppServerModule { }"
+              ]
+            },
+            {
+              "id": 20,
+              "topic": "RxJS",
+              "description": "RxJS is a powerful library for reactive programming in JavaScript. Angular makes extensive use of RxJS, using observables to handle asynchronous data streams in many parts of an application.",
+              "examples": [
+                "import { Observable, of } from 'rxjs'; import { catchError, map } from 'rxjs/operators'; @Injectable({ providedIn: 'root' }) export class UserService { private apiUrl = '/api/users'; getUsers(): Observable<User[]> { return this.http.get<User[]>(this.apiUrl).pipe( map(users => users.map(user => new User(user))), catchError(error => of([])) ); } }"
+              ]
+            },
+            {
+              "id": 24,
+              "topic": "Lifecycle Hooks",
+              "description": "Lifecycle hooks are methods that are called at specific points in the life of a component or directive. They allow you to perform actions at key moments, such as when a component is created, updated, or destroyed.",
+              "examples": ["export class MyComponent implements OnInit { ngOnInit() { // Initialization logic here } }" ]
+            }
+          ],          
           "details": "Angular is a popular open-source front-end framework for building web applications with declarative templates, dependency injection, and powerful data binding capabilities."
         },
         {
@@ -176,49 +366,95 @@
     ],
     "Angular": [
       {
-        "lifeCycleHookList": [
-  {
-    "name": "ngOnChanges",
-    "description": "Called when one or more input properties change.",
-    "usage": "@Input() myProperty: string; \nngOnChanges(changes: SimpleChanges) { \n  console.log('Changes:', changes); \n}"
-  },
-  {
-    "name": "ngOnInit",
-    "description": "Called once the component has been initialized.",
-    "usage": "ngOnInit() { \n  console.log('Component initialized'); \n}"
-  },
-  {
-    "name": "ngDoCheck",
-    "description": "Called during every change detection cycle.",
-    "usage": "ngDoCheck() { \n  console.log('Change detection executed'); \n}"
-  },
-  {
-    "name": "ngAfterContentInit",
-    "description": "Called once content has been projected into the component.",
-    "usage": "ngAfterContentInit() { \n  console.log('Content initialized'); \n}"
-  },
-  {
-    "name": "ngAfterContentChecked",
-    "description": "Called during every change detection cycle after projecting content into the component.",
-    "usage": "ngAfterContentChecked() { \n  console.log('Content checked'); \n}"
-  },
-  {
-    "name": "ngAfterViewInit",
-    "description": "Called once the component's view has been initialized.",
-    "usage": "ngAfterViewInit() { \n  console.log('View initialized'); \n}"
-  },
-  {
-    "name": "ngAfterViewChecked",
-    "description": "Called during every change detection cycle after initializing the component's view.",
-    "usage": "ngAfterViewChecked() { \n  console.log('View checked'); \n}"
-  },
-  {
-    "name": "ngOnDestroy",
-    "description": "Called just before the component is destroyed.",
-    "usage": "ngOnDestroy() { \n  console.log('Component destroyed'); \n}"
-  }
-]
-
+        "id":9,
+        "title": "Angular Form",
+        "intro": "<p>In Angular, forms are used to collect user input and submit it to a server for further processing. Forms can be created using either Template-Driven Forms or Reactive Forms.</p> <p>Template-Driven Forms are built using Angular's built-in ngModel directive, which allows two-way data binding between the form controls and the component's properties. Template-Driven Forms are simpler and faster to set up, but can be less flexible and harder to maintain in complex forms.</p> <p>Reactive Forms, on the other hand, are built using the ReactiveFormsModule module, which provides a more powerful and flexible way of building forms. Reactive Forms allow you to create and manipulate form controls programmatically and provide better support for complex scenarios such as conditional validation and dynamic forms.</p>",
+        "subtopic": [
+          {
+            "title": "Creating a form group",
+            "description": "Learn how to create a FormGroup object to represent a group of form controls in your Angular reactive form.",
+            "example": "import { NgModule } from '@angular/core'; \n import { FormsModule } from '@angular/forms'; \n @NgModule({ \n imports: [ \n FormsModule ], // ... }) \n export class AppModule { }"
+          },
+          {
+            "title": "Creating form controls",
+            "description": "Learn how to create FormControl objects to represent individual form controls in your Angular reactive form."
+          },
+          {
+            "title": "Adding form validation",
+            "description": "Learn how to add form validation rules to your Angular reactive form, such as required fields, minimum and maximum values, and custom validation functions."
+          },
+          {
+            "title": "Reactive form data binding",
+            "description": "Learn how to bind your reactive form to your component data model using two-way data binding or reactive programming techniques."
+          },
+          {
+            "title": "Dynamic form controls",
+            "description": "Learn how to dynamically add or remove form controls based on user input or other dynamic factors in your Angular reactive form."
+          },
+          {
+            "title": "Form arrays",
+            "description": "Learn how to use FormArray objects to represent an array of form controls in your Angular reactive form."
+          },
+          {
+            "title": "Form groups nesting",
+            "description": "Learn how to nest FormGroup and FormArray objects to create complex forms with hierarchical data structures in your Angular reactive form."
+          },
+          {
+            "title": "Form control value changes",
+            "description": "Learn how to detect and respond to changes in form control values, such as using the valueChanges property and reactive programming techniques in your Angular reactive form."
+          },
+          {
+            "title": "Form submission",
+            "description": "Learn how to handle form submission in your Angular reactive form, such as preventing default form submission behavior, sending form data to a server, and displaying success or error messages."
+          }
+        ]
+      },
+      {
+        "id":24,
+        "title":"lifeCycleHookList",
+        "intro":"",
+        "subtopic": [
+          {
+            "name": "ngOnChanges",
+            "description": "Called when one or more input properties change.",
+            "usage": "@Input() myProperty: string; \nngOnChanges(changes: SimpleChanges) { \n  console.log('Changes:', changes); \n}"
+          },
+          {
+            "name": "ngOnInit",
+            "description": "Called once the component has been initialized.",
+            "usage": "ngOnInit() { \n  console.log('Component initialized'); \n}"
+          },
+          {
+            "name": "ngDoCheck",
+            "description": "Called during every change detection cycle.",
+            "usage": "ngDoCheck() { \n  console.log('Change detection executed'); \n}"
+          },
+          {
+            "name": "ngAfterContentInit",
+            "description": "Called once content has been projected into the component.",
+            "usage": "ngAfterContentInit() { \n  console.log('Content initialized'); \n}"
+          },
+          {
+            "name": "ngAfterContentChecked",
+            "description": "Called during every change detection cycle after projecting content into the component.",
+            "usage": "ngAfterContentChecked() { \n  console.log('Content checked'); \n}"
+          },
+          {
+            "name": "ngAfterViewInit",
+            "description": "Called once the component's view has been initialized.",
+            "usage": "ngAfterViewInit() { \n  console.log('View initialized'); \n}"
+          },
+          {
+            "name": "ngAfterViewChecked",
+            "description": "Called during every change detection cycle after initializing the component's view.",
+            "usage": "ngAfterViewChecked() { \n  console.log('View checked'); \n}"
+          },
+          {
+            "name": "ngOnDestroy",
+            "description": "Called just before the component is destroyed.",
+            "usage": "ngOnDestroy() { \n  console.log('Component destroyed'); \n}"
+          }
+        ]
       }
     ]
 }
