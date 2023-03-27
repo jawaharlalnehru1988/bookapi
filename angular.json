@@ -1,52 +1,14 @@
-{"Angular": [
+{
+  "Angular": [
     {
-      "id":9,
+      "id": 9,
       "title": "Angular Form",
-      "intro": "<p>In Angular, forms are used to collect user input and submit it to a server for further processing. Forms can be created using either Template-Driven Forms or Reactive Forms.</p> <p>Template-Driven Forms are built using Angular's built-in ngModel directive, which allows two-way data binding between the form controls and the component's properties. Template-Driven Forms are simpler and faster to set up, but can be less flexible and harder to maintain in complex forms.</p> <p>Reactive Forms, on the other hand, are built using the ReactiveFormsModule module, which provides a more powerful and flexible way of building forms. Reactive Forms allow you to create and manipulate form controls programmatically and provide better support for complex scenarios such as conditional validation and dynamic forms.</p>",
-      "subtopic": [
-        {
-          "title": "Creating a form group",
-          "description": "Learn how to create a FormGroup object to represent a group of form controls in your Angular reactive form.",
-          "example": "import { NgModule } from '@angular/core'; \n import { FormsModule } from '@angular/forms'; \n @NgModule({ \n imports: [ \n FormsModule ], // ... }) \n export class AppModule { }"
-        },
-        {
-          "title": "Creating form controls",
-          "description": "Learn how to create FormControl objects to represent individual form controls in your Angular reactive form."
-        },
-        {
-          "title": "Adding form validation",
-          "description": "Learn how to add form validation rules to your Angular reactive form, such as required fields, minimum and maximum values, and custom validation functions."
-        },
-        {
-          "title": "Reactive form data binding",
-          "description": "Learn how to bind your reactive form to your component data model using two-way data binding or reactive programming techniques."
-        },
-        {
-          "title": "Dynamic form controls",
-          "description": "Learn how to dynamically add or remove form controls based on user input or other dynamic factors in your Angular reactive form."
-        },
-        {
-          "title": "Form arrays",
-          "description": "Learn how to use FormArray objects to represent an array of form controls in your Angular reactive form."
-        },
-        {
-          "title": "Form groups nesting",
-          "description": "Learn how to nest FormGroup and FormArray objects to create complex forms with hierarchical data structures in your Angular reactive form."
-        },
-        {
-          "title": "Form control value changes",
-          "description": "Learn how to detect and respond to changes in form control values, such as using the valueChanges property and reactive programming techniques in your Angular reactive form."
-        },
-        {
-          "title": "Form submission",
-          "description": "Learn how to handle form submission in your Angular reactive form, such as preventing default form submission behavior, sending form data to a server, and displaying success or error messages."
-        }
-      ]
+      "intro": "<p>In Angular, forms are used to collect user input and submit it to a server for further processing. Forms can be created using either Template-Driven Forms or Reactive Forms.</p> <p>Template-Driven Forms are built using Angular's built-in ngModel directive, which allows two-way data binding between the form controls and the component's properties. Template-Driven Forms are simpler and faster to set up, but can be less flexible and harder to maintain in complex forms.</p> <p>Reactive Forms, on the other hand, are built using the ReactiveFormsModule module, which provides a more powerful and flexible way of building forms. Reactive Forms allow you to create and manipulate form controls programmatically and provide better support for complex scenarios such as conditional validation and dynamic forms.</p>"
     },
     {
-      "id":24,
-      "title":"lifeCycleHookList",
-      "intro":"",
+      "id": 24,
+      "title": "lifeCycleHookList",
+      "intro": "",
       "subtopic": [
         {
           "name": "ngOnChanges",
@@ -89,6 +51,62 @@
           "usage": "ngOnDestroy() { \n  console.log('Component destroyed'); \n}"
         }
       ]
+    }
+  ],
+  "Forms": [
+    {
+      "description": "Learn how to create a FormGroup object to represent a group of form controls in your Angular reactive form.\n\nTo create a form group using mat form field in Angular, you can use the following code:\n\nIn this example, we are using the mat-form-field component from the Angular Material library. Inside each mat-form-field, we are using the matInput directive to create an input field. By wrapping each input field in a mat-form-field, we can apply styles and formatting to the entire form group.\n\nYou can also add additional form elements, such as labels or buttons, inside the mat-form-field tags as needed.",
+      "title": "Creating a form group",
+      "id": "1",
+      "exampleCode": "h1 {\n  background-color: green;\n}\n\ndiv {\n  background-color: lightblue;\n}\n\np {\n  background-color: yellow;\n}"
+    },
+    {
+      "description": "Learn how to create FormControl objects to represent individual form controls in your Angular reactive form.",
+      "title": "Creating form controls",
+      "id": "2",
+      "exampleCode": "<form></form>"
+    },
+    {
+      "description": "Learn how to add form validation rules to your Angular reactive form, such as required fields, minimum and maximum values, and custom validation functions.",
+      "title": "Adding form validation",
+      "id": "3",
+      "exampleCode": "Learn how to add form validation rules to your Angular reactive form, such as required fields, minimum and maximum values, and custom validation functions, \n\n<form>\n  <mat-form-field class=\"example-form-field\">\n    <input matInput placeholder=\"Input 1\" name=\"input1\">\n  </mat-form-field>\n  \n  <mat-form-field class=\"example-form-field\">\n    <input matInput placeholder=\"Input 2\" name=\"input2\">\n  </mat-form-field>\n</form>\n"
+    },
+    {
+      "description": "Learn how to bind your reactive form to your component data model using two-way data binding or reactive programming techniques.\n<pre><code>\n<form>\n  <mat-form-field class=\"example-form-field\">\n    <input matInput placeholder=\"Input 1\" name=\"input1\">\n  </mat-form-field>\n  \n  <mat-form-field class=\"example-form-field\">\n    <input matInput placeholder=\"Input 2\" name=\"input2\">\n  </mat-form-field>\n</form>\n\n</code></pre>",
+      "title": "Reactive form data binding",
+      "id": "4",
+      "exampleCode": ""
+    },
+    {
+      "title": "Dynamic form controls",
+      "id": "5",
+      "description": "Learn how to dynamically add or remove form controls based on user input or other dynamic factors in your Angular reactive form.",
+      "exampleCode": ""
+    },
+    {
+      "title": "Form arrays",
+      "id": "6",
+      "description": "Learn how to use FormArray objects to represent an array of form controls in your Angular reactive form.",
+      "exampleCode": ""
+    },
+    {
+      "title": "Form groups nesting",
+      "id": "7",
+      "description": "Learn how to nest FormGroup and FormArray objects to create complex forms with hierarchical data structures in your Angular reactive form.",
+      "exampleCode": ""
+    },
+    {
+      "title": "Form control value changes",
+      "id": "8",
+      "description": "Learn how to detect and respond to changes in form control values, such as using the valueChanges property and reactive programming techniques in your Angular reactive form.",
+      "exampleCode": ""
+    },
+    {
+      "title": "Form submission",
+      "id": "9",
+      "description": "Learn how to handle form submission in your Angular reactive form, such as preventing default form submission behavior, sending form data to a server, and displaying success or error messages.",
+      "exampleCode": ""
     }
   ]
 }
