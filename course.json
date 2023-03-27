@@ -236,6 +236,12 @@
               "topic": "Lifecycle Hooks",
               "description": "Lifecycle hooks are methods that are called at specific points in the life of a component or directive. They allow you to perform actions at key moments, such as when a component is created, updated, or destroyed.",
               "examples": ["export class MyComponent implements OnInit { ngOnInit() { // Initialization logic here } }" ]
+            },
+            {
+              "id": 25,
+              "topic": "Shared Module",
+              "description": "a shared module is a module that contains common components, directives, pipes, and services that can be shared across multiple modules in an Angular application.",
+              "examples": [""]
             }
           ],          
           "details": "Angular is a popular open-source front-end framework for building web applications with declarative templates, dependency injection, and powerful data binding capabilities."
