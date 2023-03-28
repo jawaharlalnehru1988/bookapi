@@ -73,7 +73,7 @@
       "exampleCode": "Learn how to add form validation rules to your Angular reactive form, such as required fields, minimum and maximum values, and custom validation functions, \n\n<form>\n  <mat-form-field class=\"example-form-field\">\n    <input matInput placeholder=\"Input 1\" name=\"input1\">\n  </mat-form-field>\n  \n  <mat-form-field class=\"example-form-field\">\n    <input matInput placeholder=\"Input 2\" name=\"input2\">\n  </mat-form-field>\n</form>\n"
     },
     {
-      "description": "Learn how to bind your reactive form to your component data model using two-way data binding or reactive programming techniques.\n<pre><code>\n<form>\n  <mat-form-field class=\"example-form-field\">\n    <input matInput placeholder=\"Input 1\" name=\"input1\">\n  </mat-form-field>\n  \n  <mat-form-field class=\"example-form-field\">\n    <input matInput placeholder=\"Input 2\" name=\"input2\">\n  </mat-form-field>\n</form>\n\n</code></pre>",
+      "description": "Learn how to bind your reactive form to your component data model using two-way data binding or reactive programming techniques.\n\n<code>\n<form>\n  <mat-form-field class=\"example-form-field\">\n    <input matInput placeholder=\"Input 1\" name=\"input1\">\n  </mat-form-field>\n  \n  <mat-form-field class=\"example-form-field\">\n    <input matInput placeholder=\"Input 2\" name=\"input2\">\n  </mat-form-field>\n</form>\n\n</code>",
       "title": "Reactive form data binding",
       "id": "4",
       "exampleCode": ""
