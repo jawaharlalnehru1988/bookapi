@@ -1,0 +1,246 @@
+{
+    "topics": [
+      {
+        "id": 101,
+        "title": "HTML Basics",
+        "subtopics": [
+          "Introduction to HTML",
+          "HTML Tags",
+          "Document Structure",
+          "Basic HTML Elements",
+          "HTML Attributes",
+          "HTML Formatting",
+          "Comments in HTML"
+        ]
+      },
+      {
+        "id": 102,
+        "title": "HTML Forms",
+        "subtopics": [
+          "Form Structure",
+          "Form Input Types",
+          "Form Validation",
+          "Form Submission",
+          "Form Controls",
+          "Form Accessibility",
+          "HTML5 Form Features"
+        ]
+      },
+      {
+        "id": 103,
+        "title": "HTML Tables",
+        "subtopics": [
+          "Table Structure",
+          "Table Formatting",
+          "Table Borders",
+          "Table Cells",
+          "Table Headers",
+          "Table Caption",
+          "HTML5 Table Features"
+        ]
+      },
+      {
+        "id": 104,
+        "title": "HTML Links",
+        "subtopics": [
+          "Anchor Tags",
+          "Link Types",
+          "Link Targets",
+          "Link Accessibility",
+          "HTML5 Link Features"
+        ]
+      },
+      {
+        "id": 105,
+        "title": "HTML Images",
+        "subtopics": [
+          "Image Tags",
+          "Image Attributes",
+          "Image Accessibility",
+          "HTML5 Image Features"
+        ]
+      },
+      {
+        "id": 106,
+        "title": "HTML Semantic Elements",
+        "subtopics": [
+          "Semantic HTML",
+          "HTML5 Semantic Elements"
+        ]
+      },
+      {
+        "id": 107,
+        "title": "HTML Layout",
+        "subtopics": [
+          "Div vs. Span",
+          "Box Model",
+          "CSS Layout Techniques",
+          "HTML5 Layout Elements"
+        ]
+      },
+      {
+        "id": 108,
+        "title": "HTML Accessibility",
+        "subtopics": [
+          "Web Accessibility Standards",
+          "Accessible HTML",
+          "ARIA Roles",
+          "ARIA States and Properties"
+        ]
+      },
+      {
+        "id": 109,
+        "title": "HTML Meta Tags",
+        "subtopics": [
+          "HTML Meta Tags",
+          "SEO Best Practices",
+          "Social Media Meta Tags",
+          "Viewport Meta Tag"
+        ]
+      },
+      {
+        "id": 110,
+        "title": "HTML Multimedia",
+        "subtopics": [
+          "Audio and Video Tags",
+          "Media Attributes",
+          "HTML5 Media Features"
+        ]
+      },
+      {
+        "id": 111,
+        "title": "HTML5 APIs",
+        "subtopics": [
+          "Geolocation API",
+          "Drag and Drop API",
+          "Canvas API",
+          "Web Storage API",
+          "Web Workers API",
+          "WebSockets API"
+        ]
+      },
+      {
+        "id": 112,
+        "title": "HTML5 Forms",
+        "subtopics": [
+          "New Form Input Types",
+          "Form Attributes",
+          "Form Elements",
+          "Form Validation"
+        ]
+      },
+      {
+        "id": 113,
+        "title": "HTML5 Audio and Video",
+        "subtopics": [
+          "Audio and Video Tags",
+          "Media Elements",
+          "Media Events",
+          "Media Formats"
+        ]
+      },
+      {
+        "id": 114,
+        "title": "HTML5 Canvas",
+        "subtopics": [
+          "Canvas API"]
+      },
+      {
+        "id": 115,
+        "title": "HTML5 Geolocation",
+        "subtopics": [
+          "Geolocation API",
+          "Geolocation Properties",
+          "Geolocation Methods",
+          "Geolocation Events"
+        ]
+      },
+      {
+        "id": 116,
+        "title": "HTML5 Drag and Drop",
+        "subtopics": [
+          "Drag and Drop API",
+          "Drag and Drop Events",
+          "Drag and Drop Properties"
+        ]
+      },
+      {
+        "id": 117,
+        "title": "HTML5 Web Storage",
+        "subtopics": [
+          "Web Storage API",
+          "Local Storage",
+          "Session Storage"
+        ]
+      },
+      {
+        "id": 118,
+        "title": "HTML5 Web Workers",
+        "subtopics": [
+          "Web Workers API",
+          "Worker Object",
+          "Communication with Workers"
+        ]
+      },
+      {
+        "id": 119,
+        "title": "HTML5 WebSockets",
+        "subtopics": [
+          "WebSockets API",
+          "WebSocket Object",
+          "WebSocket Events",
+          "WebSocket Protocol"
+        ]
+      },
+      {
+        "id": 120,
+        "title": "HTML5 SVG",
+        "subtopics": [
+          "SVG Tags",
+          "SVG Attributes",
+          "SVG Elements",
+          "SVG Filters"
+        ]
+      },
+      {
+        "id": 121,
+        "title": "HTML5 Responsive Design",
+        "subtopics": [
+          "Media Queries",
+          "Responsive Images",
+          "Viewport Meta Tag",
+          "Flexible Grids",
+          "Fluid Layouts"
+        ]
+      },
+      {
+        "id": 122,
+        "title": "HTML5 Offline Web Applications",
+        "subtopics": [
+          "Application Cache",
+          "Manifest File",
+          "Offline Events"
+        ]
+      },
+      {
+        "id": 123,
+        "title": "HTML Email Development",
+        "subtopics": [
+          "Email Design",
+          "HTML Email Structure",
+          "CSS in Emails",
+          "Responsive Email Design"
+        ]
+      },
+      {
+        "id": 124,
+        "title": "HTML Best Practices",
+        "subtopics": [
+          "HTML Coding Standards",
+          "SEO Best Practices",
+          "Web Accessibility Best Practices"
+        ]
+      }
+    ]
+}
+  
