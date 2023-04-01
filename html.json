@@ -246,7 +246,7 @@
   "topicDetails": [
     {
       "id": "1",
-      "title": "HTML Introduction",
+      "title": "Introduction to HTML",
       "description": "HTML (HyperText Markup Language) is a markup language used to create and structure content on the internet. It is the standard language for building web pages and is used to create and describe the content and layout of a website.\n\nHTML documents consist of a series of elements, which are used to define the structure and content of a web page. These elements are represented by tags, which are enclosed in angle brackets. For example, the <html> tag is used to define the beginning of an HTML document, while the <body> tag is used to define the main content of the page.\n\nHTML also supports attributes, which are used to provide additional information about an element. Attributes are included within the opening tag of an element and can be used to specify things like the color of text or the size of an image.\n\nHTML documents can be created using a simple text editor, such as Notepad, and can be viewed in any web browser. As HTML is a client-side language, it is interpreted by the browser and displayed to the user.\n\nHTML is a foundational language for web development and is often used in conjunction with other languages, such as CSS (Cascading Style Sheets) and JavaScript, to create dynamic and interactive web pages."
     }
   ]
