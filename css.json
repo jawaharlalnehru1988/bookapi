@@ -1,0 +1,204 @@
+{
+    "cssTopics": [
+      {
+        "id": 1,
+        "title": "CSS Basics",
+        "subtopics": [
+          "CSS Syntax and Selectors",
+          "Box Model",
+          "Typography",
+          "Colors and Backgrounds",
+          "Floats and Positioning"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Layout and Grid Systems",
+        "subtopics": [
+          "Flexbox",
+          "Grid",
+          "Media Queries",
+          "Responsive Design"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Advanced CSS Techniques",
+        "subtopics": [
+          "Transitions and Animations",
+          "Transforms",
+          "Pseudo-classes and Pseudo-elements",
+          "CSS Variables",
+          "CSS Frameworks"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "CSS Preprocessors",
+        "subtopics": [
+          "Sass",
+          "Less",
+          "Stylus"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "CSS Architecture",
+        "subtopics": [
+          "BEM",
+          "SMACSS",
+          "Atomic CSS",
+          "CSS-in-JS"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Responsive Images",
+        "subtopics": [
+          "Srcset",
+          "Sizes",
+          "Picture Element",
+          "Lazy Loading"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "CSS Grids",
+        "subtopics": [
+          "Basic Grid Concepts",
+          "CSS Grid Properties",
+          "Grid Layout Examples",
+          "Browser Support"
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Accessibility",
+        "subtopics": [
+          "Accessible Color Contrast",
+          "Screen Readers",
+          "Semantic HTML",
+          "ARIA Roles and Attributes"
+        ]
+      },
+      {
+        "id": 9,
+        "title": "CSS Tooling",
+        "subtopics": [
+          "CSS Linting",
+          "Autoprefixer",
+          "CSS Preprocessors",
+          "PostCSS"
+        ]
+      },
+      {
+        "id": 10,
+        "title": "CSS Animations",
+        "subtopics": [
+          "Keyframes",
+          "Animation Properties",
+          "Timing Functions",
+          "Animation Examples"
+        ]
+      },
+      {
+        "id": 11,
+        "title": "CSS Transforms",
+        "subtopics": [
+          "2D Transforms",
+          "3D Transforms",
+          "Transform Properties",
+          "Transform Examples"
+        ]
+      },
+      {
+        "id": 12,
+        "title": "CSS Filters",
+        "subtopics": [
+          "Grayscale",
+          "Blur",
+          "Brightness",
+          "Filter Examples"
+        ]
+      },
+      {
+        "id": 13,
+        "title": "CSS Shapes",
+        "subtopics": [
+          "Basic Shapes",
+          "Shape Properties",
+          "Text Shapes",
+          "Shape Examples"
+        ]
+      },
+      {
+        "id": 14,
+        "title": "CSS Variables",
+        "subtopics": [
+          "Syntax and Declaration",
+          "Scoping",
+          "Fallback Values",
+          "Variable Examples"
+        ]
+      },
+    {
+      "id": 15,
+      "title": "CSS Units",
+      "subtopics": [
+        "Absolute Units",
+        "Relative Units",
+        "Viewport"]
+      },
+      {
+        "id": 16,
+        "title": "CSS Text Effects",
+        "subtopics": [
+        "Text Shadow",
+        "Text Stroke",
+        "Text Fill",
+        "Text Effects Examples"
+        ]
+        },
+        {
+        "id": 17,
+        "title": "CSS Blend Modes",
+        "subtopics": [
+        "Blend Mode Properties",
+        "Blend Mode Examples",
+        "Browser Support",
+        "Use Cases"
+        ]
+        },
+        {
+        "id": 18,
+        "title": "CSS Grid Frameworks",
+        "subtopics": [
+        "Bootstrap Grid",
+        "Materialize Grid",
+        "Foundation Grid",
+        "Bulma Grid"
+        ]
+        },
+        {
+        "id": 19,
+        "title": "CSS Debugging",
+        "subtopics": [
+        "DevTools",
+        "Debugging Techniques",
+        "Validation Tools",
+        "Common CSS Issues"
+        ]
+        },
+        {
+        "id": 20,
+        "title": "CSS Best Practices",
+        "subtopics": [
+        "Code Organization",
+        "Naming Conventions",
+        "Performance Optimization",
+        "Maintainability"
+        ]
+        }
+    ]
+  }
+  
