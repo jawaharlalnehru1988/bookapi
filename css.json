@@ -1,204 +1,217 @@
 {
-    "cssTopics": [
-      {
-        "id": 1,
-        "title": "CSS Basics",
-        "subtopics": [
-          "CSS Syntax and Selectors",
-          "Box Model",
-          "Typography",
-          "Colors and Backgrounds",
-          "Floats and Positioning"
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Layout and Grid Systems",
-        "subtopics": [
-          "Flexbox",
-          "Grid",
-          "Media Queries",
-          "Responsive Design"
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Advanced CSS Techniques",
-        "subtopics": [
-          "Transitions and Animations",
-          "Transforms",
-          "Pseudo-classes and Pseudo-elements",
-          "CSS Variables",
-          "CSS Frameworks"
-        ]
-      },
-      {
-        "id": 4,
-        "title": "CSS Preprocessors",
-        "subtopics": [
-          "Sass",
-          "Less",
-          "Stylus"
-        ]
-      },
-      {
-        "id": 5,
-        "title": "CSS Architecture",
-        "subtopics": [
-          "BEM",
-          "SMACSS",
-          "Atomic CSS",
-          "CSS-in-JS"
-        ]
-      },
-      {
-        "id": 6,
-        "title": "Responsive Images",
-        "subtopics": [
-          "Srcset",
-          "Sizes",
-          "Picture Element",
-          "Lazy Loading"
-        ]
-      },
-      {
-        "id": 7,
-        "title": "CSS Grids",
-        "subtopics": [
-          "Basic Grid Concepts",
-          "CSS Grid Properties",
-          "Grid Layout Examples",
-          "Browser Support"
-        ]
-      },
-      {
-        "id": 8,
-        "title": "Accessibility",
-        "subtopics": [
-          "Accessible Color Contrast",
-          "Screen Readers",
-          "Semantic HTML",
-          "ARIA Roles and Attributes"
-        ]
-      },
-      {
-        "id": 9,
-        "title": "CSS Tooling",
-        "subtopics": [
-          "CSS Linting",
-          "Autoprefixer",
-          "CSS Preprocessors",
-          "PostCSS"
-        ]
-      },
-      {
-        "id": 10,
-        "title": "CSS Animations",
-        "subtopics": [
-          "Keyframes",
-          "Animation Properties",
-          "Timing Functions",
-          "Animation Examples"
-        ]
-      },
-      {
-        "id": 11,
-        "title": "CSS Transforms",
-        "subtopics": [
-          "2D Transforms",
-          "3D Transforms",
-          "Transform Properties",
-          "Transform Examples"
-        ]
-      },
-      {
-        "id": 12,
-        "title": "CSS Filters",
-        "subtopics": [
-          "Grayscale",
-          "Blur",
-          "Brightness",
-          "Filter Examples"
-        ]
-      },
-      {
-        "id": 13,
-        "title": "CSS Shapes",
-        "subtopics": [
-          "Basic Shapes",
-          "Shape Properties",
-          "Text Shapes",
-          "Shape Examples"
-        ]
-      },
-      {
-        "id": 14,
-        "title": "CSS Variables",
-        "subtopics": [
-          "Syntax and Declaration",
-          "Scoping",
-          "Fallback Values",
-          "Variable Examples"
-        ]
-      },
+  "cssTopics": [
+    {
+      "id": 1,
+      "title": "CSS Basics",
+      "subtopics": [
+        "Introduction To CSS",
+        "CSS Syntax and Selectors",
+        "Box Model",
+        "Typography",
+        "Colors and Backgrounds",
+        "Floats and Positioning"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Layout and Grid Systems",
+      "subtopics": [
+        "Flexbox",
+        "Grid",
+        "Media Queries",
+        "Responsive Design"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Advanced CSS Techniques",
+      "subtopics": [
+        "Transitions and Animations",
+        "Transforms",
+        "Pseudo-classes and Pseudo-elements",
+        "CSS Variables",
+        "CSS Frameworks"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "CSS Preprocessors",
+      "subtopics": [
+        "Sass",
+        "Less",
+        "Stylus"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "CSS Architecture",
+      "subtopics": [
+        "BEM",
+        "SMACSS",
+        "Atomic CSS",
+        "CSS-in-JS"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Responsive Images",
+      "subtopics": [
+        "Srcset",
+        "Sizes",
+        "Picture Element",
+        "Lazy Loading"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "CSS Grids",
+      "subtopics": [
+        "Basic Grid Concepts",
+        "CSS Grid Properties",
+        "Grid Layout Examples",
+        "Browser Support"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Accessibility",
+      "subtopics": [
+        "Accessible Color Contrast",
+        "Screen Readers",
+        "Semantic HTML",
+        "ARIA Roles and Attributes"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "CSS Tooling",
+      "subtopics": [
+        "CSS Linting",
+        "Autoprefixer",
+        "CSS Preprocessors",
+        "PostCSS"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "CSS Animations",
+      "subtopics": [
+        "Keyframes",
+        "Animation Properties",
+        "Timing Functions",
+        "Animation Examples"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "CSS Transforms",
+      "subtopics": [
+        "2D Transforms",
+        "3D Transforms",
+        "Transform Properties",
+        "Transform Examples"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "CSS Filters",
+      "subtopics": [
+        "Grayscale",
+        "Blur",
+        "Brightness",
+        "Filter Examples"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "CSS Shapes",
+      "subtopics": [
+        "Basic Shapes",
+        "Shape Properties",
+        "Text Shapes",
+        "Shape Examples"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "CSS Variables",
+      "subtopics": [
+        "Syntax and Declaration",
+        "Scoping",
+        "Fallback Values",
+        "Variable Examples"
+      ]
+    },
     {
       "id": 15,
       "title": "CSS Units",
       "subtopics": [
         "Absolute Units",
         "Relative Units",
-        "Viewport"]
-      },
-      {
-        "id": 16,
-        "title": "CSS Text Effects",
-        "subtopics": [
+        "Viewport"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "CSS Text Effects",
+      "subtopics": [
         "Text Shadow",
         "Text Stroke",
         "Text Fill",
         "Text Effects Examples"
-        ]
-        },
-        {
-        "id": 17,
-        "title": "CSS Blend Modes",
-        "subtopics": [
+      ]
+    },
+    {
+      "id": 17,
+      "title": "CSS Blend Modes",
+      "subtopics": [
         "Blend Mode Properties",
         "Blend Mode Examples",
         "Browser Support",
         "Use Cases"
-        ]
-        },
-        {
-        "id": 18,
-        "title": "CSS Grid Frameworks",
-        "subtopics": [
+      ]
+    },
+    {
+      "id": 18,
+      "title": "CSS Grid Frameworks",
+      "subtopics": [
         "Bootstrap Grid",
         "Materialize Grid",
         "Foundation Grid",
         "Bulma Grid"
-        ]
-        },
-        {
-        "id": 19,
-        "title": "CSS Debugging",
-        "subtopics": [
+      ]
+    },
+    {
+      "id": 19,
+      "title": "CSS Debugging",
+      "subtopics": [
         "DevTools",
         "Debugging Techniques",
         "Validation Tools",
         "Common CSS Issues"
-        ]
-        },
-        {
-        "id": 20,
-        "title": "CSS Best Practices",
-        "subtopics": [
+      ]
+    },
+    {
+      "id": 20,
+      "title": "CSS Best Practices",
+      "subtopics": [
         "Code Organization",
         "Naming Conventions",
         "Performance Optimization",
         "Maintainability"
-        ]
-        }
-    ]
-  }
-  
+      ]
+    }
+  ],
+  "topicDetails": [
+    {
+      "id": "1",
+      "title": "Introduction To CSS",
+      "description": "CSS (Cascading Style Sheets) is a style sheet language used to describe the visual appearance of HTML and XML documents. It allows web developers to separate the presentation of a document from its content, making it easier to maintain and modify the styling of a website.\n\nCSS can be used to control various aspects of the layout and design of a webpage, such as fonts, colors, margins, borders, background images, and more. It offers a wide range of selectors and properties that allow developers to customize the style of individual elements or groups of elements on a webpage.\n\nCSS code is typically written in a separate file, which is then linked to the HTML document using a <link> tag in the <head> section of the HTML file. Alternatively, it can be embedded directly into an HTML document using the <style> tag.\n\nThere are various versions of CSS, with CSS3 being the most recent and widely used. CSS3 offers a wide range of new features and capabilities, such as animations, transitions, gradients, and more.\n\nOverall, CSS plays a crucial role in modern web development, allowing developers to create visually appealing and responsive websites that work seamlessly across different devices and platforms."
+    },
+    {
+      "id": "2",
+      "title": "CSS Syntax and Selectors",
+      "description": "CSS (Cascading Style Sheets) is a style-sheet language used for describing the look and formatting of a document written in HTML (Hypertext Markup Language). CSS syntax consists of rules that are applied to HTML elements to control their appearance. Selectors are used to target specific HTML elements to apply styles to them. Here's an overview of CSS syntax and selectors:\n\nCSS Syntax:\nA CSS rule is made up of two main parts: a selector and a declaration block. The selector is used to target HTML elements, and the declaration block contains the styles that will be applied to those elements. The syntax for a CSS rule looks like this:\n\n<pre><code style=\"color: red\">\nselector {\n    property: value;\n    /* additional properties and values */\n}\n</code></pre>\n\nSelectors:\nSelectors are used to target HTML elements to apply styles to them. There are several types of selectors in CSS:\n\n    Element selectors: These selectors target specific HTML elements based on their tag name. For example:\n\n<pre><code>\np {\n    color: blue;\n}\n</code></pre>\n\nThis rule will target all <p> elements and set their color to blue.\n\n    Class selectors: These selectors target HTML elements based on their class attribute. Class selectors start with a period (.) followed by the class name. For example:\n\n<pre><code>\n.my-class {\n    font-size: 14px;\n}\n</code></pre>\n\nThis rule will target all elements with the class name \"my-class\" and set their font size to 14 pixels.\n\n    ID selectors: These selectors target HTML elements based on their ID attribute. ID selectors start with a hash (#) followed by the ID name. For example:\n\n<pre><code>\n#my-id {\n    background-color: yellow;\n}\n</code></pre>\nSure! CSS (Cascading Style Sheets) is a style-sheet language used for describing the look and formatting of a document written in HTML (Hypertext Markup Language). CSS syntax consists of rules that are applied to HTML elements to control their appearance. Selectors are used to target specific HTML elements to apply styles to them. Here's an overview of CSS syntax and selectors:\n\nCSS Syntax:\nA CSS rule is made up of two main parts: a selector and a declaration block. The selector is used to target HTML elements, and the declaration block contains the styles that will be applied to those elements. The syntax for a CSS rule looks like this:\n\ncss\n\nselector {\n    property: value;\n    /* additional properties and values */\n}\n\nSelectors:\nSelectors are used to target HTML elements to apply styles to them. There are several types of selectors in CSS:\n\n    Element selectors: These selectors target specific HTML elements based on their tag name. For example:\n\ncss\n\np {\n    color: blue;\n}\n\nThis rule will target all <p> elements and set their color to blue.\n\n    Class selectors: These selectors target HTML elements based on their class attribute. Class selectors start with a period (.) followed by the class name. For example:\n\narduino\n\n.my-class {\n    font-size: 14px;\n}\n\nThis rule will target all elements with the class name \"my-class\" and set their font size to 14 pixels.\n\n    ID selectors: These selectors target HTML elements based on their ID attribute. ID selectors start with a hash (#) followed by the ID name. For example:\n\narduino\n\n#my-id {\n    background-color: yellow;\n}\n\nThis rule will target the element with the ID name \"my-id\" and set its background color to yellow.\n\n    Attribute selectors: These selectors target HTML elements based on their attribute values. Attribute selectors are used to select elements with a specific attribute or attribute value. For example:\n\n<pre><code>\n[type=\"text\"] {\n    border: 1px solid black;\n}\n</code></pre>\n\nSure! CSS (Cascading Style Sheets) is a style-sheet language used for describing the look and formatting of a document written in HTML (Hypertext Markup Language). CSS syntax consists of rules that are applied to HTML elements to control their appearance. Selectors are used to target specific HTML elements to apply styles to them. Here's an overview of CSS syntax and selectors:\n\nCSS Syntax:\nA CSS rule is made up of two main parts: a selector and a declaration block. The selector is used to target HTML elements, and the declaration block contains the styles that will be applied to those elements. The syntax for a CSS rule looks like this:\n\ncss\n\nselector {\n    property: value;\n    /* additional properties and values */\n}\n\nSelectors:\nSelectors are used to target HTML elements to apply styles to them. There are several types of selectors in CSS:\n\n    Element selectors: These selectors target specific HTML elements based on their tag name. For example:\n\ncss\n\np {\n    color: blue;\n}\n\nThis rule will target all <p> elements and set their color to blue.\n\n    Class selectors: These selectors target HTML elements based on their class attribute. Class selectors start with a period (.) followed by the class name. For example:\n\narduino\n\n.my-class {\n    font-size: 14px;\n}\n\nThis rule will target all elements with the class name \"my-class\" and set their font size to 14 pixels.\n\n    ID selectors: These selectors target HTML elements based on their ID attribute. ID selectors start with a hash (#) followed by the ID name. For example:\n\narduino\n\n#my-id {\n    background-color: yellow;\n}\n\nThis rule will target the element with the ID name \"my-id\" and set its background color to yellow.\n\n    Attribute selectors: These selectors target HTML elements based on their attribute values. Attribute selectors are used to select elements with a specific attribute or attribute value. For example:\n\ncss\n\n[type=\"text\"] {\n    border: 1px solid black;\n}\n\nThis rule will target all elements with a \"type\" attribute value of \"text\" and set their border to 1 pixel solid black.\n\n    Pseudo-classes and pseudo-elements: These selectors target elements based on their state or position in the document. Pseudo-classes start with a colon (:) and pseudo-elements start with two colons (::). For example:\n\n<pre><code>\na:hover {\n    color: red;\n}\n</code></pre>\n\nFirst-child Selector: This selector targets the first child element of a specific parent element. It is denoted by a colon (:) followed by the pseudo-class name \"first-child\". For example:\n\n<pre><code>\n.parent-element:first-child {\n  /* styles go here */\n}\n</code></pre>\n\nLast-child Selector: This selector targets the last child element of a specific parent element. It is denoted by a colon (:) followed by the pseudo-class name \"last-child\". For example:\n\n<pre><code>\n.parent-element:last-child {\n  /* styles go here */\n}\n</code></pre>\n\nNth-child Selector: This selector targets the nth child element of a specific parent element. It is denoted by a colon (:) followed by the pseudo-class name \"nth-child\" and the value of n. For example:\n\n\n<pre><code>\n.parent-element:nth-child(3) {\n  /* styles go here */\n}\n</code></pre>\n\nAdjacent Sibling Selector: This selector targets elements that are immediately following a specific element. It is denoted by a plus sign (+) between the two elements. For example:\n\n\n<pre><code>\n.element + .sibling-element {\n  /* styles go here */\n}\n</code></pre>\n\nCombinator selectors are used in CSS to select and style elements based on their relationship to other elements in the HTML structure. They allow developers to target specific elements that are adjacent or nested within other elements.\n\nThere are four types of combinator selectors in CSS:\n\n    Descendant Selector (space): This selector targets an element that is a descendant of another element. For example, if you want to select all the paragraphs inside a div, you would use the following syntax:\n\n<pre><code>\ndiv p {\n  /* styles go here */\n}\nChild Selector (>): This selector targets an element that is a direct child of another element. For example, if you want to select all the list items inside an unordered list, you would use the following syntax:\n\n<pre><code>\nul > li {\n  /* styles go here */\n}\n</code></pre>\nAdjacent Sibling Selector (+): This selector targets an element that is immediately following another element. For example, if you want to select the first paragraph after a heading, you would use the following syntax:\n<pre><code>\nh1 + p {\n  /* styles go here */\n}\n\nGeneral Sibling Selector (~): This selector targets all elements that are siblings of another element. For example, if you want to select all the paragraphs that come after a heading, you would use the following syntax:\n\n<pre><code>\nh1 ~ p {\n  /* styles go here */\n}\n</code></pre>\n</code></pre>\n"
+    }
+  ]
+}
