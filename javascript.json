@@ -40,5 +40,6 @@
       "title": "Javascript Loops",
       "id": "8"
     }
-  ]
+  ],
+  "topics":[ {"id":1,"topicName":"Intro"}, {"id":2,"topicName":"variables"}, {"id":3,"topicName":"data types"}, {"id":4,"topicName":"Strings"}, {"id":5,"topicName":"arrays"}, {"id":6,"topicName":"objects"}, {"id":7,"topicName":"functions"}, {"id":8,"topicName":"loops"}, {"id":9,"topicName":"conditional statements"}, {"id":10,"topicName":"operators"}, {"id":11,"topicName":"DOM manipulation"}, {"id":12,"topicName":"events"}, {"id":13,"topicName":"callbacks"}, {"id":14,"topicName":"promises"}, {"id":15,"topicName":"async/await"}, {"id":16,"topicName":"classes"}, {"id":17,"topicName":"inheritance"}, {"id":18,"topicName":"closures"}, {"id":19,"topicName":"scope"}, {"id":20,"topicName":"hoisting"}, {"id":21,"topicName":"error handling"}, {"id":22,"topicName":"regular expressions"}, {"id":23,"topicName":"JSON"}, {"id":24,"topicName":"AJAX"}, {"id":25,"topicName":"API"}, {"id":26,"topicName":"WebSockets"}, {"id":27,"topicName":"local storage"}, {"id":28,"topicName":"session storage"}, {"id":29,"topicName":"cookies"}, {"id":30,"topicName":"ES6 features"} ]
 }
