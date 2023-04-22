@@ -322,6 +322,38 @@
     }
 ]
 }
-]
+],
+"challenges": [
+    {
+      "id": 1,
+      "title": "Using var",
+      "description": "Declare a variable `x` using `var` and change its value within an `if` block.",
+      "solution": "var x = 5;\nif (true) {\n  var x = 10;\n  console.log(x); // outputs 10\n}\nconsole.log(x); // outputs 10"
+    },
+    {
+      "id": 2,
+      "title": "Using let",
+      "description": "Declare a variable `x` using `let` and change its value within an `if` block.",
+      "solution": "let x = 5;\nif (true) {\n  let x = 10;\n  console.log(x); // outputs 10\n}\nconsole.log(x); // outputs 5"
+    },
+    {
+      "id": 3,
+      "title": "Using const",
+      "description": "Declare a variable `x` using `const` and try to change its value after initialization.",
+      "solution": "const x = 5;\nx = 10; // this will throw an error\nconsole.log(x);"
+    },
+    {
+      "id": 4,
+      "title": "Using var and let together",
+      "description": "Declare a variable `x` using `var` and a variable `y` using `let`. Change their values within an `if` block and log their values both inside and outside the block.",
+      "solution": "var x = 5;\nlet y = 10;\nif (true) {\n  var x = 15;\n  let y = 20;\n  console.log(x); // outputs 15\n  console.log(y); // outputs 20\n}\nconsole.log(x); // outputs 15\nconsole.log(y); // outputs 10"
+    },
+    {
+      "id": 5,
+      "title": "Using const with an object",
+      "description": "Declare a constant variable `person` with an object containing properties `name` and `age`. Try to reassign the variable itself and change the value of one of its properties.",
+      "solution": "const person = { name: 'John', age: 30 };\nperson.age = 40; // this is allowed\n// person = { name: 'Jane', age: 35 }; // this will throw an error\nconsole.log(person); // outputs { name: 'John', age: 40 }"
+    }
+  ]
 
 }
