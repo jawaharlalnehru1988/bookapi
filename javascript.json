@@ -384,163 +384,186 @@
     "id": 8,
     "title": "let vs. var",
     "description": "What will be logged to the console?",
-    "code": "let funcs = [];\n\nfor (let i = 0; i < 3; i++) {\n  funcs.push(function() {\n    console.log(i);\n  });\n}\n\nfor (let j = 0; j < funcs.length; j++) {\n  funcs[j]();\n}",
-    "solution": "0\n1\n2"
-  },
-  {
+    "code": "let funcs = [];\n\nfor (let i = 0; i < 3; i++) {\n funcs.push(function() {\n console.log(i);\n });\n}\n\nfor (let j = 0; j < funcs.length; j++) {\n funcsj;\n}",
+    "solution": "0\n1\n2",
+    "explanation": "Using let instead of var in the for loop allows for block scoping, which means that each function in the funcs array has access to its own copy of the i variable. As a result, each function logs a different value of i (0, 1, and 2) when executed."
+    },
+    {
     "id": 9,
     "title": "Const and Objects",
     "description": "What will be logged to the console?",
-    "code": "const person = {\n  name: 'John',\n  age: 30\n};\n\nperson.age = 40;\nconsole.log(person.age);",
-    "solution": "40"
-  },
-  {
+    "code": "const person = {\n name: 'John',\n age: 30\n};\n\nperson.age = 40;\nconsole.log(person.age);",
+    "solution": "40",
+    "explanation": "Although person is a constant variable, the properties of the object it references can still be modified. Therefore, reassigning the age property to 40 and logging it to the console results in the value 40 being displayed."
+    },
+    {
     "id": 10,
     "title": "Const and Objects",
     "description": "What will be logged to the console?",
-    "code": "const person = {\n  name: 'John',\n  age: 30\n};\n\nperson = {\n  name: 'Jane',\n  age: 40\n};\nconsole.log(person.name);",
-    "solution": "TypeError: Assignment to constant variable."
-  },
-  {
+    "code": "const person = {\n name: 'John',\n age: 30\n};\n\nperson = {\n name: 'Jane',\n age: 40\n};\nconsole.log(person.name);",
+    "solution": "TypeError: Assignment to constant variable.",
+    "explanation": "Since person is a constant variable, it cannot be reassigned to a new object. Therefore, attempting to do so results in a TypeError."
+    },
+    {
     "id": 11,
     "title": "Hoisting",
     "description": "What will be logged to the console?",
     "code": "console.log(x);\nvar x = 5;",
-    "solution": "undefined"
-  },
-  {
-    "id": 12,
-    "title": "Hoisting",
-    "description": "What will be logged to the console?",
-    "code": "console.log(x);\nlet x = 5;",
-    "solution": "ReferenceError: Cannot access 'x' before initialization"
-  },
-  {
-    "id": 13,
-    "title": "Const and Arrays",
-    "description": "What will be logged to the console?",
-    "code": "const arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);",
-    "solution": "[1, 2, 3, 4]"
-  },
-  {
-    "id": 14,
-    "title": "Const and Arrays",
-    "description": "What will be logged to the console?",
-    "code": "const arr = [1, 2, 3];\narr = [4, 5, 6];\nconsole.log(arr);",
-    "solution": "TypeError: Assignment to constant variable."
-  },
-  {
-    "id": 15,
-    "title": "Scope",
-    "description": "What will be logged to the console?",
-    "code": "let a = 1;\n\nif (true) {\n  let a = 2;\n  console.log(a);\n}\n\nconsole.log(a);",
-    "solution": "2\n1"
-  },
-  {
-    "id": 16,
-    "title": "Var Hoisting",
-    "description": "What will be logged to the console?",
-    "code": "function foo() {\n  console.log(x);\n  var x = 5;\n}\n\nfoo();",
-    "solution": "undefined"
-  },
-  {
-    "id": 17,
-    "title": "Let Hoisting",
-    "description": "What will be logged to the console?",
-    "code": "function foo() {\n  console.log(x);\n  let x = 5;\n}\n\nfoo();",
-    "solution": "ReferenceError: Cannot access 'x' before initialization"
-  },
-  {
-    "id": 18,
-    "title": "Const Arrays",
-    "description": "What will be logged to the console?",
-    "code": "const arr = [1, 2, 3];\narr[0] = 4;\nconsole.log(arr);",
-    "solution": "[4, 2, 3]"
-  },
-  {
-    "id": 19,
-    "title": "Const Objects",
-    "description": "What will be logged to the console?",
-    "code": "const obj = { x: 1 };\nobj.x = 2;\nconsole.log(obj);",
-    "solution": "{ x: 2 }"
-  },
-  {
-    "id": 20,
-    "title": "Scope",
-    "description": "What will be logged to the console?",
-    "code": "let a = 1;\n\nif (true) {\n  const a = 2;\n  console.log(a);\n}\n\nconsole.log(a);",
-    "solution": "2\n1"
-  },
-  {
-    "id": 21,
-    "title": "Var vs Let",
-    "description": "What will be logged to the console?",
-    "code": "for (var i = 0; i < 5; i++) {\n  setTimeout(function() {\n    console.log(i);\n  }, 1000);\n}",
-    "solution": "5\n5\n5\n5\n5"
-  },
-  {
-    "id": 22,
-    "title": "Var vs Let (Fixed)",
-    "description": "What will be logged to the console?",
-    "code": "for (let i = 0; i < 5; i++) {\n  setTimeout(function() {\n    console.log(i);\n  }, 1000);\n}",
-    "solution": "0\n1\n2\n3\n4"
-  },
-  {
-    "id": 23,
-    "title": "Const Object Properties",
-    "description": "What will be logged to the console?",
-    "code": "const person = {\n  name: 'John',\n  age: 30\n};\n\nperson.age = 32;\nconsole.log(person.age);",
-    "solution": "32"
-  },
-  {
-    "id": 24,
-    "title": "Const Array Properties",
-    "description": "What will be logged to the console?",
-    "code": "const arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);",
-    "solution": "[1, 2, 3, 4]"
-  },
-  {
-    "id": 25,
-    "title": "Const Object Reassignment",
-    "description": "What will be logged to the console?",
-    "code": "const person = {\n  name: 'John',\n  age: 30\n};\n\nperson = {\n  name: 'Jane',\n  age: 32\n};\nconsole.log(person);",
-    "solution": "TypeError: Assignment to constant variable."
-  },
-  {
-    "id": 26,
-    "title": "Hoisting with Var",
-    "description": "What will be logged to the console?",
-    "code": "console.log(name);\nvar name = 'John';",
-    "solution": "undefined"
-  },
-  {
-    "id": 27,
-    "title": "Hoisting with Let",
-    "description": "What will be logged to the console?",
-    "code": "console.log(name);\nlet name = 'John';",
-    "solution": "ReferenceError: Cannot access 'name' before initialization"
-  },
-  {
-    "id": 28,
-    "title": "Hoisting with Const",
-    "description": "What will be logged to the console?",
-    "code": "console.log(name);\nconst name = 'John';",
-    "solution": "ReferenceError: Cannot access 'name' before initialization"
-  },
-  {
-    "id": 29,
-    "title": "Function Scoping",
-    "description": "What will be logged to the console?",
-    "code": "var x = 1;\nfunction foo() {\n  console.log(x);\n  var x = 2;\n}\nfoo();",
-    "solution": "undefined"
-  },
-  {
-    "id": 30,
-    "title": "Function Scoping (Fixed)",
-    "description": "What will be logged to the console?",
-    "code": "var x = 1;\nfunction foo() {\n  var x;\n  console.log(x);\n  x = 2;\n}\nfoo();",
-    "solution": "undefined"
-  }
+    "solution": "undefined",
+    "explanation": "Even though the variable x is declared after the console.log statement, the variable declaration is hoisted to the top of the scope by the JavaScript engine. However, the value of x is not set until the line where it is assigned, so attempting to log its value before that point results in undefined being displayed."
+    },
+    {
+      "id": 12,
+      "title": "Hoisting",
+      "description": "What will be logged to the console?",
+      "code": "console.log(x);\nlet x = 5;",
+      "solution": "ReferenceError: Cannot access 'x' before initialization",
+      "explanation": "This code will throw a 'ReferenceError' because 'x' is being logged before it is declared. 'let' and 'const' variables are not hoisted like 'var' variables, so they cannot be accessed before they are declared."
+    },
+    {
+      "id": 13,
+      "title": "Const and Arrays",
+      "description": "What will be logged to the console?",
+      "code": "const arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);",
+      "solution": "[1, 2, 3, 4]",
+      "explanation": "This code will log the array '[1, 2, 3, 4]' to the console. Even though 'arr' is a constant variable, its properties can still be modified. The 'push' method adds the value '4' to the end of the array, resulting in a new array '[1, 2, 3, 4]'."
+    },
+    {
+      "id": 14,
+      "title": "Const and Arrays",
+      "description": "What will be logged to the console?",
+      "code": "const arr = [1, 2, 3];\narr = [4, 5, 6];\nconsole.log(arr);",
+      "solution": "TypeError: Assignment to constant variable.",
+      "explanation": "This code will throw a 'TypeError' because 'arr' is a constant variable and cannot be reassigned a new value. Even though 'arr' is an array and its properties can be modified, the variable itself cannot be reassigned."
+    },
+    {
+      "id": 15,
+      "title": "Scope",
+      "description": "What will be logged to the console?",
+      "code": "let a = 1;\n\nif (true) {\n  let a = 2;\n  console.log(a);\n}\n\nconsole.log(a);",
+      "solution": "2\n1",
+      "explanation": "This code will log '2' and '1' to the console. The first 'console.log' statement inside the 'if' block logs the value of 'a' inside that block, which is '2'. The second 'console.log' statement logs the value of 'a' outside the 'if' block, which is '1'. This is because the 'let' keyword declares a block-scoped variable, so the two 'a' variables are distinct and do not interfere with each other."
+    },
+    {
+      "id": 16,
+      "title": "Var Hoisting",
+      "description": "What will be logged to the console?",
+      "code": "function foo() {\n console.log(x);\n var x = 5;\n}\n\nfoo();",
+      "solution": "undefined",
+      "explanation": "When a variable is declared with 'var', it is hoisted to the top of the function scope, which means that the variable is declared before it is initialized. So, in the 'foo' function, the 'x' variable is declared before the 'console.log' statement, but its value is not yet defined. Therefore, when 'console.log(x)' is executed, it logs 'undefined'."
+      },
+      {
+      "id": 17,
+      "title": "Let Hoisting",
+      "description": "What will be logged to the console?",
+      "code": "function foo() {\n console.log(x);\n let x = 5;\n}\n\nfoo();",
+      "solution": "ReferenceError: Cannot access 'x' before initialization",
+      "explanation": "When a variable is declared with 'let', it is not hoisted to the top of the scope, which means that the variable must be declared and initialized before it can be used. In the 'foo' function, the 'x' variable is declared after the 'console.log' statement, so it cannot be accessed before it is initialized, which results in a 'ReferenceError'."
+      },
+      {
+      "id": 18,
+      "title": "Const Arrays",
+      "description": "What will be logged to the console?",
+      "code": "const arr = [1, 2, 3];\narr[0] = 4;\nconsole.log(arr);",
+      "solution": "[4, 2, 3]",
+      "explanation": "Although a variable declared with 'const' cannot be reassigned, the values of the array or object it points to can be modified. In this case, the first element of the 'arr' array is changed from '1' to '4', and then the entire modified array is logged to the console."
+      },
+      {
+      "id": 19,
+      "title": "Const Objects",
+      "description": "What will be logged to the console?",
+      "code": "const obj = { x: 1 };\nobj.x = 2;\nconsole.log(obj);",
+      "solution": "{ x: 2 }",
+      "explanation": "Like arrays, the values of the properties of an object declared with 'const' can be modified, but the variable itself cannot be reassigned. In this case, the value of the 'x' property of the 'obj' object is changed from '1' to '2', and then the entire modified object is logged to the console."
+      },
+      {
+        "id": 20,
+        "title": "Scope",
+        "description": "What will be logged to the console?",
+        "code": "let a = 1;\n\nif (true) {\n  const a = 2;\n  console.log(a);\n}\n\nconsole.log(a);",
+        "solution": "2\n1",
+        "explanation": "In this example, a variable `a` is declared outside of an if block and initialized with a value of `1`. Inside the if block, a constant `a` is declared and initialized with a value of `2`. When the if block is executed, `a` is logged to the console with a value of `2`. Then, outside of the if block, `a` is logged to the console again, but this time with a value of `1`, as the `const a` inside the if block has a local scope."
+      },
+      {
+        "id": 21,
+        "title": "Var vs Let",
+        "description": "What will be logged to the console?",
+        "code": "for (var i = 0; i < 5; i++) {\n  setTimeout(function() {\n    console.log(i);\n  }, 1000);\n}",
+        "solution": "5\n5\n5\n5\n5",
+        "explanation": "In this example, a for loop is used to iterate from 0 to 4. Inside the loop, a `setTimeout` function is used to log the value of `i` to the console after a delay of 1000ms. However, `i` is declared using `var`, which has a function scope, not a block scope. This means that by the time the `setTimeout` function is executed, the loop has already finished and `i` has a value of `5`. As a result, `5` is logged to the console 5 times."
+      },
+      {
+        "id": 22,
+        "title": "Var vs Let (Fixed)",
+        "description": "What will be logged to the console?",
+        "code": "for (let i = 0; i < 5; i++) {\n  setTimeout(function() {\n    console.log(i);\n  }, 1000);\n}",
+        "solution": "0\n1\n2\n3\n4",
+        "explanation": "This example is similar to the previous one, but `i` is declared using `let`, which has a block scope. This means that each iteration of the loop has its own separate `i` variable, and each `setTimeout` function is executed with the correct value of `i`. As a result, `0`, `1`, `2`, `3`, and `4` are logged to the console, each after a delay of 1000ms."
+      },
+      {
+        "id": 23,
+        "title": "Const Object Properties",
+        "description": "What will be logged to the console?",
+        "code": "const person = {\n  name: 'John',\n  age: 30\n};\n\nperson.age = 32;\nconsole.log(person.age);",
+        "solution": "32",
+        "explanation": "Although `person` is declared as a `const`, the object properties are not immutable. We can change the properties of the object using dot notation or square bracket notation. In this case, we are changing the value of the `age` property from 30 to 32 using dot notation, and then logging the updated `age` property to the console."
+    },    
+    {
+      "id": 24,
+      "title": "Const Array Properties",
+      "description": "What will be logged to the console?",
+      "code": "const arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);",
+      "solution": "[1, 2, 3, 4]",
+      "explanation": "In JavaScript, even though a variable declared with `const` cannot be reassigned, its properties can be modified if it is an object or an array. Here, we declare a `const` array `arr` and push a new element `4` into it. This operation is valid and the array gets modified with the new value. Finally, we log the updated array to the console."
+      },
+      {
+      "id": 25,
+      "title": "Const Object Reassignment",
+      "description": "What will be logged to the console?",
+      "code": "const person = {\n name: 'John',\n age: 30\n};\n\nperson = {\n name: 'Jane',\n age: 32\n};\nconsole.log(person);",
+      "solution": "TypeError: Assignment to constant variable.",
+      "explanation": "In JavaScript, a variable declared with const cannot be reassigned to a new value. In this case, we declare a const variable `person` and try to reassign it to a new object. This operation is not allowed and causes a TypeError to be thrown."
+      },
+      {
+      "id": 26,
+      "title": "Hoisting with Var",
+      "description": "What will be logged to the console?",
+      "code": "console.log(name);\nvar name = 'John';",
+      "solution": "undefined",
+      "explanation": "In JavaScript, variables declared with the `var` keyword are hoisted to the top of their scope. However, their value is not hoisted, only the declaration. In this example, we log the variable `name` before declaring it, which results in the value of `undefined`. The variable is then declared and assigned the value 'John', but this happens after the log statement, so the final output is `undefined`."
+      },
+      {
+        "id": 27,
+        "title": "Hoisting with Let",
+        "description": "What will be logged to the console?",
+        "code": "console.log(name);\nlet name = 'John';",
+        "solution": "ReferenceError: Cannot access 'name' before initialization",
+        "explanation": "Variables declared with let are also hoisted to the top of their scope but are not initialized until their declaration is evaluated. In this case, the console.log() statement tries to access 'name' before it is declared and initialized, resulting in a ReferenceError."
+      },
+      {
+        "id": 28,
+        "title": "Hoisting with Const",
+        "description": "What will be logged to the console?",
+        "code": "console.log(name);\nconst name = 'John';",
+        "solution": "ReferenceError: Cannot access 'name' before initialization",
+        "explanation": "Variables declared with const are also hoisted to the top of their scope but are not initialized until their declaration is evaluated. In this case, the console.log() statement tries to access 'name' before it is declared and initialized, resulting in a ReferenceError."
+      },
+      {
+        "id": 29,
+        "title": "Function Scoping",
+        "description": "What will be logged to the console?",
+        "code": "var x = 1;\nfunction foo() {\n  console.log(x);\n  var x = 2;\n}\nfoo();",
+        "solution": "undefined",
+        "explanation": "The variable 'x' is declared inside the 'foo' function using the 'var' keyword, which means it is hoisted to the top of the function. Therefore, when the 'console.log(x)' statement is executed, 'x' has been declared but has not yet been assigned a value. This is why 'undefined' is logged to the console."
+      },
+      {
+        "id": 30,
+        "title": "Function Scoping (Fixed)",
+        "description": "What will be logged to the console?",
+        "code": "var x = 1;\nfunction foo() {\n  var x;\n  console.log(x);\n  x = 2;\n}\nfoo();",
+        "solution": "undefined",
+        "explanation": "In this example, the variable 'x' is declared inside the 'foo' function using the 'var' keyword, but it is also assigned a value before it is logged to the console. This means that when the 'console.log(x)' statement is executed, 'x' has been declared and assigned a value of 'undefined' due to hoisting. However, since 'x' is assigned a value of '2' after it is logged, 'undefined' is still logged to the console."
+      }
 ]
 
 
