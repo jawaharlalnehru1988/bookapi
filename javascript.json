@@ -564,7 +564,47 @@
         "answer": "undefined",
         "explanation": "In this example, the variable 'x' is declared inside the 'foo' function using the 'var' keyword, but it is also assigned a value before it is logged to the console. This means that when the 'console.log(x)' statement is executed, 'x' has been declared and assigned a value of 'undefined' due to hoisting. However, since 'x' is assigned a value of '2' after it is logged, 'undefined' is still logged to the console."
       }
-]
-
-
+],
+"generalQuestions": [
+  {
+    "id": 1,
+    "question": "Write a function that takes an array of numbers as input and returns the sum of all the even numbers in the array.",
+    "answerCode": "function sumEvenNumbers(arr) {\n  return arr.reduce(function(accumulator, currentValue) {\n    if (currentValue % 2 === 0) {\n      return accumulator + currentValue;\n    } else {\n      return accumulator;\n    }\n  }, 0);\n}",
+    "answerExplained": "This function uses the reduce method to accumulate the sum of all even numbers in the array. It checks each number to see if it's even, and adds it to the accumulator if it is. The initial value of the accumulator is set to 0.",
+    "testingCode": "let myArray = [1, 2, 3, 4, 5, 6];\nconsole.log(sumEvenNumbers(myArray));  // Output: 12",
+    "testExplained": "This code creates an array of numbers and passes it as an argument to the sumEvenNumbers function. It then logs the result of the function to the console."
+  },
+  {
+    "id": 2,
+    "question": "Write a function that takes two numbers as input and returns true if the first number is divisible by the second number, and false otherwise.",
+    "answerCode": "function isDivisibleBy(num1, num2) {\n  return num1 % num2 === 0;\n}",
+    "answerExplained": "This function checks if the first number is divisible by the second number by using the modulo operator (%). If the remainder is 0, then the first number is divisible by the second number.",
+    "testingCode": "console.log(isDivisibleBy(12, 3));  // Output: true\nconsole.log(isDivisibleBy(12, 5));  // Output: false",
+    "testExplained": "This code calls the isDivisibleBy function with two different sets of input numbers, and logs the result to the console for each case."
+  },
+  {
+    "id": 3,
+    "question": "Write a function that takes an array of strings as input and returns a new array that contains only the strings that have a length of at least 5 characters.",
+    "answerCode": "function filterLongStrings(arr) {\n  return arr.filter(function(str) {\n    return str.length >= 5;\n  });\n}",
+    "answerExplained": "This function uses the filter method to create a new array that contains only the strings in the input array that have a length of at least 5 characters.",
+    "testingCode": "let myArray = ['hello', 'world', 'this', 'is', 'a', 'test'];\nconsole.log(filterLongStrings(myArray));  // Output: ['hello', 'world']",
+    "testExplained": "This code creates an array of strings and passes it as an argument to the filterLongStrings function. It then logs the result of the function to the console."
+  },
+  {
+    "id": 4,
+    "question": "Write a function that takes an array of numbers as input and returns the highest number in the array.",
+    "answerCode": "function findMaxNumber(arr) {\n  return Math.max(...arr);\n}",
+    "answerExplained": "This function uses the spread operator (...) to pass the numbers in the array as individual arguments to the Math object's max method. This method returns the highest number in the array.",
+    "testingCode": "let myArray = [1, 5, 3, 8, 2];\nconsole.log(findMaxNumber(myArray)); // Output: 8",
+    "testExplained": "This code creates an array of numbers and passes it as an argument to the findMaxNumber function. It then logs the result of the function to the console."
+    },
+    {
+    "id": 5,
+    "question": "Write a function that takes a string as input and returns true if the string is a palindrome (i.e., it reads the same backwards as forwards), and false otherwise.",
+    "answerCode": "function isPalindrome(str) {\n let reversed = str.split('').reverse().join('');\n return str === reversed;\n}",
+    "answerExplained": "This function first creates a reversed version of the input string by splitting it into an array of characters, reversing the order of the array, and then joining the characters back into a string. It then checks if the reversed string is equal to the original string.",
+    "testingCode": "console.log(isPalindrome('racecar')); // Output: true\nconsole.log(isPalindrome('hello')); // Output: false",
+    "testExplained": "This code calls the isPalindrome function with two different strings, one that is a palindrome and one that is not, and logs the result to the console for each case."
+    }
+    ]
 }
