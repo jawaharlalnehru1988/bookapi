@@ -323,37 +323,218 @@
 ]
 }
 ],
-"challenges": [
-    {
-      "id": 1,
-      "title": "Using var",
-      "description": "Declare a variable `x` using `var` and change its value within an `if` block.",
-      "solution": "var x = 5;\nif (true) {\n  var x = 10;\n  console.log(x); // outputs 10\n}\nconsole.log(x); // outputs 10"
-    },
-    {
-      "id": 2,
-      "title": "Using let",
-      "description": "Declare a variable `x` using `let` and change its value within an `if` block.",
-      "solution": "let x = 5;\nif (true) {\n  let x = 10;\n  console.log(x); // outputs 10\n}\nconsole.log(x); // outputs 5"
-    },
-    {
-      "id": 3,
-      "title": "Using const",
-      "description": "Declare a variable `x` using `const` and try to change its value after initialization.",
-      "solution": "const x = 5;\nx = 10; // this will throw an error\nconsole.log(x);"
-    },
-    {
-      "id": 4,
-      "title": "Using var and let together",
-      "description": "Declare a variable `x` using `var` and a variable `y` using `let`. Change their values within an `if` block and log their values both inside and outside the block.",
-      "solution": "var x = 5;\nlet y = 10;\nif (true) {\n  var x = 15;\n  let y = 20;\n  console.log(x); // outputs 15\n  console.log(y); // outputs 20\n}\nconsole.log(x); // outputs 15\nconsole.log(y); // outputs 10"
-    },
-    {
-      "id": 5,
-      "title": "Using const with an object",
-      "description": "Declare a constant variable `person` with an object containing properties `name` and `age`. Try to reassign the variable itself and change the value of one of its properties.",
-      "solution": "const person = { name: 'John', age: 30 };\nperson.age = 40; // this is allowed\n// person = { name: 'Jane', age: 35 }; // this will throw an error\nconsole.log(person); // outputs { name: 'John', age: 40 }"
-    }
-  ]
+"varConstLetChallenges": [
+  {
+    "id": 1,
+    "title": "Scope",
+    "description": "What will be logged to the console?",
+    "code": "var a = 'Hello';\n\nfunction say() {\n  console.log(a);\n  var a = 'World';\n}\n\nsay();",
+    "answer": "undefined"
+  },
+  {
+    "id": 2,
+    "title": "Scope",
+    "description": "What will be logged to the console?",
+    "code": "let a = 'Hello';\n\nfunction say() {\n  console.log(a);\n  let a = 'World';\n}\n\nsay();",
+    "answer": "ReferenceError: Cannot access 'a' before initialization"
+  },
+  {
+    "id": 3,
+    "title": "Re-assigning variables",
+    "description": "What will be logged to the console?",
+    "code": "var a = 5;\nvar b = 10;\n\nif (a === 5) {\n  var a = 4;\n  let b = 20;\n\n  console.log(a); // 4\n  console.log(b); // 20\n}\n\nconsole.log(a); // 4\nconsole.log(b); // 10",
+    "answer": "4\n20\n4\n10"
+  },
+  {
+    "id": 4,
+    "title": "Re-assigning variables",
+    "description": "What will be logged to the console?",
+    "code": "const a = { name: 'John' };\na.name = 'Jane';\nconsole.log(a.name);",
+    "answer": "Jane"
+  },
+  {
+    "id": 5,
+    "title": "Re-assigning variables",
+    "description": "What will be logged to the console?",
+    "code": "const a = { name: 'John' };\na = { name: 'Jane' };\nconsole.log(a.name);",
+    "answer": "TypeError: Assignment to constant variable."
+  },
+  {
+    "id": 6,
+    "title": "let vs. var",
+    "description": "What will be logged to the console?",
+    "code": "var i = 0;\n\nfor (var i = 0; i < 3; i++) {\n  console.log(i);\n}\n\nconsole.log(i);",
+    "solution": "0\n1\n2\n3"
+  },
+  {
+    "id": 7,
+    "title": "let vs. var",
+    "description": "What will be logged to the console?",
+    "code": "var funcs = [];\n\nfor (var i = 0; i < 3; i++) {\n  funcs.push(function() {\n    console.log(i);\n  });\n}\n\nfor (var j = 0; j < funcs.length; j++) {\n  funcs[j]();\n}",
+    "solution": "3\n3\n3"
+  },
+  {
+    "id": 8,
+    "title": "let vs. var",
+    "description": "What will be logged to the console?",
+    "code": "let funcs = [];\n\nfor (let i = 0; i < 3; i++) {\n  funcs.push(function() {\n    console.log(i);\n  });\n}\n\nfor (let j = 0; j < funcs.length; j++) {\n  funcs[j]();\n}",
+    "solution": "0\n1\n2"
+  },
+  {
+    "id": 9,
+    "title": "Const and Objects",
+    "description": "What will be logged to the console?",
+    "code": "const person = {\n  name: 'John',\n  age: 30\n};\n\nperson.age = 40;\nconsole.log(person.age);",
+    "solution": "40"
+  },
+  {
+    "id": 10,
+    "title": "Const and Objects",
+    "description": "What will be logged to the console?",
+    "code": "const person = {\n  name: 'John',\n  age: 30\n};\n\nperson = {\n  name: 'Jane',\n  age: 40\n};\nconsole.log(person.name);",
+    "solution": "TypeError: Assignment to constant variable."
+  },
+  {
+    "id": 11,
+    "title": "Hoisting",
+    "description": "What will be logged to the console?",
+    "code": "console.log(x);\nvar x = 5;",
+    "solution": "undefined"
+  },
+  {
+    "id": 12,
+    "title": "Hoisting",
+    "description": "What will be logged to the console?",
+    "code": "console.log(x);\nlet x = 5;",
+    "solution": "ReferenceError: Cannot access 'x' before initialization"
+  },
+  {
+    "id": 13,
+    "title": "Const and Arrays",
+    "description": "What will be logged to the console?",
+    "code": "const arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);",
+    "solution": "[1, 2, 3, 4]"
+  },
+  {
+    "id": 14,
+    "title": "Const and Arrays",
+    "description": "What will be logged to the console?",
+    "code": "const arr = [1, 2, 3];\narr = [4, 5, 6];\nconsole.log(arr);",
+    "solution": "TypeError: Assignment to constant variable."
+  },
+  {
+    "id": 15,
+    "title": "Scope",
+    "description": "What will be logged to the console?",
+    "code": "let a = 1;\n\nif (true) {\n  let a = 2;\n  console.log(a);\n}\n\nconsole.log(a);",
+    "solution": "2\n1"
+  },
+  {
+    "id": 16,
+    "title": "Var Hoisting",
+    "description": "What will be logged to the console?",
+    "code": "function foo() {\n  console.log(x);\n  var x = 5;\n}\n\nfoo();",
+    "solution": "undefined"
+  },
+  {
+    "id": 17,
+    "title": "Let Hoisting",
+    "description": "What will be logged to the console?",
+    "code": "function foo() {\n  console.log(x);\n  let x = 5;\n}\n\nfoo();",
+    "solution": "ReferenceError: Cannot access 'x' before initialization"
+  },
+  {
+    "id": 18,
+    "title": "Const Arrays",
+    "description": "What will be logged to the console?",
+    "code": "const arr = [1, 2, 3];\narr[0] = 4;\nconsole.log(arr);",
+    "solution": "[4, 2, 3]"
+  },
+  {
+    "id": 19,
+    "title": "Const Objects",
+    "description": "What will be logged to the console?",
+    "code": "const obj = { x: 1 };\nobj.x = 2;\nconsole.log(obj);",
+    "solution": "{ x: 2 }"
+  },
+  {
+    "id": 20,
+    "title": "Scope",
+    "description": "What will be logged to the console?",
+    "code": "let a = 1;\n\nif (true) {\n  const a = 2;\n  console.log(a);\n}\n\nconsole.log(a);",
+    "solution": "2\n1"
+  },
+  {
+    "id": 21,
+    "title": "Var vs Let",
+    "description": "What will be logged to the console?",
+    "code": "for (var i = 0; i < 5; i++) {\n  setTimeout(function() {\n    console.log(i);\n  }, 1000);\n}",
+    "solution": "5\n5\n5\n5\n5"
+  },
+  {
+    "id": 22,
+    "title": "Var vs Let (Fixed)",
+    "description": "What will be logged to the console?",
+    "code": "for (let i = 0; i < 5; i++) {\n  setTimeout(function() {\n    console.log(i);\n  }, 1000);\n}",
+    "solution": "0\n1\n2\n3\n4"
+  },
+  {
+    "id": 23,
+    "title": "Const Object Properties",
+    "description": "What will be logged to the console?",
+    "code": "const person = {\n  name: 'John',\n  age: 30\n};\n\nperson.age = 32;\nconsole.log(person.age);",
+    "solution": "32"
+  },
+  {
+    "id": 24,
+    "title": "Const Array Properties",
+    "description": "What will be logged to the console?",
+    "code": "const arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);",
+    "solution": "[1, 2, 3, 4]"
+  },
+  {
+    "id": 25,
+    "title": "Const Object Reassignment",
+    "description": "What will be logged to the console?",
+    "code": "const person = {\n  name: 'John',\n  age: 30\n};\n\nperson = {\n  name: 'Jane',\n  age: 32\n};\nconsole.log(person);",
+    "solution": "TypeError: Assignment to constant variable."
+  },
+  {
+    "id": 26,
+    "title": "Hoisting with Var",
+    "description": "What will be logged to the console?",
+    "code": "console.log(name);\nvar name = 'John';",
+    "solution": "undefined"
+  },
+  {
+    "id": 27,
+    "title": "Hoisting with Let",
+    "description": "What will be logged to the console?",
+    "code": "console.log(name);\nlet name = 'John';",
+    "solution": "ReferenceError: Cannot access 'name' before initialization"
+  },
+  {
+    "id": 28,
+    "title": "Hoisting with Const",
+    "description": "What will be logged to the console?",
+    "code": "console.log(name);\nconst name = 'John';",
+    "solution": "ReferenceError: Cannot access 'name' before initialization"
+  },
+  {
+    "id": 29,
+    "title": "Function Scoping",
+    "description": "What will be logged to the console?",
+    "code": "var x = 1;\nfunction foo() {\n  console.log(x);\n  var x = 2;\n}\nfoo();",
+    "solution": "undefined"
+  },
+  {
+    "id": 30,
+    "title": "Function Scoping (Fixed)",
+    "description": "What will be logged to the console?",
+    "code": "var x = 1;\nfunction foo() {\n  var x;\n  console.log(x);\n  x = 2;\n}\nfoo();",
+    "solution": "undefined"
+  }
+]
+
 
 }
