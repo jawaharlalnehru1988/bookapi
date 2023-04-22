@@ -329,49 +329,56 @@
     "title": "Scope",
     "description": "What will be logged to the console?",
     "code": "var a = 'Hello';\n\nfunction say() {\n  console.log(a);\n  var a = 'World';\n}\n\nsay();",
-    "answer": "undefined"
+    "answer": "undefined",
+    "explanation": "When the `say()` function is called, the JavaScript interpreter will look for the value of `a` within the function's scope. However, the `var a` declaration is hoisted to the top of the function, so the local variable `a` is not yet defined when `console.log(a)` is executed. As a result, `undefined` will be logged to the console."
   },
   {
     "id": 2,
     "title": "Scope",
     "description": "What will be logged to the console?",
     "code": "let a = 'Hello';\n\nfunction say() {\n  console.log(a);\n  let a = 'World';\n}\n\nsay();",
-    "answer": "ReferenceError: Cannot access 'a' before initialization"
+    "answer": "ReferenceError: Cannot access 'a' before initialization",
+    "explanation": "In this example, `let` is used to declare the variable `a` inside the `say()` function, which means it has block scope and is not hoisted. Therefore, the interpreter will throw a `ReferenceError` when trying to access `a` before it has been initialized with a value."
   },
   {
     "id": 3,
     "title": "Re-assigning variables",
     "description": "What will be logged to the console?",
     "code": "var a = 5;\nvar b = 10;\n\nif (a === 5) {\n  var a = 4;\n  let b = 20;\n\n  console.log(a); // 4\n  console.log(b); // 20\n}\n\nconsole.log(a); // 4\nconsole.log(b); // 10",
-    "answer": "4\n20\n4\n10"
+    "answer": "4\n20\n4\n10",
+    "explanation": "In this example, two variables are declared and initialized with the values `5` and `10`. Inside the `if` statement, `a` is re-assigned to the value `4`, while a new variable `b` is declared with the value `20`. The `console.log(a)` inside the `if` statement will log `4`, while the one outside the `if` statement will also log `4`. The `console.log(b)` inside the `if` statement will log `20`, while the one outside the `if` statement will log `10` because the `let` declaration has block scope and is not hoisted."
   },
   {
     "id": 4,
     "title": "Re-assigning variables",
     "description": "What will be logged to the console?",
     "code": "const a = { name: 'John' };\na.name = 'Jane';\nconsole.log(a.name);",
-    "answer": "Jane"
+    "answer": "Jane",
+    "explanation": "Although `a` is declared as a constant variable, the object it references can still be modified. In this case, the `name` property of the object referenced by `a` is changed from `John` to `Jane`. Therefore, `Jane` will be logged to the console."
   },
   {
     "id": 5,
     "title": "Re-assigning variables",
     "description": "What will be logged to the console?",
     "code": "const a = { name: 'John' };\na = { name: 'Jane' };\nconsole.log(a.name);",
-    "answer": "TypeError: Assignment to constant variable."
+    "answer": "TypeError: Assignment to constant variable.",
+    "explanation": "When we declare a variable with `const`, we can't reassign it to a new value. In the given code, we are trying to reassign the value of `a` to a new object. This will throw a `TypeError` as we can't change the value of a `const` variable once it has been initialized."
   },
   {
     "id": 6,
     "title": "let vs. var",
     "description": "What will be logged to the console?",
     "code": "var i = 0;\n\nfor (var i = 0; i < 3; i++) {\n  console.log(i);\n}\n\nconsole.log(i);",
-    "solution": "0\n1\n2\n3"
+    "solution": "0\n1\n2\n3",
+    "explanation": "In the first line, we declare and initialize a variable `i` with a value of `0` using `var`. In the `for` loop, we again use `var` to declare and initialize a variable `i`. Since `var` is function-scoped and not block-scoped, the `i` variable declared in the `for` loop overrides the previous `i` variable. Therefore, the `for` loop prints `0`, `1`, and `2` to the console. After the `for` loop, the value of `i` is `3` because the `for` loop incremented the variable one more time than the loop condition allowed."
   },
   {
     "id": 7,
     "title": "let vs. var",
     "description": "What will be logged to the console?",
     "code": "var funcs = [];\n\nfor (var i = 0; i < 3; i++) {\n  funcs.push(function() {\n    console.log(i);\n  });\n}\n\nfor (var j = 0; j < funcs.length; j++) {\n  funcs[j]();\n}",
-    "solution": "3\n3\n3"
+    "solution": "3\n3\n3",
+    "explanation": "In the first `for` loop, we declare a variable `i` with `var`. The anonymous function pushed onto funcs references `i` using closure. Since `var` is function-scoped, not block-scoped, each function in the array references the same variable `i`, which is incremented to `3` by the end of the loop. Therefore, when we call each function in the second `for` loop, the value `3` is printed to the console three times."
   },
   {
     "id": 8,
