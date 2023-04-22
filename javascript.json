@@ -605,6 +605,54 @@
     "answerExplained": "This function first creates a reversed version of the input string by splitting it into an array of characters, reversing the order of the array, and then joining the characters back into a string. It then checks if the reversed string is equal to the original string.",
     "testingCode": "console.log(isPalindrome('racecar')); // Output: true\nconsole.log(isPalindrome('hello')); // Output: false",
     "testExplained": "This code calls the isPalindrome function with two different strings, one that is a palindrome and one that is not, and logs the result to the console for each case."
+    },
+    {
+      "id": 6,
+      "question": "Write a function that takes an array of numbers as input and returns a new array that contains only the numbers that are greater than or equal to 10.",
+      "answerCode": "function filterGreaterThanTen(numbers) {\n  return numbers.filter(num => num >= 10);\n}",
+      "answerExplained": "This function takes an array of numbers and uses the filter method to create a new array containing only the numbers that are greater than or equal to 10.",
+      "testingCode": "let myArray = [2, 5, 10, 15, 20];\nconsole.log(filterGreaterThanTen(myArray));  // Output: [10, 15, 20]",
+      "testExplained": "This code creates an array of numbers and passes it as an argument to the filterGreaterThanTen function. It then logs the result of the function to the console."
+    },
+    {
+      "id": 7,
+      "question": "Write a function that takes an array of strings as input and returns a new array that contains only the strings that start with the letter 'A'.",
+      "answerCode": "function filterStringsStartingWithA(strings) {\n  return strings.filter(str => str.startsWith('A'));\n}",
+      "answerExplained": "This function takes an array of strings and uses the filter method to create a new array containing only the strings that start with the letter 'A'.",
+      "testingCode": "let myArray = ['Apple', 'Banana', 'Avocado', 'Cherry'];\nconsole.log(filterStringsStartingWithA(myArray));  // Output: ['Apple', 'Avocado']",
+      "testExplained": "This code creates an array of strings and passes it as an argument to the filterStringsStartingWithA function. It then logs the result of the function to the console."
+    },
+    {
+      "id": 8,
+      "question": "Write a function that takes an array of numbers as input and returns the product of all the numbers in the array.",
+      "answerCode": "function multiplyNumbers(numbers) {\n  return numbers.reduce((product, num) => product * num);\n}",
+      "answerExplained": "This function takes an array of numbers and uses the reduce method to multiply all the numbers in the array together.",
+      "testingCode": "let myArray = [1, 2, 3, 4, 5];\nconsole.log(multiplyNumbers(myArray));  // Output: 120",
+      "testExplained": "This code creates an array of numbers and passes it as an argument to the multiplyNumbers function. It then logs the result of the function to the console."
+    },
+    {
+      "id": 9,
+      "question": "Write a function that takes two strings as input and returns true if they are anagrams (i.e., they contain the same letters in a different order), and false otherwise.",
+      "answerCode": "function areAnagrams(str1, str2) {\n  let sortedStr1 = str1.toLowerCase().split('').sort().join('');\n  let sortedStr2 = str2.toLowerCase().split('').sort().join('');\n  return sortedStr1 === sortedStr2;\n}",
+      "answerExplained": "This function takes two strings and first converts them to lowercase to make the comparison case-insensitive. It then splits each string into an array of characters, sorts the array, and joins the characters back into a string. Finally, it checks if the two sorted strings are equal to each other.",
+      "testingCode": "let myString1 = 'race';\nlet myString2 = 'care';\nconsole.log(areAnagrams(myString1, myString2));  // Output: true",
+      "testExplained": "This code creates two strings and passes them as arguments to the areAnagrams function. It then logs the result of the function to the console."
+    },
+    {
+      "id": 10,
+      "question": "Write a function that takes an array of numbers as input and returns the average (mean) of all the numbers in the array.",
+      "answerCode": "function getAverage(numbers) {\n  let sum = numbers.reduce((total, num) => total + num);\n  return sum / numbers.length;\n}",
+      "answerExplained": "This function takes an array of numbers and first uses the reduce method to calculate the sum of all the numbers in the array. It then divides the sum by the length of the array to get the average.",
+      "testingCode": "let myArray = [1, 2, 3, 4, 5];\nconsole.log(getAverage(myArray));  // Output: 3",
+      "testExplained": "This code creates an array of numbers and passes it as an argument to the getAverage function. It then logs the result of the function to the console."
+    },
+    {
+      "id": 11,
+      "question": "Write a function that takes a string as input and returns true if the string contains only letters (A-Z or a-z), and false otherwise.",
+      "answerCode": "function containsOnlyLetters(str) {\n  let regex = /^[A-Za-z]+$/;\n  return regex.test(str);\n}",
+      "answerExplained": "This function takes a string and uses a regular expression to check if the string contains only letters. The regular expression matches any string that contains one or more letters from A to Z (uppercase or lowercase), and the ^ and $ symbols ensure that the entire string is matched.",
+      "testingCode": "let myString = 'Hello, world!';\nconsole.log(containsOnlyLetters(myString));  // Output: false",
+      "testExplained": "This code creates a string and passes it as an argument to the containsOnlyLetters function. It then logs the result of the function to the console."
     }
     ]
 }
