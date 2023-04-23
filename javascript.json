@@ -607,6 +607,14 @@
     "testExplained": "This code creates an array of numbers and passes it as an argument to the findMaxNumber function. It then logs the result of the function to the console."
     },
     {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of numbers as input and returns the highest number in the array.",
+      "answerCode": "function findMax(arr) {\n  let max = arr[0];\n  for (let i = 1; i < arr.length; i++) {\n    if (arr[i] > max) {\n      max = arr[i];\n    }\n  }\n  return max;\n}",
+      "answerExplained": "This function takes an array `arr` as input and initializes the `max` variable to the first element of the array. It then loops through the array from the second element to the last element, and if the current element is greater than `max`, it updates `max` to the current element. After the loop completes, the function returns `max`, which is the highest number in the array.",
+      "testingCode": "const numbers = [4, 2, 8, 1, 5];\nconst highest = findMax(numbers);\nconsole.log(highest); // Output: 8",
+      "testExplained": "This code snippet creates an array of numbers `numbers` and assigns it `[4, 2, 8, 1, 5]`. It then calls the `findMax` function with `numbers` as input, and assigns the result to `highest`. Finally, it logs `highest` to the console, which should output `8` since `8` is the highest number in the `numbers` array."
+    },    
+    {
     "id": 5,
     "question": "Write a function that takes a string as input and returns true if the string is a palindrome (i.e., it reads the same backwards as forwards), and false otherwise.",
     "answerCode": "function isPalindrome(str) {\n let reversed = str.split('').reverse().join('');\n return str === reversed;\n}",
@@ -614,6 +622,14 @@
     "testingCode": "console.log(isPalindrome('racecar')); // Output: true\nconsole.log(isPalindrome('hello')); // Output: false",
     "testExplained": "This code calls the isPalindrome function with two different strings, one that is a palindrome and one that is not, and logs the result to the console for each case."
     },
+    {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes a string as input and returns true if the string is a palindrome (i.e., it reads the same backwards as forwards), and false otherwise.",
+      "answerCode": "function isPalindrome(str) {\n  for (let i = 0; i < str.length / 2; i++) {\n    if (str[i] !== str[str.length - 1 - i]) {\n      return false;\n    }\n  }\n  return true;\n}",
+      "answerExplained": "This function takes a string `str` as input and loops through the first half of the string using a for loop. It checks whether the character at the current position is the same as the character at the corresponding position from the end of the string. If any characters don't match, the function returns `false` immediately, indicating that the string is not a palindrome. If the loop completes without finding any non-matching characters, the function returns `true`, indicating that the string is a palindrome.",
+      "testingCode": "const str1 = 'racecar';\nconst str2 = 'hello';\nconsole.log(isPalindrome(str1)); // Output: true\nconsole.log(isPalindrome(str2)); // Output: false",
+      "testExplained": "This code snippet creates two strings, `str1` and `str2`, and assigns them `'racecar'` and `'hello'`, respectively. It then calls the `isPalindrome` function with `str1` and `str2` as inputs and logs the results to the console. The first call should output `true` since `'racecar'` is a palindrome, and the second call should output `false` since `'hello'` is not a palindrome."
+    },    
     {
       "id": 6,
       "question": "Write a function that takes an array of numbers as input and returns a new array that contains only the numbers that are greater than or equal to 10.",
@@ -623,6 +639,14 @@
       "testExplained": "This code creates an array of numbers and passes it as an argument to the filterGreaterThanTen function. It then logs the result of the function to the console."
     },
     {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of numbers as input and returns a new array that contains only the numbers that are greater than or equal to 10.",
+      "answerCode": "function filterGreaterThanOrEqual(arr) {\n  let result = [];\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i] >= 10) {\n      result.push(arr[i]);\n    }\n  }\n  return result;\n}",
+      "answerExplained": "This function takes an array `arr` as input and creates a new empty array called `result`. It then loops through each element in the input array using a for loop, and checks whether the current element is greater than or equal to 10. If it is, the function adds the element to the `result` array using the `push()` method. After the loop completes, the function returns the `result` array containing only the elements that are greater than or equal to 10.",
+      "testingCode": "const arr1 = [1, 3, 5, 10, 15, 20];\nconst arr2 = [8, 12, 17, 4, 6];\nconsole.log(filterGreaterThanOrEqual(arr1)); // Output: [10, 15, 20]\nconsole.log(filterGreaterThanOrEqual(arr2)); // Output: [12, 17]",
+      "testExplained": "This code snippet creates two arrays, `arr1` and `arr2`, and assigns them `[1, 3, 5, 10, 15, 20]` and `[8, 12, 17, 4, 6]`, respectively. It then calls the `filterGreaterThanOrEqual` function with `arr1` and `arr2` as inputs and logs the results to the console. The first call should output `[10, 15, 20]` since those are the numbers in `arr1` that are greater than or equal to 10, and the second call should output `[12, 17]` since those are the numbers in `arr2` that are greater than or equal to 10."
+    },    
+    {
       "id": 7,
       "question": "Write a function that takes an array of strings as input and returns a new array that contains only the strings that start with the letter 'A'.",
       "answerCode": "function filterStringsStartingWithA(strings) {\n  return strings.filter(str => str.startsWith('A'));\n}",
@@ -630,6 +654,14 @@
       "testingCode": "let myArray = ['Apple', 'Banana', 'Avocado', 'Cherry'];\nconsole.log(filterStringsStartingWithA(myArray));  // Output: ['Apple', 'Avocado']",
       "testExplained": "This code creates an array of strings and passes it as an argument to the filterStringsStartingWithA function. It then logs the result of the function to the console."
     },
+    {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of strings as input and returns a new array that contains only the strings that start with the letter 'A'.",
+      "answerCode": "function filterStringsStartingWithA(arr) {\n  let result = [];\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i][0] === 'A' || arr[i][0] === 'a') {\n      result.push(arr[i]);\n    }\n  }\n  return result;\n}",
+      "answerExplained": "This function takes an array `arr` as input and creates a new empty array called `result`. It then loops through each element in the input array using a for loop, and checks whether the first letter of the current element is 'A' (case-insensitive). If it is, the function adds the element to the `result` array using the `push()` method. After the loop completes, the function returns the `result` array containing only the elements that start with the letter 'A'.",
+      "testingCode": "const arr1 = ['Apple', 'Banana', 'apricot', 'Avocado'];\nconst arr2 = ['ant', 'bat', 'cat', 'Aardvark'];\nconsole.log(filterStringsStartingWithA(arr1)); // Output: ['Apple', 'apricot', 'Avocado']\nconsole.log(filterStringsStartingWithA(arr2)); // Output: ['Aardvark']",
+      "testExplained": "This code snippet creates two arrays, `arr1` and `arr2`, and assigns them `['Apple', 'Banana', 'apricot', 'Avocado']` and `['ant', 'bat', 'cat', 'Aardvark']`, respectively. It then calls the `filterStringsStartingWithA` function with `arr1` and `arr2` as inputs and logs the results to the console. The first call should output `['Apple', 'apricot', 'Avocado']` since those are the strings in `arr1` that start with the letter 'A' (case-insensitive), and the second call should output `['Aardvark']` since that is the string in `arr2` that starts with the letter 'A' (case-insensitive)."
+    },    
     {
       "id": 8,
       "question": "Write a function that takes an array of numbers as input and returns the product of all the numbers in the array.",
@@ -639,6 +671,14 @@
       "testExplained": "This code creates an array of numbers and passes it as an argument to the multiplyNumbers function. It then logs the result of the function to the console."
     },
     {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of numbers as input and returns the product of all the numbers in the array.",
+      "answerCode": "function getProductOfArray(arr) {\n  let product = 1;\n  for (let i = 0; i < arr.length; i++) {\n    product *= arr[i];\n  }\n  return product;\n}",
+      "answerExplained": "This function takes an array `arr` as input and initializes a variable `product` to `1`. It then loops through each element in the input array using a for loop, and multiplies the current element with the `product` variable. This way, each element is multiplied with the previous result to get the product of all the numbers in the array. After the loop completes, the function returns the final product.",
+      "testingCode": "const arr1 = [1, 2, 3, 4, 5];\nconst arr2 = [2, 4, 6];\nconsole.log(getProductOfArray(arr1)); // Output: 120\nconsole.log(getProductOfArray(arr2)); // Output: 48",
+      "testExplained": "This code snippet creates two arrays, `arr1` and `arr2`, and assigns them `[1, 2, 3, 4, 5]` and `[2, 4, 6]`, respectively. It then calls the `getProductOfArray` function with `arr1` and `arr2` as inputs and logs the results to the console. The first call should output `120` since the product of all numbers in `arr1` is `1 * 2 * 3 * 4 * 5 = 120`, and the second call should output `48` since the product of all numbers in `arr2` is `2 * 4 * 6 = 48`."
+    },    
+    {
       "id": 9,
       "question": "Write a function that takes two strings as input and returns true if they are anagrams (i.e., they contain the same letters in a different order), and false otherwise.",
       "answerCode": "function areAnagrams(str1, str2) {\n  let sortedStr1 = str1.toLowerCase().split('').sort().join('');\n  let sortedStr2 = str2.toLowerCase().split('').sort().join('');\n  return sortedStr1 === sortedStr2;\n}",
@@ -647,6 +687,14 @@
       "testExplained": "This code creates two strings and passes them as arguments to the areAnagrams function. It then logs the result of the function to the console."
     },
     {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes two strings as input and returns true if they are anagrams (i.e., they contain the same letters in a different order), and false otherwise, using a for loop.",
+      "answerCode": "function isAnagram(str1, str2) {\n  if (str1.length !== str2.length) {\n    return false;\n  }\n\n  const charCounts = {};\n\n  // Count characters in str1\n  for (let i = 0; i < str1.length; i++) {\n    const char = str1[i];\n    charCounts[char] = charCounts[char] ? charCounts[char] + 1 : 1;\n  }\n\n  // Compare with characters in str2\n  for (let i = 0; i < str2.length; i++) {\n    const char = str2[i];\n    if (!charCounts[char]) {\n      return false;\n    }\n    charCounts[char]--;\n  }\n\n  return true;\n}",
+      "answerExplained": "This function first checks if the lengths of the two strings are equal. If they're not equal, then the function immediately returns false. If they are equal, the function creates an empty object `charCounts` to store the character counts for each character in `str1`. It then uses a for loop to count the characters in `str1`. For each character, the function either increments the count for that character in `charCounts` or initializes it to 1 if it hasn't been seen before.\n\nNext, the function uses another for loop to compare the characters in str2 to the counts in charCounts. For each character in str2, the function checks if the character exists in charCounts. If it doesn't, then the two strings are not anagrams, and the function returns false. Otherwise, the function decrements the count for that character in charCounts.\n\nIf the function makes it through the entire loop without returning false, then the two strings are anagrams, and the function returns true.",
+      "testingCode": "console.log(isAnagram('listen', 'silent')); // true\nconsole.log(isAnagram('hello', 'world')); // false\nconsole.log(isAnagram('A gentleman', 'Elegant man')); // true",
+      "testExplained": "The first test case checks if the function correctly identifies the anagram 'listen' and 'silent'. The second test case checks if the function correctly identifies the non-anagram 'hello' and 'world'. The third test case checks if the function correctly identifies the anagram 'A gentleman' and 'Elegant man', ignoring the spaces and case differences."
+    },    
+    {
       "id": 10,
       "question": "Write a function that takes an array of numbers as input and returns the average (mean) of all the numbers in the array.",
       "answerCode": "function getAverage(numbers) {\n  let sum = numbers.reduce((total, num) => total + num);\n  return sum / numbers.length;\n}",
@@ -654,6 +702,14 @@
       "testingCode": "let myArray = [1, 2, 3, 4, 5];\nconsole.log(getAverage(myArray));  // Output: 3",
       "testExplained": "This code creates an array of numbers and passes it as an argument to the getAverage function. It then logs the result of the function to the console."
     },
+    {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of numbers as input and returns the average (mean) of all the numbers in the array.",
+      "answerCode": "function calculateAverage(nums) {\n  let sum = 0;\n  for (let i = 0; i < nums.length; i++) {\n    sum += nums[i];\n  }\n  return sum / nums.length;\n}",
+      "answerExplained": "This function takes an array of numbers as input and uses a for loop to iterate through the array and add up all the numbers. It then divides the sum by the length of the array to calculate the average.",
+      "testingCode": "console.log(calculateAverage([1, 2, 3, 4, 5])); // 3\nconsole.log(calculateAverage([10, 20, 30])); // 20\nconsole.log(calculateAverage([-1, 0, 1])); // 0",
+      "testExplained": "The first test case checks if the function correctly calculates the average of the numbers 1 through 5. The second test case checks if the function correctly calculates the average of the numbers 10, 20, and 30. The third test case checks if the function correctly calculates the average of the numbers -1, 0, and 1."
+    },    
     {
       "id": 11,
       "question": "Write a function that takes a string as input and returns true if the string contains only letters (A-Z or a-z), and false otherwise.",
