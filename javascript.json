@@ -717,6 +717,149 @@
       "answerExplained": "This function takes a string and uses a regular expression to check if the string contains only letters. The regular expression matches any string that contains one or more letters from A to Z (uppercase or lowercase), and the ^ and $ symbols ensure that the entire string is matched.",
       "testingCode": "let myString = 'Hello, world!';\nconsole.log(containsOnlyLetters(myString));  // Output: false",
       "testExplained": "This code creates a string and passes it as an argument to the containsOnlyLetters function. It then logs the result of the function to the console."
+    },
+    {
+      "id": 12,
+      "question": "Write a function that takes an array of strings as input and returns the longest string in the array.",
+      "answerCode": "function findLongestString(arr) {\n  return arr.reduce((longest, current) => {\n    return current.length > longest.length ? current : longest;\n  }, '');\n}",
+      "answerExplained": "The `reduce` method takes a callback function that is called for each element in the array. The first argument to the callback function is an accumulator that starts with an initial value (in this case, an empty string). The second argument is the current element being processed. In the callback function, we compare the length of the current element to the length of the accumulator. If the current element is longer, we return it; otherwise, we return the accumulator. The final value of the accumulator is returned by `reduce`.",
+      "testingCode": "console.log(findLongestString(['cat', 'dog', 'elephant', 'giraffe'])); // 'elephant'\nconsole.log(findLongestString(['hello', 'world', 'foo', 'bar', 'baz'])); // 'world'\nconsole.log(findLongestString(['JavaScript', 'Python', 'Ruby', 'Java'])); // 'JavaScript'",
+      "testExplained": "The first test case checks if the function correctly identifies 'elephant' as the longest string in the array. The second test case checks if the function correctly identifies 'world' as the longest string in the array. The third test case checks if the function correctly identifies 'JavaScript' as the longest string in the array."
+    },
+    {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of strings as input and returns the longest string in the array.",
+      "answerCode": "function findLongestString(arr) {\n  let longest = '';\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i].length > longest.length) {\n      longest = arr[i];\n    }\n  }\n  return longest;\n}",
+      "answerExplained": "This function takes an array of strings as input and initializes a `longest` variable to an empty string. It then uses a for loop to iterate through the array and compares the length of each string to the length of the current `longest` string. If a longer string is found, it is stored in the `longest` variable.",
+      "testingCode": "console.log(findLongestString(['cat', 'dog', 'elephant', 'giraffe'])); // 'elephant'\nconsole.log(findLongestString(['hello', 'world', 'foo', 'bar', 'baz'])); // 'world'\nconsole.log(findLongestString(['JavaScript', 'Python', 'Ruby', 'Java'])); // 'JavaScript'",
+      "testExplained": "The first test case checks if the function correctly identifies 'elephant' as the longest string in the array. The second test case checks if the function correctly identifies 'world' as the longest string in the array. The third test case checks if the function correctly identifies 'JavaScript' as the longest string in the array."
+    },
+    {
+      "id": 13,
+      "question": "Write a function that takes a number as input and returns true if the number is prime (i.e., it is only divisible by 1 and itself), and false otherwise.",
+      "answerCode": "function isPrime(num) {\n  return Math.isPrime(num);\n}",
+      "answerExplained": "In JavaScript, there is a built-in method called `isPrime()` in the `math` object that can be used to check if a number is prime. However, this method is not widely supported by all browsers, so it's recommended to use a for loop instead.",
+      "testingCode": "console.log(isPrime(7)); // true\nconsole.log(isPrime(12)); // false\nconsole.log(isPrime(23)); // true",
+      "testExplained": "The first test case checks if the function correctly identifies 7 as a prime number. The second test case checks if the function correctly identifies 12 as not a prime number. The third test case checks if the function correctly identifies 23 as a prime number."
+    },
+    {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes a number as input and returns true if the number is prime (i.e., it is only divisible by 1 and itself), and false otherwise.",
+      "answerCode": "function isPrime(num) {\n  if (num < 2) return false; // 0 and 1 are not prime\n  for (let i = 2; i <= Math.sqrt(num); i++) {\n    if (num % i === 0) return false;\n  }\n  return true;\n}",
+      "answerExplained": "The function first checks if the input number is less than 2 (since 0 and 1 are not prime), and returns false if it is. Next, the function uses a for loop to check if the number is divisible by any number from 2 to the square root of the number. If it is, the function returns false; otherwise, it returns true.",
+      "testingCode": "console.log(isPrime(7)); // true\nconsole.log(isPrime(12)); // false\nconsole.log(isPrime(23)); // true",
+      "testExplained": "The first test case checks if the function correctly identifies 7 as a prime number. The second test case checks if the function correctly identifies 12 as not a prime number. The third test case checks if the function correctly identifies 23 as a prime number."
+    },
+    {
+      "id": 13,
+      "question": "Write a function that takes an array of numbers as input and returns a new array that contains only the numbers that are odd.",
+      "answerCode": "function filterOddNumbers(arr) {\n  return arr.filter(num => num % 2 !== 0);\n}",
+      "answerExplained": "The function uses the `filter()` method on the input array to create a new array that only contains the elements that pass the given test, in this case, those that have a remainder of 1 when divided by 2.",
+      "testingCode": "console.log(filterOddNumbers([1, 2, 3, 4, 5])); // [1, 3, 5]\nconsole.log(filterOddNumbers([2, 4, 6, 8, 10])); // []\nconsole.log(filterOddNumbers([-1, 0, 1, 2, 3])); // [-1, 1, 3]",
+      "testExplained": "The first test case checks if the function correctly filters out the even numbers from an array of mixed numbers. The second test case checks if the function correctly returns an empty array when given an array of only even numbers. The third test case checks if the function correctly filters out even numbers and returns only the odd numbers, including negative numbers."
+    },
+    {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of numbers as input and returns a new array that contains only the numbers that are odd.",
+      "answerCode": "function filterOddNumbers(arr) {\n  const result = [];\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i] % 2 !== 0) {\n      result.push(arr[i]);\n    }\n  }\n  return result;\n}",
+      "answerExplained": "The function initializes an empty array `result`, then iterates through each element in the input array using a for loop. If an element is odd (i.e. it has a remainder of 1 when divided by 2), it is added to the `result` array using the `push()` method. Finally, the `result` array is returned.",
+      "testingCode": "console.log(filterOddNumbers([1, 2, 3, 4, 5])); // [1, 3, 5]\nconsole.log(filterOddNumbers([2, 4, 6, 8, 10])); // []\nconsole.log(filterOddNumbers([-1, 0, 1, 2, 3])); // [-1, 1, 3]",
+      "testExplained": "The first test case checks if the function correctly filters out the even numbers from an array of mixed numbers. The second test case checks if the function correctly returns an empty array when given an array of only even numbers. The third test case checks if the function correctly filters out even numbers and returns only the odd numbers, including negative numbers."
+    },
+    {
+      "id": 14,
+      "question": "Write a function that takes a string as input and returns true if the string is a valid email address (i.e., it contains an @ symbol and a valid domain name), and false otherwise.",
+      "answerCode": "function isValidEmail(email) {\n  if (email.indexOf('@') === -1) {\n    return false;\n  }\n\n  const [local, domain] = email.split('@');\n\n  const domainParts = domain.split('.');\n  if (domainParts.length < 2) {\n    return false;\n  }\n  for (const part of domainParts) {\n    if (!/^[a-zA-Z0-9-]+$/.test(part)) {\n      return false;\n    }\n  }\n\n  return true;\n}",
+      "answerExplained": "The function takes a string `email` as input.\nIt first checks if the email contains an \"@\" symbol using the `indexOf()` method. If it doesn't, it returns `false`.\nIf it does contain an \"@\", it splits the email into the local and domain parts using the `split()` method.\nIt then checks if the domain part is a valid domain name by splitting it into parts using the `split()` method and checking each part using a regular expression. The regular expression `/^[a-zA-Z0-9-]+$/` matches any string that contains only letters, numbers, and hyphens.\nIf the domain is not valid, it returns `false`. Otherwise, it returns `true`.",
+      "testingCode": "console.log(isValidEmail('example@example.com')); // true\nconsole.log(isValidEmail('example@.com')); // false\nconsole.log(isValidEmail('example.com')); // false\nconsole.log(isValidEmail('example@com')); // false",
+      "testExplained": "We test the function using different email inputs:\n- The first test case checks a valid email address, which should return `true`.\n- The second test case checks an email address that doesn't have a valid domain name, which should return `false`.\n- The third test case checks an email address that doesn't have an \"@\" symbol, which should return `false`.\n- The fourth test case checks an email address that has an invalid format, which should return `false`."
+    },
+    {
+      "id": 15,
+      "question": "Write a function that takes an array of strings as input and returns a new array that contains only the strings that are all uppercase.",
+      "answerCode": "function filterUppercaseStrings(arr) {\n return arr.filter(str => str === str.toUpperCase());\n}",
+      "answerExplained": "The function first uses the filter method on the input array to create a new array that only includes the strings that meet the specified condition. The condition is that the string is equal to itself in uppercase form, which means that all the letters are uppercase. If the string does not meet this condition, it is filtered out of the new array. The function then returns this new array that only contains strings that are all uppercase.",
+      "testingCode": "const input = ['HELLO', 'WORLD', 'Goodbye', 'BYE'];\nconst expectedOutput = ['HELLO', 'WORLD'];\n\n// Ensure function is correct\nassert.deepStrictEqual(filterUppercaseStrings(input), expectedOutput);\n\n// Ensure input array is not mutated\nassert.deepStrictEqual(input, ['HELLO', 'WORLD', 'Goodbye', 'BYE']);\n\n// Ensure function works with an empty array\nassert.deepStrictEqual(filterUppercaseStrings([]), []);\n\n// Ensure function works when given an array with only lowercase strings\nassert.deepStrictEqual(filterUppercaseStrings(['hello', 'world']), []);",
+      "testExplained": "The testing code first sets up an input array with a mix of uppercase and lowercase strings, and an expected output array that only includes the uppercase strings from the input array. The code then uses the assert.deepStrictEqual() method to compare the output of the filterUppercaseStrings() function with the expected output array, to ensure that the function is correctly filtering out the lowercase strings. The testing code also checks that the input array is not mutated by the function, and that the function works correctly when given an empty array or an array with only lowercase strings."
+    },
+    {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of strings as input and returns a new array that contains only the strings that are all uppercase.",
+      "answerCode": "function getUpperCaseStrings(arr) {\n  const result = [];\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i] === arr[i].toUpperCase()) {\n      result.push(arr[i]);\n    }\n  }\n  return result;\n}",
+      "answerExplained": "This function takes an array of strings as input and returns a new array that contains only the strings that are all uppercase. It uses a for loop to iterate through each element in the input array and checks if the string is all uppercase using the `toUpperCase()` method. If the string is all uppercase, it is added to the `result` array using the `push()` method.",
+      "testingCode": "console.log(getUpperCaseStrings(['HELLO', 'world', 'ALL', 'CAPS'])); // Expected output: ['HELLO', 'ALL']\nconsole.log(getUpperCaseStrings(['UPPER', 'lower', 'MiXeD', 'cAsE'])); // Expected output: ['UPPER']",
+      "testExplained": "This test code calls the `getUpperCaseStrings()` function with different input arrays and checks if the output is as expected using `console.log()`. The first test case checks if the function returns an array that contains only the uppercase strings in the input array. The second test case checks if the function correctly identifies that there is only one uppercase string in the input array."
+    },
+    {
+      "id": 16,
+      "question": "Write a function that takes an array of numbers as input and returns the sum of all the numbers that are greater than 0 and less than 10.",
+      "answerCode": "function sumNumbersBetween0And10(numbers) {\n  return numbers.reduce((sum, num) => {\n    if (num > 0 && num < 10) {\n      return sum + num;\n    } else {\n      return sum;\n    }\n  }, 0);\n}",
+      "answerExplained": "This function takes an array of numbers as input and uses the reduce() method to sum only the numbers that are greater than 0 and less than 10.",
+      "testingCode": "console.log(sumNumbersBetween0And10([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); // expected output: 45\nconsole.log(sumNumbersBetween0And10([-1, 0, 1, 5, 10, 15])); // expected output: 6",
+      "testExplained": "This test case calls the function with two different arrays of numbers and checks if the output is as expected."
+    },
+    {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of numbers as input and returns the sum of all the numbers that are greater than 0 and less than 10.",
+      "answerCode": "function sumOfNumbersInRange(arr) {\n  let sum = 0;\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i] > 0 && arr[i] < 10) {\n      sum += arr[i];\n    }\n  }\n  return sum;\n}",
+      "answerExplained": "The function first initializes a variable `sum` to 0. It then loops through each element of the input array `arr` using a for loop. If an element is greater than 0 and less than 10, it adds the element to the `sum` variable. Finally, the function returns the `sum` variable.",
+      "testingCode": "console.log(sumOfNumbersInRange([2, 3, 5, 8, 10, 12])); // Output: 18\nconsole.log(sumOfNumbersInRange([-5, 0, 15, 7, 8, 2])); // Output: 10",
+      "testExplained": "The function is called with two test cases. The first test case checks that the function correctly sums the numbers 2, 3, 5, and 8, which are all greater than 0 and less than 10, and ignores the numbers 10 and 12. The expected output is 18. The second test case checks that the function correctly sums the numbers 7 and 8, which are both greater than 0 and less than 10, and ignores the other numbers. The expected output is 10."
+    },
+    {
+      "id": 17,
+      "question": "Write a function that takes a string as input and returns true if the string is a valid URL (i.e., it starts with http:// or https://), and false otherwise.",
+      "answerCode": "function isValidUrl(str) {\n  var pattern = /^(http:\\/\\/www\\.|https:\\/\\/www\\.|http:\\/\\/|https:\\/\\/)[a-z0-9]+([\\-\\.{1}[a-z0-9]+)*\\.[a-z]{2,5}(:[0-9]{1,5})?(\\/\\.*)?$/;\n  return pattern.test(str);\n}",
+      "answerExplained": "This function uses a regular expression pattern to match a valid URL. The pattern matches strings that start with 'http://www.', 'https://www.', 'http://', or 'https://', followed by a valid domain name and an optional port number and path.",
+      "testingCode": "console.log(isValidUrl(\"https://www.example.com\")); // true\nconsole.log(isValidUrl(\"http://example.com\")); // true\nconsole.log(isValidUrl(\"www.example.com\")); // false",
+      "testExplained": "These tests check if the function correctly identifies valid URLs. The first two tests should return true because the input strings start with 'https://' and 'http://', respectively. The third test should return false because the input string does not start with 'http://' or 'https://'."
+    },
+    {
+      "id": 18,
+      "question": "Write a function that takes an array of strings as input and returns a new array that contains only the strings that end with the letter \"s\".",
+      "answerCode": "function stringsEndingWithS(arr) {\n  let result = [];\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i].endsWith(\"s\")) {\n      result.push(arr[i]);\n    }\n  }\n  return result;\n}",
+      "answerExplained": "This function takes an array of strings as input and creates a new array that only contains the strings that end with the letter \"s\". It does this by iterating through the input array using a `for` loop and checking if each string in the array ends with \"s\" using the `endsWith()` method. If the string does end with \"s\", it is added to the `result` array using the `push()` method. Finally, the function returns the `result` array.",
+      "testingCode": "console.log(stringsEndingWithS([\"cats\", \"dogs\", \"lions\", \"tigers\"])); // Output: [\"cats\", \"lions\"]",
+      "testExplained": "This test case inputs an array of strings containing the words \"cats\", \"dogs\", \"lions\", and \"tigers\". The expected output is a new array containing only the strings that end with the letter \"s\", which are \"cats\" and \"lions\". The `console.log()` statement outputs the returned array, which should match the expected output."
+    },
+    {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of strings as input and returns a new array that contains only the strings that end with the letter \"s\".",
+      "answerCode": "function stringsEndingWithS(arr) {\n  return arr.filter(str => str.endsWith('s'));\n}",
+      "answerExplained": "The `filter()` method creates a new array by iterating over the input array and selecting only the elements that satisfy a given condition. In this case, the condition is that the element should end with the letter \"s\". The `endsWith()` method is used to check if the element ends with the letter \"s\".",
+      "testingCode": "const arr = ['apples', 'bananas', 'oranges', 'grapes'];\nconst filteredArr = stringsEndingWithS(arr);\nconsole.log(filteredArr); // Output: ['apples', 'oranges']",
+      "testingExplained": "We can test the function by passing an array of strings as input and verifying that the output contains only the strings that end with the letter \"s\"."
+    },
+    {
+      "id": 19,
+      "question": "Write a function that takes an array of numbers as input and returns the second highest number in the array.",
+      "answerCode": "function findSecondHighest(arr) {\n  let highest = -Infinity;\n  let secondHighest = -Infinity;\n\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i] > highest) {\n      secondHighest = highest;\n      highest = arr[i];\n    } else if (arr[i] > secondHighest && arr[i] < highest) {\n      secondHighest = arr[i];\n    }\n  }\n\n  return secondHighest;\n}",
+      "answerExplained": "This function first initializes `highest` and `secondHighest` variables to -Infinity. Then, it loops through the array, updating these variables if a higher value is found. Finally, it returns the second highest number.",
+      "testingCode": "const arr1 = [1, 2, 3, 4, 5];\nconst arr2 = [10, 20, 30, 40, 50];\nconst arr3 = [9, 4, 7, 2, 1];\n\nconsole.log(findSecondHighest(arr1)); // Expected output: 4\nconsole.log(findSecondHighest(arr2)); // Expected output: 40\nconsole.log(findSecondHighest(arr3)); // Expected output: 7",
+      "testExplained": "This test code creates three arrays, one with the second highest number in the middle, one with the second highest number at the end, and one with the second highest number in the middle again. The function is called on each array, and the expected output is printed for each one."
+    },
+    {
+      "id": 20,
+      "question": "Write a function that takes an array of numbers as input and returns the second highest number in the array.",
+      "answerCode": "function findSecondHighest(numbers) {\n  let sortedNumbers = numbers.sort((a, b) => b - a);\n  return sortedNumbers[1];\n}",
+      "answerExplained": "The function first sorts the input array in descending order using the `sort()` method and a comparison function. Then, it returns the second element in the sorted array, which is the second highest number.",
+      "testingCode": "const numbers = [3, 1, 7, 4, 6, 5, 2];\nconsole.log(findSecondHighest(numbers)); // Output: 6",
+      "testExplained": "The testing code creates an array of numbers and calls the `findSecondHighest()` function, passing the array as an argument. The expected output is 6, which is the second highest number in the array."
+    },
+    {
+      "id": "alternative method using `for` loop",
+      "question": "Write a function that takes an array of numbers as input and returns the second highest number in the array.",
+      "answerCode": "function findSecondHighest(numbers) {\n  let highest = -Infinity;\n  let secondHighest = -Infinity;\n  for (let i = 0; i < numbers.length; i++) {\n    if (numbers[i] > highest) {\n      secondHighest = highest;\n      highest = numbers[i];\n    } else if (numbers[i] > secondHighest && numbers[i] !== highest) {\n      secondHighest = numbers[i];\n    }\n  }\n  return secondHighest;\n}",
+      "answerExplained": "The function uses a for loop to iterate over the array of numbers and keeps track of the two highest numbers found so far. It first initializes both variables to negative infinity to handle the case where all numbers in the array are negative. When a number is found that is greater than the current highest, the current highest is shifted to the second highest, and the new number becomes the highest. When a number is found that is greater than the current second highest but not equal to the current highest, it becomes the new second highest. Finally, the second highest is returned.",
+      "testingCode": "const numbers = [3, 1, 7, 4, 6, 5, 2];\nconsole.log(findSecondHighest(numbers)); // Output: 6",
+      "testExplained": "The testing code creates an array of numbers and calls the `findSecondHighest()` function, passing the array as an argument. The expected output is 6, which is the second highest number in the array."
     }
+    
+    
+    
+    
+    
+    
+    
     ]
 }
