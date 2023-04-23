@@ -854,12 +854,95 @@
       "testingCode": "const numbers = [3, 1, 7, 4, 6, 5, 2];\nconsole.log(findSecondHighest(numbers)); // Output: 6",
       "testExplained": "The testing code creates an array of numbers and calls the `findSecondHighest()` function, passing the array as an argument. The expected output is 6, which is the second highest number in the array."
     }
-    
-    
-    
-    
-    
-    
-    
+    ],
+    "numberQuestions":[
+      {
+        "id": 1,
+        "question": "Find the largest element in an array: Write a function that takes an array of numbers and returns the largest number in the array.",
+        "answerCode": "function findLargest(arr) {\n  let largest = arr[0];\n  for (let i = 1; i < arr.length; i++) {\n    if (arr[i] > largest) {\n      largest = arr[i];\n    }\n  }\n  return largest;\n}",
+        "answerExplained": "The function iterates through the array using a for loop and compares each element to the current largest number. If an element is larger, it becomes the new largest number.",
+        "testingCode": "console.log(findLargest([4, 2, 7, 1, 9])); // expected output: 9",
+        "testExplained": "The function is called with an array of numbers and the largest number in the array (9) is expected to be returned."
+      },
+      {
+        "id": "Using Built-in Method",
+        "question": "Find the largest element in an array: Write a function that takes an array of numbers and returns the largest number in the array.",
+        "answerCode": "function findLargest(arr) {\n return Math.max(...arr);\n}",
+        "answerExplained": "The Math.max() method returns the largest of zero or more numbers. The spread operator '...' is used to pass the array elements as arguments to the Math.max() method.",
+        "testingCode": "const arr = [4, 2, 8, 3, 9, 1];\nconsole.log(findLargest(arr)); // 9",
+        "testExplained": "An example array is created and passed to the function. The console logs the return value of the function to verify if it returns the largest number in the array."
+      },
+      {
+        "id": 2,
+        "question": "Find the second largest element in an array: Write a function that takes an array of numbers and returns the second largest number in the array.",
+        "answerCode": "function secondLargest(arr) {\n  let largest = arr[0];\n  let secondLargest = -Infinity;\n  \n  for (let i = 1; i < arr.length; i++) {\n    if (arr[i] > largest) {\n      secondLargest = largest;\n      largest = arr[i];\n    } else if (arr[i] > secondLargest && arr[i] !== largest) {\n      secondLargest = arr[i];\n    }\n  }\n  \n  return secondLargest;\n}",
+        "answerExplained": "To find the second largest element in an array, we first initialize two variables `largest` and `secondLargest` to the first and smallest possible values in the array, respectively. We then iterate through the array, comparing each element to the current `largest` value. If the element is greater than the current `largest`, we set the current `largest` value to the element and update `secondLargest` to the previous `largest` value. If the element is greater than `secondLargest` but not equal to `largest`, we update `secondLargest` to the element. Finally, we return `secondLargest`.\n\nNote: This solution assumes that the array contains at least two distinct elements.",
+        "testingCode": "const arr1 = [3, 5, 2, 8, 10, 4];\nconsole.log(secondLargest(arr1)); // Output: 8\n\nconst arr2 = [10, 10, 10, 10];\nconsole.log(secondLargest(arr2)); // Output: -Infinity\n\nconst arr3 = [4];\nconsole.log(secondLargest(arr3)); // Output: -Infinity",
+        "testExplained": "We test the `secondLargest()` function with three different arrays. In the first test, `arr1` contains multiple distinct elements, and the second largest element is `8`. The second test, `arr2`, contains only one distinct element, so there is no second largest element, and the function returns `-Infinity`. In the third test, `arr3` contains only one element, so again there is no second largest element, and the function returns `-Infinity`."
+      },
+      {
+        "id": "Using Built-in Method",
+        "question": "Find the second largest element in an array: Write a function that takes an array of numbers and returns the second largest number in the array.",
+        "answerCode": "function findSecondLargest(arr) {\n const sortedArr = arr.sort((a, b) => b - a);\n return sortedArr[1];\n}",
+        "answerExplained": "The function findSecondLargest takes an array arr as input and first sorts the array in descending order using the sort() method and passing a comparison function (a, b) => b - a which sorts the array in descending order. Then, it returns the second element of the sorted array using sortedArr[1].",
+        "testingCode": "const arr = [3, 8, 2, 1, 10, 5];\nconsole.log(findSecondLargest(arr)); // Output: 8",
+        "testExplained": "In this test case, the array [3, 8, 2, 1, 10, 5] is passed as input to the findSecondLargest function. The function returns the second largest number, which is 8, and this value is logged to the console."
+        },
+        {
+          "id": 3,
+          "question": "Find the smallest element in an array: Write a function that takes an array of numbers and returns the smallest number in the array.",
+          "answerCode": "function findSmallest(arr) {\n  let smallest = arr[0];\n  for (let i = 1; i < arr.length; i++) {\n    if (arr[i] < smallest) {\n      smallest = arr[i];\n    }\n  }\n  return smallest;\n}",
+          "answerExplained": "The function `findSmallest` takes an array `arr` as input and initializes the variable `smallest` to the first element of the array. It then iterates over the remaining elements of the array using a for loop, comparing each element to the current `smallest` value. If a smaller element is found, it is assigned to `smallest`. Finally, the function returns the `smallest` value.\n",
+          "testingCode": "console.log(findSmallest([5, 10, 3, -2, 8])); // -2\nconsole.log(findSmallest([0, 1, 2, 3, 4])); // 0\nconsole.log(findSmallest([100, 50, 75, 25])); // 25",
+          "testExplained": "The function is tested on three arrays of numbers. The first array contains a negative number, so the smallest number in the array is expected to be that negative number. The second array contains only non-negative numbers, so the smallest number is expected to be 0. The third array contains both positive and negative numbers, so the smallest number is expected to be the smallest negative number."
+        },
+        {
+          "id": "Using Built-in Method",
+          "question": "Find the smallest element in an array: Write a function that takes an array of numbers and returns the smallest number in the array.",
+          "answerCode": "const findSmallest = (arr) => {\n  return Math.min(...arr);\n};",
+          "answerExplained": "This solution uses the Math.min() method to find the smallest element in the array. The spread operator (...) is used to pass the elements of the array as arguments to the Math.min() function.",
+          "testingCode": "console.log(findSmallest([3, 6, 1, 8, 2])); // Output: 1",
+          "testExplained": "This test case passes an array [3, 6, 1, 8, 2] to the findSmallest() function and expects it to return the smallest element, which is 1."
+        },
+        {
+          "id": 4,
+          "question": "Find the sum of elements in an array: Write a function that takes an array of numbers and returns the sum of all the numbers in the array.",
+          "answerCode": "function sumArray(arr) {\n  return arr.reduce((acc, curr) => acc + curr, 0);\n}",
+          "answerExplained": "The `reduce()` method applies a function to each element of an array and accumulates the result into a single value, which in this case is the sum of all the numbers in the array. The `0` argument passed to `reduce()` is the initial value of the accumulator.",
+          "testingCode": "console.log(sumArray([1, 2, 3])); // Output: 6",
+          "testExplained": "The input array is `[1, 2, 3]` and the expected output is `6`."
+        },
+        {
+          "id": "alternative method using `for` loop",
+          "question": "Find the sum of elements in an array: Write a function that takes an array of numbers and returns the sum of all the numbers in the array.",
+          "answerCode": "function sumArray(array) {\n let sum = 0;\n for (let i = 0; i < array.length; i++) {\n sum += array[i];\n }\n return sum;\n}",
+          "answerExplained": "The function sumArray takes an array as input and initializes a variable sum to 0. It then uses a for loop to iterate through each element of the array, adding each element to the sum variable. Finally, the function returns the sum variable.",
+          "testingCode": "let array = [1, 2, 3, 4, 5];\nconsole.log(sumArray(array)); // Output: 15",
+          "testExplained": "We create an array of numbers and pass it to the sumArray function. The function should return the sum of all the numbers in the array, which is 15. This is confirmed by the console.log statement which outputs 15."
+        },
+        {
+          "id": 5,
+          "question": "Find the average of elements in an array: Write a function that takes an array of numbers and returns the average of all the numbers in the array.",
+          "answerCode": "function findAverage(arr) {\n  let sum = 0;\n  for (let i = 0; i < arr.length; i++) {\n    sum += arr[i];\n  }\n  return sum / arr.length;\n}",
+          "answerExplained": "This function uses a for loop to iterate over the array and add up all the numbers in the array. Then it divides the sum by the length of the array to get the average.",
+          "testingCode": "let arr = [1, 2, 3, 4, 5];\nconsole.log(findAverage(arr)); // output should be 3\n\narr = [0, 5, 10, 15, 20];\nconsole.log(findAverage(arr)); // output should be 10",
+          "testExplained": "The function is tested using two sample arrays, one with odd number of elements and another with even number of elements. The expected output is calculated manually and compared with the function's output to validate its correctness."
+        },
+        {
+          "id": "Using Built-in Method",
+          "question": "Find the average of elements in an array: Write a function that takes an array of numbers and returns the average of all the numbers in the array.",
+          "answerCode": "function average(arr) {\n  if (arr.length === 0) {\n    return null;\n  }\n  const sum = arr.reduce((acc, val) => acc + val, 0);\n  return sum / arr.length;\n}",
+          "answerExplained": "The function first checks if the array is empty, and if so, returns null. If the array is not empty, it uses the built-in reduce method to find the sum of all the elements in the array. Finally, it returns the average of the array by dividing the sum by the length of the array.\n",
+          "testingCode": "console.log(average([1, 2, 3, 4, 5])); // Output: 3\nconsole.log(average([])); // Output: null\nconsole.log(average([-10, 0, 10])); // Output: 0",
+          "testExplained": "The first test case checks if the function correctly calculates the average of an array of positive numbers.\nThe second test case checks if the function returns null when given an empty array.\nThe third test case checks if the function correctly calculates the average of an array of both positive and negative numbers."
+        }
+        
+        
+        
+
+        
+             
+      
+      
     ]
 }
