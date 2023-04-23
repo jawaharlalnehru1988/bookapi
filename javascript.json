@@ -575,6 +575,14 @@
     "testExplained": "This code creates an array of numbers and passes it as an argument to the sumEvenNumbers function. It then logs the result of the function to the console."
   },
   {
+    "id": "alternative method using `for` loop",
+    "question": "Write a function that takes an array of numbers as input and returns the sum of all the even numbers in the array.",
+    "answerCode": "function sumEvenNumbers(arr) {\n  let sum = 0;\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i] % 2 === 0) {\n      sum += arr[i];\n    }\n  }\n  return sum;\n}",
+    "answerExplained": "The function iterates through each element of the input array, and if an element is even (i.e., its remainder when divided by 2 is 0), it adds that element to a running sum. At the end of the iteration, the function returns the running sum.",
+    "testingCode": "const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\nconsole.log(sumEvenNumbers(nums));",
+    "testExplained": "This code sets the input array `nums` to [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], calls the function on this input, and prints the output. The expected output is 30, which is the sum of all even numbers in the input array."
+  },
+  {
     "id": 2,
     "question": "Write a function that takes two numbers as input and returns true if the first number is divisible by the second number, and false otherwise.",
     "answerCode": "function isDivisibleBy(num1, num2) {\n  return num1 % num2 === 0;\n}",
