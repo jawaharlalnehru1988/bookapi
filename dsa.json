@@ -1,0 +1,283 @@
+{
+"DSA":[
+    {
+      "id": 1,
+      "topic": "Basics of JavaScript",
+      "subtopics": [
+        { "id": 101, "name": "Variables and data types" },
+        { "id": 102, "name": "Operators" },
+        { "id": 103, "name": "Control structures" },
+        { "id": 104, "name": "Functions" },
+        { "id": 105, "name": "Scope" },
+        { "id": 106, "name": "Arrays and Objects" },
+        { "id": 107, "name": "Error handling and debugging" }
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "Algorithm Analysis",
+      "subtopics": [
+        { "id": 201, "name": "Time complexity" },
+        { "id": 202, "name": "Space complexity" },
+        { "id": 203, "name": "Recursion" },
+        { "id": 204, "name": "Searching" },
+        { "id": 205, "name": "Sorting" },
+        { "id": 206, "name": "Graph algorithms" },
+        { "id": 207, "name": "Dynamic programming" },
+        { "id": 208, "name": "Greedy algorithms" }
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "Data Structures",
+      "subtopics": [
+        {
+          "id": 301,
+          "name": "Arrays",
+          "subtopics": [
+            { "id": 30101, "name": "Traversing arrays" },
+            { "id": 30102, "name": "Inserting and deleting elements" },
+            { "id": 30103, "name": "Sorting arrays" },
+            { "id": 30104, "name": "Multi-dimensional arrays" },
+            { "id": 30105, "name": "Sparse arrays" },
+            { "id": 30106, "name": "Time and space complexity analysis" }
+          ]
+        },
+        {
+          "id": 302,
+          "name": "Linked lists",
+          "subtopics": [
+            { "id": 30201, "name": "Singly linked lists" },
+            { "id": 30202, "name": "Doubly linked lists" },
+            { "id": 30203, "name": "Circular linked lists" },
+            { "id": 30204, "name": "Inserting and deleting nodes" },
+            { "id": 30205, "name": "Reversing a linked list" },
+            { "id": 30206, "name": "Time and space complexity analysis" }
+          ]
+        },
+        {
+          "id": 303,
+          "name": "Stacks",
+          "subtopics": [
+            { "id": 30301, "name": "Array-based stacks" },
+            { "id": 30302, "name": "Linked list-based stacks" },
+            { "id": 30303, "name": "Implementing a stack" },
+            { "id": 30304, "name": "Using a stack for expression evaluation" },
+            { "id": 30305, "name": "Infix, prefix, and postfix notation" },
+            { "id": 30306, "name": "Time and space complexity analysis" }
+          ]
+        },{
+  "id": 304,
+  "name": "Queues",
+  "subtopics": [
+  { "id": 30401, "name": "Array-based queues" },
+  { "id": 30402, "name": "Linked list-based queues" },
+  { "id": 30403, "name": "Implementing a queue" },
+  { "id": 30404, "name": "Priority queues" },
+  { "id": 30405, "name": "Circular queues" },
+  { "id": 30406, "name": "Time and space complexity analysis" }
+  ]
+  },
+  {
+  "id": 305,
+  "name": "Trees",
+  "subtopics": [
+  { "id": 30501, "name": "Binary trees" },
+  { "id": 30502, "name": "Binary search trees" },
+  { "id": 30503, "name": "AVL trees" },
+  { "id": 30504, "name": "Red-black trees" },
+  { "id": 30505, "name": "B-trees" },
+  { "id": 30506, "name": "Tree traversal algorithms" },
+  { "id": 30507, "name": "Time and space complexity analysis" }
+  ]
+  },
+  {
+  "id": 306,
+  "name": "Heaps",
+  "subtopics": [
+  { "id": 30601, "name": "Binary heaps" },
+  { "id": 30602, "name": "Heap operations" },
+  { "id": 30603, "name": "Heap sort" },
+  { "id": 30604, "name": "Priority queues" },
+  { "id": 30605, "name": "Time and space complexity analysis" }
+  ]
+  },
+  {
+  "id": 307,
+  "name": "Hash Tables",
+  "subtopics": [
+  { "id": 30701, "name": "Hash functions" },
+  { "id": 30702, "name": "Collision resolution techniques" },
+  { "id": 30703, "name": "Open addressing" },
+  { "id": 30704, "name": "Separate chaining" },
+  { "id": 30705, "name": "Hash table operations" },
+  { "id": 30706, "name": "Time and space complexity analysis" }
+  ]
+  },
+  {
+        "id": 308,
+        "name": "Graphs",
+        "subtopics": [
+          { "id": 30801, "name": "Representing graphs" },
+          { "id": 30802, "name": "Graph traversal algorithms" },
+          { "id": 30803, "name": "Shortest path algorithms" },
+          { "id": 30804, "name": "Minimum spanning tree algorithms" },
+          { "id": 30805, "name": "Topological sorting" },
+          { "id": 30806, "name": "Graph coloring" },
+          { "id": 30807, "name": "Time and space complexity analysis" }
+        ]
+      },
+      {
+        "id": 309,
+        "name": "Tries",
+        "subtopics": [
+          { "id": 30901, "name": "Trie data structure" },
+          { "id": 30902, "name": "Trie operations" },
+          { "id": 30903, "name": "Trie search algorithms" },
+          { "id": 30904, "name": "Trie space and time complexity analysis" }
+        ]
+      },
+      {
+        "id": 310,
+        "name": "Segment Trees",
+        "subtopics": [
+          { "id": 31001, "name": "Introduction to Segment Trees" },
+          { "id": 31002, "name": "Building a Segment Tree" },
+          { "id": 31003, "name": "Segment Tree Queries" },
+          { "id": 31004, "name": "Segment Tree Updates" },
+          { "id": 31005, "name": "Lazy Propagation" },
+          { "id": 31006, "name": "Segment Tree Space and Time Complexity Analysis" }
+        ]
+      },
+      {
+        "id": 311,
+        "name": "Fenwick Trees",
+        "subtopics": [
+          { "id": 31101, "name": "Introduction to Fenwick Trees" },
+          { "id": 31102, "name": "Building a Fenwick Tree" },
+          { "id": 31103, "name": "Fenwick Tree Queries" },
+          { "id": 31104, "name": "Fenwick Tree Updates" },
+          { "id": 31105, "name": "Fenwick Tree Space and Time Complexity Analysis" }
+        ]
+      },
+      {
+        "id": 312,
+        "name": "Disjoint Sets",
+        "subtopics": [
+          { "id": 31201, "name": "Disjoint Set Data Structure" },
+          { "id": 31202, "name": "Disjoint Set Operations" },
+          { "id": 31203, "name": "Disjoint Set Applications" },
+          { "id": 31204, "name": "Disjoint Set Space and Time Complexity Analysis" }
+        ]
+      },
+       {
+        "id": 401,
+        "name": "Sorting Algorithms",
+        "subtopics": [
+          { "id": 40101, "name": "Bubble Sort" },
+          { "id": 40102, "name": "Selection Sort" },
+          { "id": 40103, "name": "Insertion Sort" },
+          { "id": 40104, "name": "Merge Sort" },
+          { "id": 40105, "name": "Quick Sort" },
+          { "id": 40106, "name": "Heap Sort" },
+          { "id": 40107, "name": "Counting Sort" },
+          { "id": 40108, "name": "Radix Sort" },
+          { "id": 40109, "name": "Bucket Sort" },
+          { "id": 40110, "name": "Time and space complexity analysis" }
+        ]
+      },
+      {
+        "id": 402,
+        "name": "Searching Algorithms",
+        "subtopics": [
+          { "id": 40201, "name": "Linear Search" },
+          { "id": 40202, "name": "Binary Search" },
+          { "id": 40203, "name": "Ternary Search" },
+          { "id": 40204, "name": "Jump Search" },
+          { "id": 40205, "name": "Interpolation Search" },
+          { "id": 40206, "name": "Exponential Search" },
+          { "id": 40207, "name": "Time and space complexity analysis" }
+        ]
+      },
+      {
+        "id": 403,
+        "name": "String Algorithms",
+        "subtopics": [
+          { "id": 40301, "name": "Brute Force Algorithm" },
+          { "id": 40302, "name": "KMP Algorithm" },
+          { "id": 40303, "name": "Rabin-Karp Algorithm" },
+          { "id": 40304, "name": "Boyer-Moore Algorithm" },
+          { "id": 40305, "name": "Trie Algorithm" },
+          { "id": 40306, "name": "Suffix Tree Algorithm" },
+          { "id": 40307, "name": "Regular Expression Matching" },
+          { "id": 40308, "name": "Time and space complexity analysis" }
+        ]
+      },
+      {
+        "id": 404,
+        "name": "Dynamic Programming",
+        "subtopics": [
+          { "id": 40401, "name": "Introduction to Dynamic Programming" },
+          { "id": 40402, "name": "Memoization" },
+          { "id": 40403, "name": "Tabulation" },
+          { "id": 40404, "name": "Fibonacci Numbers" },
+          { "id": 40405, "name": "Knapsack Problem" },
+          { "id": 40406, "name": "Longest Common Subsequence" },
+          { "id": 40407, "name": "Matrix Chain Multiplication" },
+          { "id": 40408, "name": "Dynamic Programming and Recursion" },
+          { "id": 40409, "name": "Time and space complexity analysis" }
+        ]
+      },
+      {
+        "id": 406,
+        "name": "Backtracking Algorithms",
+        "subtopics": [
+          { "id": 40601, "name": "Introduction to Backtracking" },
+          { "id": 40602, "name": "N-Queens Problem" },
+          { "id": 40603, "name": "Sudoku Solver" },
+          { "id": 40604, "name": "Subset Sum Problem" },
+          { "id": 40605, "name": "Hamiltonian Cycle" },
+          { "id": 40606, "name": "Graph Coloring" },
+          { "id": 40607, "name": "Time and space complexity analysis" }
+        ]
+      },
+      {
+        "id": 407,
+        "name": "Graph Algorithms",
+        "subtopics": [
+          { "id": 40701, "name": "Introduction to Graphs" },
+          { "id": 40702, "name": "Breadth First Search (BFS)" },
+          { "id": 40703, "name": "Depth First Search (DFS)" },
+          { "id": 40704, "name": "Topological Sorting" },
+          { "id": 40705, "name": "Dijkstra's Algorithm" },
+          { "id": 40706, "name": "Bellman-Ford Algorithm" },
+          { "id": 40707, "name": "Floyd-Warshall Algorithm" },
+          { "id": 40708, "name": "Minimum Spanning Tree" },
+          { "id": 40709, "name": "Prim's Algorithm" },
+          { "id": 40710, "name": "Kruskal's Algorithm" },
+          { "id": 40711, "name": "Eulerian Path and Circuit" },
+          { "id": 40712, "name": "Hamiltonian Path and Circuit" },
+          { "id": 40713, "name": "Traveling Salesman Problem" },
+          { "id": 40714, "name": "Network Flow Problem" },
+          { "id": 40715, "name": "Time and space complexity analysis" }
+        ]
+      },
+      {
+        "id": 408,
+        "name": "Divide and Conquer Algorithms",
+        "subtopics": [
+          { "id": 40801, "name": "Introduction to Divide and Conquer" },
+          { "id": 40802, "name": "Binary Search Algorithm" },
+          { "id": 40803, "name": "Merge Sort Algorithm" },
+          { "id": 40804, "name": "Quick Sort Algorithm" },
+          { "id": 40805, "name": "Strassen's Algorithm" },
+          { "id": 40806, "name": "Karatsuba Multiplication" },
+          { "id": 40807, "name": "Closest Pair of Points" },
+          { "id": 40808, "name": "Convex Hull Problem" },
+          { "id": 40809, "name": "Time and space complexity analysis" }
+        ]
+      }
+  ]
+  }
+  ]
+}
