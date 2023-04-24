@@ -1,32 +1,6 @@
 {
 "DSA":[
-    {
-      "id": 1,
-      "topic": "Basics of JavaScript",
-      "subtopics": [
-        { "id": 101, "name": "Variables and data types" },
-        { "id": 102, "name": "Operators" },
-        { "id": 103, "name": "Control structures" },
-        { "id": 104, "name": "Functions" },
-        { "id": 105, "name": "Scope" },
-        { "id": 106, "name": "Arrays and Objects" },
-        { "id": 107, "name": "Error handling and debugging" }
-      ]
-    },
-    {
-      "id": 2,
-      "topic": "Algorithm Analysis",
-      "subtopics": [
-        { "id": 201, "name": "Time complexity" },
-        { "id": 202, "name": "Space complexity" },
-        { "id": 203, "name": "Recursion" },
-        { "id": 204, "name": "Searching" },
-        { "id": 205, "name": "Sorting" },
-        { "id": 206, "name": "Graph algorithms" },
-        { "id": 207, "name": "Dynamic programming" },
-        { "id": 208, "name": "Greedy algorithms" }
-      ]
-    },
+   
     {
       "id": 3,
       "topic": "Data Structures",
@@ -278,6 +252,20 @@
         ]
       }
   ]
+  },
+  {
+    "id": 2,
+    "topic": "Algorithm Analysis",
+    "subtopics": [
+      { "id": 201, "name": "Time complexity" },
+      { "id": 202, "name": "Space complexity" },
+      { "id": 203, "name": "Recursion" },
+      { "id": 204, "name": "Searching" },
+      { "id": 205, "name": "Sorting" },
+      { "id": 206, "name": "Graph algorithms" },
+      { "id": 207, "name": "Dynamic programming" },
+      { "id": 208, "name": "Greedy algorithms" }
+    ]
   }
   ]
 }
