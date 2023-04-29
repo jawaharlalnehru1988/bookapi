@@ -655,13 +655,5 @@
           "testingCode": "console.log(average([1, 2, 3, 4, 5])); // Output: 3\nconsole.log(average([])); // Output: null\nconsole.log(average([-10, 0, 10])); // Output: 0",
           "testExplained": "The first test case checks if the function correctly calculates the average of an array of positive numbers.\nThe second test case checks if the function returns null when given an empty array.\nThe third test case checks if the function correctly calculates the average of an array of both positive and negative numbers."
         }
-        
-        
-        
-
-        
-             
-      
-      
     ]
 }
