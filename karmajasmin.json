@@ -71,14 +71,14 @@
 ],
 "questionAndAnswer":[
     {
-        "question": "What is Jasmine?",
-        "answer": "Jasmine is a popular open-source behavior-driven development (BDD) testing framework for JavaScript that allows developers to write tests for their JavaScript code. It provides a clean and expressive syntax for writing specs (tests), making it easy to write and maintain test suites. Jasmine can be used with a variety of JavaScript frameworks and libraries, including AngularJS, React, and Node.js."
-      },
-      {
-        "question": "Why choose Jasmine Framework?",
-        "answer": "There are several reasons why developers choose to use Jasmine for testing their JavaScript code:\n\n1. BDD syntax: Jasmine's syntax is based on behavior-driven development (BDD) principles, which allows developers to write more expressive and understandable tests.\n\n2. Easy to learn: Jasmine is easy to learn and can be picked up quickly by developers who are new to testing.\n\n3. Extensive feature set: Jasmine provides an extensive set of built-in matchers, spies, stubs, and mocks, making it easy to write complex tests.\n\n4. Active community: Jasmine has a large and active community of developers who contribute to the project and provide support to others.\n\n5. Integrations: Jasmine can be integrated with a variety of tools and frameworks, including test runners like Karma and Jest, and Continuous Integration (CI) tools like Travis CI and Jenkins.\n\nOverall, Jasmine is a reliable and widely-used testing framework that can help developers ensure the quality and reliability of their JavaScript code."
-      }
-      
-      
+    "question": "Syllabus to learn Jasmine framework.",
+    "answer": "syllabus to learn Jasmine framework: \n\n1. Introduction to Jasmine\n- What is Jasmine?\n- Why use Jasmine?\n- Installing Jasmine\n- Jasmine's basic syntax\n\n2. Writing Specs\n- Anatomy of a spec\n- Describing behavior with describe\n- Writing expectations with expect\n- Matcher functions in Jasmine\n- Nesting describe blocks\n- Using beforeEach and afterEach hooks\n- Skipping specs with xdescribe and xit\n- Focusing on specific specs with fdescribe and fit\n\n3. Testing Asynchronous Code\n- Introduction to asynchronous testing\n- Using Jasmine's built-in asynchronous support\n- Controlling the flow of asynchronous code with done\n\n4. Spies, Stubs, and Mocks\n- Introduction to test doubles\n- Creating spies with jasmine.createSpy\n- Using toHaveBeenCalled, toHaveBeenCalledWith, and calls\n- Creating stubs with jasmine.createSpyObj\n- Creating mocks with jasmine.createSpyObj\n- Using and.returnValue and and.callFake\n\n5. Test Organization and Management\n- Organizing tests with describe and it\n- Grouping related tests with describe\n- Skipping tests and groups with xdescribe and xit\n- Running specific tests with fit and fdescribe\n- Running tests from the command line with jasmine\n\n6. Advanced Features\n- Testing asynchronous code with Promises and async/await\n- Using custom matchers\n- Writing custom matchers\n- Using Jasmine with other testing frameworks\n- Using Jasmine with a test runner like Karma or Jest\n\n7. Best Practices\n- Writing clear and concise specs\n- Following the \"single expectation per spec\" rule\n- Writing testable code\n- Keeping tests fast and reliable\n- Maintaining a healthy and readable test suite\n\nThis syllabus should cover the basics of Jasmine and help you get started with writing tests for your JavaScript code. Happy learning!"
+    }
 ]
-}
+    
+}   
+    
+    
+    
+    
+    
