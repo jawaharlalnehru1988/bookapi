@@ -1,0 +1,1454 @@
+{
+"country" :[
+    {
+    "name": "Afghanistan",
+    "dial_code": "+93",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AF.svg",
+    "code": "AF"
+    },
+    {
+    "name": "Aland Islands",
+    "dial_code": "+358",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AX.svg",
+    "code": "AX"
+    },
+    {
+    "name": "Albania",
+    "dial_code": "+355",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AL.svg",
+    "code": "AL"
+    },
+    {
+    "name": "Algeria",
+    "dial_code": "+213",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DZ.svg",
+    "code": "DZ"
+    },
+    {
+    "name": "AmericanSamoa",
+    "dial_code": "+1684",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AS.svg",
+    "code": "AS"
+    },
+    {
+    "name": "Andorra",
+    "dial_code": "+376",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AD.svg",
+    "code": "AD"
+    },
+    {
+    "name": "Angola",
+    "dial_code": "+244",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AO.svg",
+    "code": "AO"
+    },
+    {
+    "name": "Anguilla",
+    "dial_code": "+1264",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AI.svg",
+    "code": "AI"
+    },
+    {
+    "name": "Antarctica",
+    "dial_code": "+672",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AQ.svg",
+    "code": "AQ"
+    },
+    {
+    "name": "Antigua and Barbuda",
+    "dial_code": "+1268",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AG.svg",
+    "code": "AG"
+    },
+    {
+    "name": "Argentina",
+    "dial_code": "+54",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AR.svg",
+    "code": "AR"
+    },
+    {
+    "name": "Armenia",
+    "dial_code": "+374",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AM.svg",
+    "code": "AM"
+    },
+    {
+    "name": "Aruba",
+    "dial_code": "+297",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AW.svg",
+    "code": "AW"
+    },
+    {
+    "name": "Australia",
+    "dial_code": "+61",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AU.svg",
+    "code": "AU"
+    },
+    {
+    "name": "Austria",
+    "dial_code": "+43",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AT.svg",
+    "code": "AT"
+    },
+    {
+    "name": "Azerbaijan",
+    "dial_code": "+994",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AZ.svg",
+    "code": "AZ"
+    },
+    {
+    "name": "Bahamas",
+    "dial_code": "+1242",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BS.svg",
+    "code": "BS"
+    },
+    {
+    "name": "Bahrain",
+    "dial_code": "+973",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BH.svg",
+    "code": "BH"
+    },
+    {
+    "name": "Bangladesh",
+    "dial_code": "+880",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BD.svg",
+    "code": "BD"
+    },
+    {
+    "name": "Barbados",
+    "dial_code": "+1246",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BB.svg",
+    "code": "BB"
+    },
+    {
+    "name": "Belarus",
+    "dial_code": "+375",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BY.svg",
+    "code": "BY"
+    },
+    {
+    "name": "Belgium",
+    "dial_code": "+32",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BE.svg",
+    "code": "BE"
+    },
+    {
+    "name": "Belize",
+    "dial_code": "+501",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BZ.svg",
+    "code": "BZ"
+    },
+    {
+    "name": "Benin",
+    "dial_code": "+229",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BJ.svg",
+    "code": "BJ"
+    },
+    {
+    "name": "Bermuda",
+    "dial_code": "+1441",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BM.svg",
+    "code": "BM"
+    },
+    {
+    "name": "Bhutan",
+    "dial_code": "+975",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BT.svg",
+    "code": "BT"
+    },
+    {
+    "name": "Bolivia, Plurinational State of",
+    "dial_code": "+591",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BO.svg",
+    "code": "BO"
+    },
+    {
+    "name": "Bosnia and Herzegovina",
+    "dial_code": "+387",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BA.svg",
+    "code": "BA"
+    },
+    {
+    "name": "Botswana",
+    "dial_code": "+267",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BW.svg",
+    "code": "BW"
+    },
+    {
+    "name": "Brazil",
+    "dial_code": "+55",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BR.svg",
+    "code": "BR"
+    },
+    {
+    "name": "British Indian Ocean Territory",
+    "dial_code": "+246",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IO.svg",
+    "code": "IO"
+    },
+    {
+    "name": "Brunei Darussalam",
+    "dial_code": "+673",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BN.svg",
+    "code": "BN"
+    },
+    {
+    "name": "Bulgaria",
+    "dial_code": "+359",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BG.svg",
+    "code": "BG"
+    },
+    {
+    "name": "Burkina Faso",
+    "dial_code": "+226",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BF.svg",
+    "code": "BF"
+    },
+    {
+    "name": "Burundi",
+    "dial_code": "+257",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BI.svg",
+    "code": "BI"
+    },
+    {
+    "name": "Cambodia",
+    "dial_code": "+855",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KH.svg",
+    "code": "KH"
+    },
+    {
+    "name": "Cameroon",
+    "dial_code": "+237",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CM.svg",
+    "code": "CM"
+    },
+    {
+    "name": "Canada",
+    "dial_code": "+1",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CA.svg",
+    "code": "CA"
+    },
+    {
+    "name": "Cape Verde",
+    "dial_code": "+238",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CV.svg",
+    "code": "CV"
+    },
+    {
+    "name": "Cayman Islands",
+    "dial_code": "+ 345",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KY.svg",
+    "code": "KY"
+    },
+    {
+    "name": "Central African Republic",
+    "dial_code": "+236",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CF.svg",
+    "code": "CF"
+    },
+    {
+    "name": "Chad",
+    "dial_code": "+235",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TD.svg",
+    "code": "TD"
+    },
+    {
+    "name": "Chile",
+    "dial_code": "+56",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CL.svg",
+    "code": "CL"
+    },
+    {
+    "name": "China",
+    "dial_code": "+86",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CN.svg",
+    "code": "CN"
+    },
+    {
+    "name": "Christmas Island",
+    "dial_code": "+61",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CX.svg",
+    "code": "CX"
+    },
+    {
+    "name": "Cocos (Keeling) Islands",
+    "dial_code": "+61",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CC.svg",
+    "code": "CC"
+    },
+    {
+    "name": "Colombia",
+    "dial_code": "+57",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CO.svg",
+    "code": "CO"
+    },
+    {
+    "name": "Comoros",
+    "dial_code": "+269",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KM.svg",
+    "code": "KM"
+    },
+    {
+    "name": "Congo",
+    "dial_code": "+242",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CG.svg",
+    "code": "CG"
+    },
+    {
+    "name": "Congo, The Democratic Republic of the Congo",
+    "dial_code": "+243",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CD.svg",
+    "code": "CD"
+    },
+    {
+    "name": "Cook Islands",
+    "dial_code": "+682",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CK.svg",
+    "code": "CK"
+    },
+    {
+    "name": "Costa Rica",
+    "dial_code": "+506",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CR.svg",
+    "code": "CR"
+    },
+    {
+    "name": "Cote d'Ivoire",
+    "dial_code": "+225",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CI.svg",
+    "code": "CI"
+    },
+    {
+    "name": "Croatia",
+    "dial_code": "+385",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HR.svg",
+    "code": "HR"
+    },
+    {
+    "name": "Cuba",
+    "dial_code": "+53",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CU.svg",
+    "code": "CU"
+    },
+    {
+    "name": "Cyprus",
+    "dial_code": "+357",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CY.svg",
+    "code": "CY"
+    },
+    {
+    "name": "Czech Republic",
+    "dial_code": "+420",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CZ.svg",
+    "code": "CZ"
+    },
+    {
+    "name": "Denmark",
+    "dial_code": "+45",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DK.svg",
+    "code": "DK"
+    },
+    {
+    "name": "Djibouti",
+    "dial_code": "+253",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DJ.svg",
+    "code": "DJ"
+    },
+    {
+    "name": "Dominica",
+    "dial_code": "+1767",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DM.svg",
+    "code": "DM"
+    },
+    {
+    "name": "Dominican Republic",
+    "dial_code": "+1849",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DO.svg",
+    "code": "DO"
+    },
+    {
+    "name": "Ecuador",
+    "dial_code": "+593",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EC.svg",
+    "code": "EC"
+    },
+    {
+    "name": "Egypt",
+    "dial_code": "+20",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EG.svg",
+    "code": "EG"
+    },
+    {
+    "name": "El Salvador",
+    "dial_code": "+503",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SV.svg",
+    "code": "SV"
+    },
+    {
+    "name": "Equatorial Guinea",
+    "dial_code": "+240",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GQ.svg",
+    "code": "GQ"
+    },
+    {
+    "name": "Eritrea",
+    "dial_code": "+291",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ER.svg",
+    "code": "ER"
+    },
+    {
+    "name": "Estonia",
+    "dial_code": "+372",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EE.svg",
+    "code": "EE"
+    },
+    {
+    "name": "Ethiopia",
+    "dial_code": "+251",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ET.svg",
+    "code": "ET"
+    },
+    {
+    "name": "Falkland Islands (Malvinas)",
+    "dial_code": "+500",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FK.svg",
+    "code": "FK"
+    },
+    {
+    "name": "Faroe Islands",
+    "dial_code": "+298",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FO.svg",
+    "code": "FO"
+    },
+    {
+    "name": "Fiji",
+    "dial_code": "+679",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FJ.svg",
+    "code": "FJ"
+    },
+    {
+    "name": "Finland",
+    "dial_code": "+358",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FI.svg",
+    "code": "FI"
+    },
+    {
+    "name": "France",
+    "dial_code": "+33",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FR.svg",
+    "code": "FR"
+    },
+    {
+    "name": "French Guiana",
+    "dial_code": "+594",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GF.svg",
+    "code": "GF"
+    },
+    {
+    "name": "French Polynesia",
+    "dial_code": "+689",
+    "code": "PF"
+    },
+    {
+    "name": "Gabon",
+    "dial_code": "+241",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GA.svg",
+    "code": "GA"
+    },
+    {
+    "name": "Gambia",
+    "dial_code": "+220",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GM.svg",
+    "code": "GM"
+    },
+    {
+    "name": "Georgia",
+    "dial_code": "+995",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GE.svg",
+    "code": "GE"
+    },
+    {
+    "name": "Germany",
+    "dial_code": "+49",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DE.svg",
+    "code": "DE"
+    },
+    {
+    "name": "Ghana",
+    "dial_code": "+233",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GH.svg",
+    "code": "GH"
+    },
+    {
+    "name": "Gibraltar",
+    "dial_code": "+350",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GI.svg",
+    "code": "GI"
+    },
+    {
+    "name": "Greece",
+    "dial_code": "+30",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GR.svg",
+    "code": "GR"
+    },
+    {
+    "name": "Greenland",
+    "dial_code": "+299",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GL.svg",
+    "code": "GL"
+    },
+    {
+    "name": "Grenada",
+    "dial_code": "+1473",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GD.svg",
+    "code": "GD"
+    },
+    {
+    "name": "Guadeloupe",
+    "dial_code": "+590",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GP.svg",
+    "code": "GP"
+    },
+    {
+    "name": "Guam",
+    "dial_code": "+1671",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GU.svg",
+    "code": "GU"
+    },
+    {
+    "name": "Guatemala",
+    "dial_code": "+502",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GT.svg",
+    "code": "GT"
+    },
+    {
+    "name": "Guernsey",
+    "dial_code": "+44",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GG.svg",
+    "code": "GG"
+    },
+    {
+    "name": "Guinea",
+    "dial_code": "+224",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GN.svg",
+    "code": "GN"
+    },
+    {
+    "name": "Guinea-Bissau",
+    "dial_code": "+245",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GW.svg",
+    "code": "GW"
+    },
+    {
+    "name": "Guyana",
+    "dial_code": "+595",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GY.svg",
+    "code": "GY"
+    },
+    {
+    "name": "Haiti",
+    "dial_code": "+509",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HT.svg",
+    "code": "HT"
+    },
+    {
+    "name": "Holy See (Vatican City State)",
+    "dial_code": "+379",
+    "code": "VA"
+    },
+    {
+    "name": "Honduras",
+    "dial_code": "+504",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HN.svg",
+    "code": "HN"
+    },
+    {
+    "name": "Hong Kong",
+    "dial_code": "+852",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HK.svg",
+    "code": "HK"
+    },
+    {
+    "name": "Hungary",
+    "dial_code": "+36",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HU.svg",
+    "code": "HU"
+    },
+    {
+    "name": "Iceland",
+    "dial_code": "+354",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IS.svg",
+    "code": "IS"
+    },
+    {
+    "name": "India",
+    "dial_code": "+91",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
+    "code": "IN"
+    },
+    {
+    "name": "Indonesia",
+    "dial_code": "+62",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ID.svg",
+    "code": "ID"
+    },
+    {
+    "name": "Iran, Islamic Republic of Persian Gulf",
+    "dial_code": "+98",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg",
+    "code": "IR"
+    },
+    {
+    "name": "Iraq",
+    "dial_code": "+964",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IQ.svg",
+    "code": "IQ"
+    },
+    {
+    "name": "Ireland",
+    "dial_code": "+353",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IE.svg",
+    "code": "IE"
+    },
+    {
+    "name": "Isle of Man",
+    "dial_code": "+44",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IM.svg",
+    "code": "IM"
+    },
+    {
+    "name": "Israel",
+    "dial_code": "+972",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IL.svg",
+    "code": "IL"
+    },
+    {
+    "name": "Italy",
+    "dial_code": "+39",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IT.svg",
+    "code": "IT"
+    },
+    {
+    "name": "Jamaica",
+    "dial_code": "+1876",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JM.svg",
+    "code": "JM"
+    },
+    {
+    "name": "Japan",
+    "dial_code": "+81",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JP.svg",
+    "code": "JP"
+    },
+    {
+    "name": "Jersey",
+    "dial_code": "+44",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JE.svg",
+    "code": "JE"
+    },
+    {
+    "name": "Jordan",
+    "dial_code": "+962",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JO.svg",
+    "code": "JO"
+    },
+    {
+    "name": "Kazakhstan",
+    "dial_code": "+77",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KZ.svg",
+    "code": "KZ"
+    },
+    {
+    "name": "Kenya",
+    "dial_code": "+254",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KE.svg",
+    "code": "KE"
+    },
+    {
+    "name": "Kiribati",
+    "dial_code": "+686",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KI.svg",
+    "code": "KI"
+    },
+    {
+    "name": "Korea, Democratic People's Republic of Korea",
+    "dial_code": "+850",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KP.svg",
+    "code": "KP"
+    },
+    {
+    "name": "Korea, Republic of South Korea",
+    "dial_code": "+82",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KR.svg",
+    "code": "KR"
+    },
+    {
+    "name": "Kuwait",
+    "dial_code": "+965",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KW.svg",
+    "code": "KW"
+    },
+    {
+    "name": "Kyrgyzstan",
+    "dial_code": "+996",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KG.svg",
+    "code": "KG"
+    },
+    {
+    "name": "Laos",
+    "dial_code": "+856",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LA.svg",
+    "code": "LA"
+    },
+    {
+    "name": "Latvia",
+    "dial_code": "+371",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LV.svg",
+    "code": "LV"
+    },
+    {
+    "name": "Lebanon",
+    "dial_code": "+961",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LB.svg",
+    "code": "LB"
+    },
+    {
+    "name": "Lesotho",
+    "dial_code": "+266",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LS.svg",
+    "code": "LS"
+    },
+    {
+    "name": "Liberia",
+    "dial_code": "+231",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LR.svg",
+    "code": "LR"
+    },
+    {
+    "name": "Libyan Arab Jamahiriya",
+    "dial_code": "+218",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LY.svg",
+    "code": "LY"
+    },
+    {
+    "name": "Liechtenstein",
+    "dial_code": "+423",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LT.svg",
+    "code": "LI"
+    },
+    {
+    "name": "Lithuania",
+    "dial_code": "+370",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LT.svg",
+    "code": "LT"
+    },
+    {
+    "name": "Luxembourg",
+    "dial_code": "+352",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LU.svg",
+    "code": "LU"
+    },
+    {
+    "name": "Macao",
+    "dial_code": "+853",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MO.svg",
+    "code": "MO"
+    },
+    {
+    "name": "Macedonia",
+    "dial_code": "+389",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MK.svg",
+    "code": "MK"
+    },
+    {
+    "name": "Madagascar",
+    "dial_code": "+261",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MG.svg",
+    "code": "MG"
+    },
+    {
+    "name": "Malawi",
+    "dial_code": "+265",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MW.svg",
+    "code": "MW"
+    },
+    {
+    "name": "Malaysia",
+    "dial_code": "+60",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MY.svg",
+    "code": "MY"
+    },
+    {
+    "name": "Maldives",
+    "dial_code": "+960",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MV.svg",
+    "code": "MV"
+    },
+    {
+    "name": "Mali",
+    "dial_code": "+223",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ML.svg",
+    "code": "ML"
+    },
+    {
+    "name": "Malta",
+    "dial_code": "+356",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MT.svg",
+    "code": "MT"
+    },
+    {
+    "name": "Marshall Islands",
+    "dial_code": "+692",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MH.svg",
+    "code": "MH"
+    },
+    {
+    "name": "Martinique",
+    "dial_code": "+596",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MQ.svg",
+    "code": "MQ"
+    },
+    {
+    "name": "Mauritania",
+    "dial_code": "+222",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MR.svg",
+    "code": "MR"
+    },
+    {
+    "name": "Mauritius",
+    "dial_code": "+230",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MU.svg",
+    "code": "MU"
+    },
+    {
+    "name": "Mayotte",
+    "dial_code": "+262",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/YT.svg",
+    "code": "YT"
+    },
+    {
+    "name": "Mexico",
+    "dial_code": "+52",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MX.svg",
+    "code": "MX"
+    },
+    {
+    "name": "Micronesia, Federated States of Micronesia",
+    "dial_code": "+691",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FM.svg",
+    "code": "FM"
+    },
+    {
+    "name": "Moldova",
+    "dial_code": "+373",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MD.svg",
+    "code": "MD"
+    },
+    {
+    "name": "Monaco",
+    "dial_code": "+377",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MC.svg",
+    "code": "MC"
+    },
+    {
+    "name": "Mongolia",
+    "dial_code": "+976",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MN.svg",
+    "code": "MN"
+    },
+    {
+    "name": "Montenegro",
+    "dial_code": "+382",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ME.svg",
+    "code": "ME"
+    },
+    {
+    "name": "Montserrat",
+    "dial_code": "+1664",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MS.svg",
+    "code": "MS"
+    },
+    {
+    "name": "Morocco",
+    "dial_code": "+212",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MA.svg",
+    "code": "MA"
+    },
+    {
+    "name": "Mozambique",
+    "dial_code": "+258",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MZ.svg",
+    "code": "MZ"
+    },
+    {
+    "name": "Myanmar",
+    "dial_code": "+95",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MM.svg",
+    "code": "MM"
+    },
+    {
+    "name": "Namibia",
+    "dial_code": "+264",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NA.svg",
+    "code": "NA"
+    },
+    {
+    "name": "Nauru",
+    "dial_code": "+674",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NR.svg",
+    "code": "NR"
+    },
+    {
+    "name": "Nepal",
+    "dial_code": "+977",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NP.svg",
+    "code": "NP"
+    },
+    {
+    "name": "Netherlands",
+    "dial_code": "+31",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NL.svg",
+    "code": "NL"
+    },
+    {
+    "name": "Netherlands Antilles",
+    "dial_code": "+599",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AN.svg",
+    "code": "AN"
+    },
+    {
+    "name": "New Caledonia",
+    "dial_code": "+687",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NC.svg",
+    "code": "NC"
+    },
+    {
+    "name": "New Zealand",
+    "dial_code": "+64",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NZ.svg",
+    "code": "NZ"
+    },
+    {
+    "name": "Nicaragua",
+    "dial_code": "+505",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NI.svg",
+    "code": "NI"
+    },
+    {
+    "name": "Niger",
+    "dial_code": "+227",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NE.svg",
+    "code": "NE"
+    },
+    {
+    "name": "Nigeria",
+    "dial_code": "+234",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
+    "code": "NG"
+    },
+    {
+    "name": "Niue",
+    "dial_code": "+683",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NU.svg",
+    "code": "NU"
+    },
+    {
+    "name": "Norfolk Island",
+    "dial_code": "+672",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NF.svg",
+    "code": "NF"
+    },
+    {
+    "name": "Northern Mariana Islands",
+    "dial_code": "+1670",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MP.svg",
+    "code": "MP"
+    },
+    {
+    "name": "Norway",
+    "dial_code": "+47",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NO.svg",
+    "code": "NO"
+    },
+    {
+    "name": "Oman",
+    "dial_code": "+968",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/OM.svg",
+    "code": "OM"
+    },
+    {
+    "name": "Pakistan",
+    "dial_code": "+92",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg",
+    "code": "PK"
+    },
+    {
+    "name": "Palau",
+    "dial_code": "+680",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PW.svg",
+    "code": "PW"
+    },
+    {
+    "name": "Palestinian Territory, Occupied",
+    "dial_code": "+970",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PS.svg",
+    "code": "PS"
+    },
+    {
+    "name": "Panama",
+    "dial_code": "+507",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PA.svg",
+    "code": "PA"
+    },
+    {
+    "name": "Papua New Guinea",
+    "dial_code": "+675",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PG.svg",
+    "code": "PG"
+    },
+    {
+    "name": "Paraguay",
+    "dial_code": "+595",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PY.svg",
+    "code": "PY"
+    },
+    {
+    "name": "Peru",
+    "dial_code": "+51",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PE.svg",
+    "code": "PE"
+    },
+    {
+    "name": "Philippines",
+    "dial_code": "+63",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PH.svg",
+    "code": "PH"
+    },
+    {
+    "name": "Pitcairn",
+    "dial_code": "+872",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PN.svg",
+    "code": "PN"
+    },
+    {
+    "name": "Poland",
+    "dial_code": "+48",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PL.svg",
+    "code": "PL"
+    },
+    {
+    "name": "Portugal",
+    "dial_code": "+351",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PT.svg",
+    "code": "PT"
+    },
+    {
+    "name": "Puerto Rico",
+    "dial_code": "+1939",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PR.svg",
+    "code": "PR"
+    },
+    {
+    "name": "Qatar",
+    "dial_code": "+974",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/QA.svg",
+    "code": "QA"
+    },
+    {
+    "name": "Romania",
+    "dial_code": "+40",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RO.svg",
+    "code": "RO"
+    },
+    {
+    "name": "Russia",
+    "dial_code": "+7",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RU.svg",
+    "code": "RU"
+    },
+    {
+    "name": "Rwanda",
+    "dial_code": "+250",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RW.svg",
+    "code": "RW"
+    },
+    {
+    "name": "Reunion",
+    "dial_code": "+262",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RE.svg",
+    "code": "RE"
+    },
+    {
+    "name": "Saint Barthelemy",
+    "dial_code": "+590",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BL.svg",
+    "code": "BL"
+    },
+    {
+    "name": "Saint Helena, Ascension and Tristan Da Cunha",
+    "dial_code": "+290",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SH.svg",
+    "code": "SH"
+    },
+    {
+    "name": "Saint Kitts and Nevis",
+    "dial_code": "+1869",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KN.svg",
+    "code": "KN"
+    },
+    {
+    "name": "Saint Lucia",
+    "dial_code": "+1758",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LC.svg",
+    "code": "LC"
+    },
+    {
+    "name": "Saint Martin",
+    "dial_code": "+590",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MF.svg",
+    "code": "MF"
+    },
+    {
+    "name": "Saint Pierre and Miquelon",
+    "dial_code": "+508",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PM.svg",
+    "code": "PM"
+    },
+    {
+    "name": "Saint Vincent and the Grenadines",
+    "dial_code": "+1784",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VC.svg",
+    "code": "VC"
+    },
+    {
+    "name": "Samoa",
+    "dial_code": "+685",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WS.svg",
+    "code": "WS"
+    },
+    {
+    "name": "San Marino",
+    "dial_code": "+378",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SM.svg",
+    "code": "SM"
+    },
+    {
+    "name": "Sao Tome and Principe",
+    "dial_code": "+239",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ST.svg",
+    "code": "ST"
+    },
+    {
+    "name": "Saudi Arabia",
+    "dial_code": "+966",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SA.svg",
+    "code": "SA"
+    },
+    {
+    "name": "Senegal",
+    "dial_code": "+221",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SN.svg",
+    "code": "SN"
+    },
+    {
+    "name": "Serbia",
+    "dial_code": "+381",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RS.svg",
+    "code": "RS"
+    },
+    {
+    "name": "Seychelles",
+    "dial_code": "+248",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SC.svg",
+    "code": "SC"
+    },
+    {
+    "name": "Sierra Leone",
+    "dial_code": "+232",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SL.svg",
+    "code": "SL"
+    },
+    {
+    "name": "Singapore",
+    "dial_code": "+65",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SG.svg",
+    "code": "SG"
+    },
+    {
+    "name": "Slovakia",
+    "dial_code": "+421",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SK.svg",
+    "code": "SK"
+    },
+    {
+    "name": "Slovenia",
+    "dial_code": "+386",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SI.svg",
+    "code": "SI"
+    },
+    {
+    "name": "Solomon Islands",
+    "dial_code": "+677",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SB.svg",
+    "code": "SB"
+    },
+    {
+    "name": "Somalia",
+    "dial_code": "+252",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SO.svg",
+    "code": "SO"
+    },
+    {
+    "name": "South Africa",
+    "dial_code": "+27",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZA.svg",
+    "code": "ZA"
+    },
+    {
+    "name": "South Sudan",
+    "dial_code": "+211",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SS.svg",
+    "code": "SS"
+    },
+    {
+    "name": "South Georgia and the South Sandwich Islands",
+    "dial_code": "+500",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GS.svg",
+    "code": "GS"
+    },
+    {
+    "name": "Spain",
+    "dial_code": "+34",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ES.svg",
+    "code": "ES"
+    },
+    {
+    "name": "Sri Lanka",
+    "dial_code": "+94",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LK.svg",
+    "code": "LK"
+    },
+    {
+    "name": "Sudan",
+    "dial_code": "+249",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SD.svg",
+    "code": "SD"
+    },
+    {
+    "name": "Suriname",
+    "dial_code": "+597",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SR.svg",
+    "code": "SR"
+    },
+    {
+    "name": "Svalbard and Jan Mayen",
+    "dial_code": "+47",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SJ.svg",
+    "code": "SJ"
+    },
+    {
+    "name": "Swaziland",
+    "dial_code": "+268",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SZ.svg",
+    "code": "SZ"
+    },
+    {
+    "name": "Sweden",
+    "dial_code": "+46",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SE.svg",
+    "code": "SE"
+    },
+    {
+    "name": "Switzerland",
+    "dial_code": "+41",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CH.svg",
+    "code": "CH"
+    },
+    {
+    "name": "Syrian Arab Republic",
+    "dial_code": "+963",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SY.svg",
+    "code": "SY"
+    },
+    {
+    "name": "Taiwan",
+    "dial_code": "+886",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TW.svg",
+    "code": "TW"
+    },
+    {
+    "name": "Tajikistan",
+    "dial_code": "+992",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TJ.svg",
+    "code": "TJ"
+    },
+    {
+    "name": "Tanzania, United Republic of Tanzania",
+    "dial_code": "+255",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TZ.svg",
+    "code": "TZ"
+    },
+    {
+    "name": "Thailand",
+    "dial_code": "+66",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TH.svg",
+    "code": "TH"
+    },
+    {
+    "name": "Timor-Leste",
+    "dial_code": "+670",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TL.svg",
+    "code": "TL"
+    },
+    {
+    "name": "Togo",
+    "dial_code": "+228",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TG.svg",
+    "code": "TG"
+    },
+    {
+    "name": "Tokelau",
+    "dial_code": "+690",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TK.svg",
+    "code": "TK"
+    },
+    {
+    "name": "Tonga",
+    "dial_code": "+676",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TO.svg",
+    "code": "TO"
+    },
+    {
+    "name": "Trinidad and Tobago",
+    "dial_code": "+1868",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TT.svg",
+    "code": "TT"
+    },
+    {
+    "name": "Tunisia",
+    "dial_code": "+216",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TN.svg",
+    "code": "TN"
+    },
+    {
+    "name": "Turkey",
+    "dial_code": "+90",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TR.svg",
+    "code": "TR"
+    },
+    {
+    "name": "Turkmenistan",
+    "dial_code": "+993",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TN.svg",
+    "code": "TM"
+    },
+    {
+    "name": "Turks and Caicos Islands",
+    "dial_code": "+1649",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TC.svg",
+    "code": "TC"
+    },
+    {
+    "name": "Tuvalu",
+    "dial_code": "+688",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TV.svg",
+    "code": "TV"
+    },
+    {
+    "name": "Uganda",
+    "dial_code": "+256",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UG.svg",
+    "code": "UG"
+    },
+    {
+    "name": "Ukraine",
+    "dial_code": "+380",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UA.svg",
+    "code": "UA"
+    },
+    {
+    "name": "United Arab Emirates",
+    "dial_code": "+971",
+    "image":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AE.svg",
+    "code": "AE"
+    },
+    {
+    "name": "United Kingdom",
+    "dial_code": "+44",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GB.svg",
+    "code": "GB"
+    },
+    {
+    "name": "United States",
+    "dial_code": "+1",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/US.svg",
+    "code": "US"
+    },
+    {
+    "name": "Uruguay",
+    "dial_code": "+598",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UY.svg",
+    "code": "UY"
+    },
+    {
+    "name": "Uzbekistan",
+    "dial_code": "+998",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UZ.svg",
+    "code": "UZ"
+    },
+    {
+    "name": "Vanuatu",
+    "dial_code": "+678",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VU.svg",
+    "code": "VU"
+    },
+    {
+    "name": "Venezuela, Bolivarian Republic of Venezuela",
+    "dial_code": "+58",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VE.svg",
+    "code": "VE"
+    },
+    {
+    "name": "Vietnam",
+    "dial_code": "+84",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VN.svg",
+    "code": "VN"
+    },
+    {
+    "name": "Virgin Islands, British",
+    "dial_code": "+1284",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VG.svg",
+    "code": "VG"
+    },
+    {
+    "name": "Virgin Islands, U.S.",
+    "dial_code": "+1340",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VI.svg",
+    "code": "VI"
+    },
+    {
+    "name": "Wallis and Futuna",
+    "dial_code": "+681",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WF.svg",
+    "code": "WF"
+    },
+    {
+    "name": "Yemen",
+    "dial_code": "+967",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/YE.svg",
+    "code": "YE"
+    },
+    {
+    "name": "Zambia",
+    "dial_code": "+260",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZM.svg",
+    "code": "ZM"
+    },
+    {
+    "name": "Zimbabwe",
+    "dial_code": "+263",
+    "image": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZW.svg",
+    "code": "ZW"
+    }
+    ]
+}
