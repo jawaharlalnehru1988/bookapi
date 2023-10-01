@@ -253,13 +253,6 @@
           "details": "Angular Material is a UI component library for Angular that provides pre-built UI components based on Google's Material Design principles. It includes a wide range of components such as buttons, cards, dialogs, menus, and more, making it easy to create modern and consistent UIs."
         },
         {
-          "id": 9,
-          "title": "Node Js",
-          "imageLink": "1NEFaP5AtlsvIJ9B7KqCcuAOd00ztfbT9",
-          "routerName": "/nodejs",
-          "details": "Node.js is an open-source, cross-platform, JavaScript runtime environment that enables developers to run JavaScript on the server-side. It provides a powerful set of APIs for building scalable, high-performance network applications, and is widely used for web development, server-side scripting, and automation."
-        },
-        {
           "id": 10,
           "title": "Flex Layout",
           "imageLink": "1RjJZmuG8i6pPPOoFu4sKMRRaX8oRC2ss",
@@ -281,13 +274,6 @@
           "details": "RxJS (Reactive Extensions for JavaScript) is a powerful library for reactive programming in JavaScript, which is used for handling asynchronous and event-based applications. It provides a set of tools for composing and transforming streams of data, making it easier to manage complex data flows in web applications."
         },
         {
-          "id": 13,
-          "title": "REST Apis",
-          "imageLink": "1j7C6gChwyH50RZoTzzOe73JrK0w7Bqcx",
-          "routerName": "/restapi",
-          "details": "A REST API (Representational State Transfer Application Programming Interface) is a web-based API that uses HTTP requests to access and manipulate resources. It follows a set of architectural principles to create a uniform interface between clients and servers, allowing different systems to communicate with each other efficiently and reliably."
-        },
-        {
           "id": 14,
           "title": "Git Commands",
           "imageLink": "15njtyYT1jN1DAKr_WO6cGEnCpc_1H1Mf",
@@ -295,60 +281,11 @@
           "details": "Git is a version control system for tracking changes in source code during software development. Some common Git commands include git clone, git add, git commit, git push, and git pull, which are used to clone repositories, stage changes, commit changes, push changes to remote repositories, and pull changes from remote repositories, respectively."
         },
         {
-          "id": 15,
-          "title": "Git Hub",
-          "imageLink": "1aYv_7mLgreOn_Ua6lFVRGxK5hPRJj-FM",
-          "routerName": "/github",
-          "details": "GitHub is a web-based Git repository hosting service that provides a web interface and various tools for collaborating on code. Some common GitHub commands include git clone, git add, git commit, git push, and git pull, which are used to clone repositories, stage changes, commit changes, push changes to remote repositories, and pull changes from remote repositories, respectively. Additionally, GitHub provides commands for managing pull requests, issues, and releases."
-        },
-        {
-          "id": 16,
-          "title": "Bit Bucket",
-          "imageLink": "1lRqovK6OffFspsrgaJ8tW6WgFQvrkG4B",
-          "routerName": "/bitbucket",
-          "details": "Bitbucket is a web-based Git repository management platform that allows teams to collaborate on code and manage projects in a secure and scalable environment. It offers features such as pull requests, pipelines, and code reviews."
-        },
-        {
-          "id": 17,
-          "title": "Algorithm",
-          "imageLink": "1TQ6z6jtfJ-0AAI_sfc5OV6mn7agnwLI1",
-          "routerName": "/algorithm",
-          "details": "An algorithm is a set of steps or rules for solving a problem or performing a specific task. It is a fundamental concept in computer science and is used to design efficient and effective computer programs."
-        },
-        {
-          "id": 18,
-          "title": "Data Structure",
-          "imageLink": "1LNVNd1BvC-Y3M9L47Ea6hmJOC8wXxzwV",
-          "routerName": "/datastructure",
-          "details": "Data structure is a way of organizing and storing data in a computer to facilitate efficient retrieval and manipulation of information."
-        },
-        {
-          "id": 19,
-          "title": "Python",
-          "imageLink": "1P-jFFfG64R68v_gcV-FTdRFr13ox9mas",
-          "routerName": "/python",
-          "details": "Python is a popular high-level programming language used for a wide range of applications such as web development, data analysis, artificial intelligence, and more. It is known for its simple syntax, readability, and powerful libraries that make it easy to write clean and efficient code."
-        },
-        {
           "id": 20,
           "title": "Karma and Jasmin",
           "imageLink": "1Pu_yMEuqPu3zI6rSqdH7UcFPuCf7wdgZ",
           "routerName": "/karmajasmine",
           "details": "Karma and Jasmine are two popular JavaScript testing frameworks that are often used together. Karma is a test runner that allows you to run tests in multiple browsers, while Jasmine is a behavior-driven development (BDD) testing framework that provides a syntax for defining test suites and individual tests."
-        },
-        {
-          "id": 21,
-          "title": "Express Js",
-          "imageLink": "1ShpO1VEWyl8xWaW-FhQADl74IkbOs7OJ",
-          "routerName": "/express",
-          "details": "Express.js, commonly referred to as simply Express, is a popular web application framework for Node.js. It provides a set of features for building web applications and APIs, making it a go-to choice for developers working with Node.js."
-        },
-        {
-          "id": 22,
-          "title": "Mongo DB",
-          "imageLink": "1fRbAAdW1N9fnjsytuyEyVPI6yn6Vokpt",
-          "routerName": "/mongo",
-          "details": "MongoDB is a popular open-source, document-oriented NoSQL database that is designed for modern applications. Unlike traditional SQL databases, MongoDB uses a flexible document model that allows you to store data in JSON-like documents with dynamic schemas."
         }
       ]
     
